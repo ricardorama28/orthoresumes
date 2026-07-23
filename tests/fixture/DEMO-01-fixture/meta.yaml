@@ -1,0 +1,10 @@
+id: DEMO-01
+titulo: "Fixture de regresión del motor UPOME (contenido dummy determinístico)"
+modulo: DEMO
+slug: fixture
+nivel_objetivo: ultra_plus
+referencias: []
+# Documento PERMANENTE de prueba. NO es contenido médico real: existe sólo para
+# que tests/verificar-motor.sh compruebe que el motor compila y valida (numérico
+# + estructural) en verde. Si un cambio en engine/ o en engine/esquema.json lo
+# hace fallar, es una regresión (o el fixture necesita regenerarse a propósito).

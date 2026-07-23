@@ -127,3 +127,12 @@ Tablas: primera fila y primera columna en MAYÚSCULA, negrita, centradas; zebra 
 - **Callouts**: los elementos de borde de párrafo tienen orden obligatorio en el esquema OOXML; si se emiten desordenados, el `.docx` no valida.
 - **Conteo**: `:::tabla` aporta 0 párrafos al conteo de python-docx. La bibliografía de n entradas aporta n+1.
 - **Subconteo de prosa densa**: párrafos largos de prosa quedan 15–30 % por debajo del piso. Se compensa con secciones de lista, no con relleno.
+
+## Entorno de esta máquina
+
+- **SO**: **Windows 11**. Shell primaria PowerShell; también hay Git Bash para scripts POSIX (cada uno con su sintaxis).
+- **Node**: instalado en **`C:\Program Files\nodejs`**. No siempre está en el PATH de Git Bash: si `node` no resuelve, invocalo por ruta completa — `"/c/Program Files/nodejs/node.exe"`.
+- **Validador**: se corre con **`py engine/validar.py <ID>`** (el launcher `py` de Windows, **no** `python` ni `python3`). `validar.py` fuerza salida UTF-8, así que funciona igual en PowerShell y en Git Bash.
+- **Analizador de seguridad de permisos**: pide aprobación manual (te frena) ante comandos con construcciones dinámicas: **`$(...)`**, **`export PATH=...`** (expansión de `$PATH`) y **`node -e "..."` / `py -c "..."`** con comillas complejas. Para no trancar: **usá comandos simples**, invocá Node por ruta completa en vez de exportar PATH, y para editar/crear archivos preferí las herramientas de edición antes que heredocs largos. Los cambios en `.claude/settings.json` recién toman efecto al reiniciar la sesión.
+- **Test de regresión del motor**: **`bash tests/verificar-motor.sh`** compila y valida el fixture permanente `tests/fixture/DEMO-01-fixture` en ULTRA+ (numérico + estructural). Corrélo tras tocar `engine/` o `engine/esquema.json`.
+- **LibreOffice / `soffice`**: no instalado. El PDF se omite con aviso; `docx`, `html` y `anki` salen igual.
