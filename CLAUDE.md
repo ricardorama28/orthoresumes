@@ -61,14 +61,18 @@ Ediciones fijas por subespecialidad (`docs/BIBLIOGRAFIA.md`). No uses ediciones 
 
 | SUBESPECIALIDAD | REFERENCIA |
 |---|---|
-| Trauma MS/MI agudo | Rockwood & Green's Fractures in Adults, 10.ª ed. (2024/25) + AO Surgery Reference |
-| Mano, muñeca, codo | Green's Operative Hand Surgery, 8.ª ed. (2022) |
+| Trauma MS/MI agudo | Rockwood & Green's Fractures in Adults, 10.ª ed. (2024) + AO Surgery Reference |
+| Mano y muñeca | Green's Operative Hand Surgery, 8.ª ed. (2022) |
+| Codo | Morrey's The Elbow and Its Disorders, 6.ª ed. (2022) |
 | Pie y tobillo | Coughlin & Mann's Surgery of the Foot and Ankle, 10.ª ed. (2023) |
 | Hombro | Rockwood & Matsen's The Shoulder, 6.ª ed. (2021) |
 | Columna | Rothman-Simeone & Herkowitz's The Spine, 8.ª ed. (2024) + AOSpine |
-| Ortopedia general | Campbell's Operative Orthopaedics, 15.ª ed. (2026) — **nunca la 14.ª** |
+| Pelvis y acetábulo | Tile, Fractures of the Pelvis and Acetabulum, 4.ª ed. + Letournel-Judet |
+| Cadera y artroplastia (ART) | The Adult Hip, 4.ª ed. + Campbell's 15.ª ed. |
 | Rodilla y deporte | Insall & Scott Surgery of the Knee, 7.ª ed. (2024) |
+| Ortopedia general | Campbell's Operative Orthopaedics, 15.ª ed. (2026) — **nunca la 14.ª** |
 | Tumores | WHO Classification of Tumours, 5.ª ed. (2020) + OKU Musculoskeletal Tumors, 5.ª ed. (2024) |
+| Pediatría (PED) | Rockwood & Wilkins' Fractures in Children, 10.ª ed. (2024) + Tachdjian's, 6.ª ed. (2022) |
 | Currículo base | Temas COT/UDELAR 7.ª edición (en `fuentes/cot/`) |
 
 Artículos: preferentemente de los últimos 10 años, con PMID o DOI. Los clásicos fundacionales (Mirels 1989, Patchell 2005, Gustilo-Anderson 1976) se citan por nombre y año sin límite temporal.
@@ -93,13 +97,31 @@ Tablas: primera fila y primera columna en MAYÚSCULA, negrita, centradas; zebra 
 
 | MÓDULO | NOMBRE | COLOR |
 |---|---|---|
-| GEN | Generales | `EAB308` |
-| TUM | Tumores | `C55A11` |
+| GEN | Generalidades y ciencias básicas | `EAB308` |
+| TUM | Tumores óseos | `C55A11` |
+| TUMI | Tumores de partes blandas y sinovial | `C55A11` |
 | MSA | Miembro superior agudo | `38BDF8` |
 | MSC | Miembro superior crónico | `2563EB` |
 | MIA | Miembro inferior agudo | `EC4899` |
 | MIC | Miembro inferior crónico | `7C3AED` |
-| COL | Columna | `16A34A` |
+| COL | Columna y lesión medular | `16A34A` |
+| ART | Artroplastia y cirugía reconstructiva | `64748B` |
+| PED | Ortopedia y traumatología pediátrica | `14B8A6` |
+
+## Reglas de asignación de módulo (vinculantes)
+
+Resuelven la mayoría de las decisiones de "¿dónde va este tema?". La primera es la que manda; el resto se deriva de ella. La fuente canónica es `reglas_de_asignacion` en `temario/temario.yaml`.
+
+1. **Un tema = un solo archivo CANÓNICO en un solo módulo.** Los demás módulos lo citan por código, nunca lo reescriben. (Ver `temario/remisiones.yaml`.)
+2. **Agudo vs. crónico**: si el motivo de consulta es el traumatismo reciente → módulo AGUDO (MSA/MIA). Si es la secuela o la degeneración → módulo CRÓNICO (MSC/MIC).
+3. Todo lo **transversal** (principios, biomateriales, infección, metabólico, perioperatorio, rehabilitación) vive en **GEN**, aunque se aplique a una región.
+4. Toda la **artroplastia** (primaria, revisión, periprotésica) vive en **ART**. MIC/MSC remiten a ART en el punto 10 de tratamiento.
+5. Todo el **esqueleto inmaduro** vive en **PED**, incluidas las fracturas pediátricas de regiones cubiertas por MSA/MIA.
+6. **Nervio periférico**: principios en GEN-UR-07; lesión aguda del MS en MSA-36; compresivas crónicas en MSC; MI paralítico en MIC-31.
+7. **Osteonecrosis**: fisiopatología y clasificaciones en GEN-ME-08; cada localización solo desarrolla lo específico y remite.
+8. **Tumores**: hueso en TUM, partes blandas y sinovial en TUMI (ambos con borde naranja `C55A11`). Vertebral remite a COL-24.
+
+El **estado `pendiente_renivelar`** marca los 227 documentos existentes que están por debajo del estándar y hay que renivelar; se confirma corriendo `/auditar` tras la migración.
 
 ## Flujo de trabajo
 

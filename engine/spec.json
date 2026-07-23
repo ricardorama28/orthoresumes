@@ -1,14 +1,17 @@
 {
   "descripcion": "Fuente única de umbrales, presupuesto y colores. La consumen engine/config.js (JS) y engine/validar.py (Python). No dupliques estos números en otro lado.",
   "modulos": {
-    "GEN": { "nombre": "Generales",                "color": "EAB308" },
-    "TUM": { "nombre": "Tumores",                  "color": "C55A11" },
-    "MSA": { "nombre": "Miembro superior agudo",   "color": "38BDF8" },
-    "MSC": { "nombre": "Miembro superior crónico", "color": "2563EB" },
-    "MIA": { "nombre": "Miembro inferior agudo",   "color": "EC4899" },
-    "MIC": { "nombre": "Miembro inferior crónico", "color": "7C3AED" },
-    "COL": { "nombre": "Columna",                  "color": "16A34A" },
-    "DEMO": { "nombre": "Demostración / prueba del pipeline", "color": "64748B" }
+    "GEN": { "nombre": "Generalidades y ciencias básicas",       "color": "EAB308" },
+    "TUM": { "nombre": "Tumores óseos",                          "color": "C55A11" },
+    "TUMI": { "nombre": "Tumores de partes blandas y sinovial",  "color": "C55A11" },
+    "MSA": { "nombre": "Miembro superior agudo",                 "color": "38BDF8" },
+    "MSC": { "nombre": "Miembro superior crónico",               "color": "2563EB" },
+    "MIA": { "nombre": "Miembro inferior agudo",                 "color": "EC4899" },
+    "MIC": { "nombre": "Miembro inferior crónico",               "color": "7C3AED" },
+    "COL": { "nombre": "Columna y lesión medular",               "color": "16A34A" },
+    "ART": { "nombre": "Artroplastia y cirugía reconstructiva",  "color": "64748B" },
+    "PED": { "nombre": "Ortopedia y traumatología pediátrica",   "color": "14B8A6" },
+    "DEMO": { "nombre": "Demostración / prueba del pipeline",    "color": "64748B" }
   },
   "niveles": {
     "ultra": {

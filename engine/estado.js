@@ -10,7 +10,7 @@
 const fs = require('fs');
 const { PATHS } = require('./config');
 
-const ESTADOS = ['pendiente', 'esqueleto', 'borrador', 'ultra', 'ultra_plus', 'obsoleto'];
+const ESTADOS = ['pendiente', 'pendiente_renivelar', 'esqueleto', 'borrador', 'ultra', 'ultra_plus', 'obsoleto'];
 const ESTADOS_VALIDADOS = ['ultra', 'ultra_plus'];
 
 function hoy() {
@@ -58,7 +58,7 @@ function tema(id) {
   return prog.temas[id] || { estado: 'pendiente' };
 }
 
-const ORDEN_ESTADO = ['pendiente', 'esqueleto', 'borrador', 'ultra', 'ultra_plus', 'obsoleto'];
+const ORDEN_ESTADO = ['pendiente', 'pendiente_renivelar', 'esqueleto', 'borrador', 'ultra', 'ultra_plus', 'obsoleto'];
 
 /** Dashboard textual del avance global, por módulo, con deudas y próximo tema. */
 function dashboard() {
@@ -66,7 +66,7 @@ function dashboard() {
   const temas = prog.temas || {};
   const ids = Object.keys(temas);
   const porMod = {};
-  const conteo = { pendiente: 0, esqueleto: 0, borrador: 0, ultra: 0, ultra_plus: 0, obsoleto: 0 };
+  const conteo = { pendiente: 0, pendiente_renivelar: 0, esqueleto: 0, borrador: 0, ultra: 0, ultra_plus: 0, obsoleto: 0 };
   for (const id of ids) {
     const t = temas[id];
     const mod = t.modulo || id.split('-')[0];

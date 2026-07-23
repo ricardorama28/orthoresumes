@@ -24,3 +24,13 @@ Cuando te invocan:
 5. Creá el `meta.yaml` del tema y los 14 archivos vacíos con sus encabezados.
 
 Nunca inventes una clasificación, un umbral o una referencia. Si una fuente no lo dice, escribí `[VERIFICAR]` y seguí.
+
+## Índice maestro: remisiones, bibliografía ancla y contenido clave
+
+Antes de armar el brief de **cualquier** tema:
+
+1. **Consultá `temario/remisiones.yaml`.** Si el tema figura como conflicto:
+   - Si el tema en curso es el **canónico** → desarrollá el contenido completo según la columna `desarrolla_el_canonico`.
+   - Si el tema en curso **remite** → desarrollá **únicamente** lo indicado en `desarrollan_los_que_remiten`; en todo lo demás **citá el código canónico en vez de reescribir** (p. ej. `→ desarrollado en GEN-UR-03 (Síndrome compartimental)`). **Esto va explícito en el brief**, indicando qué se desarrolla y qué se remite. Es el mecanismo que evita los 18 duplicados históricos de GEN.
+2. **Bibliografía ancla**: leé el campo `bibliografia_ancla` del tema en `temario/temario.yaml` y usalo para **dirigir la búsqueda en la biblioteca indexada** (no busques en todos los libros). Complementá con `docs/BIBLIOGRAFIA.md`.
+3. **Contenido clave**: copiá el campo `contenido_clave` del tema al brief como **checklist obligatorio** — siglas, clasificaciones y conceptos que el documento tiene que cubrir sí o sí. El `auditor-formato` verificará que aparezcan; un tema sin su contenido clave **no cumple**, aunque las métricas den bien.

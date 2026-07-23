@@ -1,0 +1,62 @@
+version: 2
+obras:
+- area: Trauma del adulto
+  obra: Rockwood & Green's Fractures in Adults
+  edicion: 10ª ed., 2024
+  nota: La lista original enlazaba la 9ª ed. Corregido.
+- area: Principios de osteosíntesis
+  obra: AO Principles of Fracture Management + AO Surgery Reference
+  edicion: 3ª ed. + web vigente
+  nota: Sin cambios.
+- area: Ortopedia general y reconstructiva
+  obra: Campbell's Operative Orthopaedics
+  edicion: 15ª ed., 2026
+  nota: La lista citaba Campbell sin edición. NUNCA la 14ª.
+- area: Hombro
+  obra: Rockwood & Matsen's The Shoulder
+  edicion: 6ª ed., 2021
+  nota: Sin cambios.
+- area: Codo
+  obra: Morrey's The Elbow and Its Disorders
+  edicion: 6ª ed., 2022
+  nota: Se explicita la edición.
+- area: Mano y muñeca
+  obra: Green's Operative Hand Surgery
+  edicion: 8ª ed., 2022
+  nota: Sin cambios.
+- area: Cadera y artroplastia
+  obra: The Adult Hip + Campbell 15ª
+  edicion: 4ª ed. + 15ª ed.
+  nota: Se explicita la edición.
+- area: Rodilla y deporte
+  obra: Insall & Scott Surgery of the Knee
+  edicion: 7ª ed., 2024
+  nota: La lista citaba 'Insall & Scott; Miller' sin edición.
+- area: Pie y tobillo
+  obra: Coughlin & Mann's Surgery of the Foot and Ankle
+  edicion: 10ª ed., 2023
+  nota: La lista decía solo "Mann's" sin edición. Corregido.
+- area: Columna
+  obra: Rothman-Simeone & Herkowitz's The Spine + AOSpine
+  edicion: 8ª ed., 2024
+  nota: Sin cambios.
+- area: Pelvis y acetábulo
+  obra: Tile, Fractures of the Pelvis and Acetabulum + Letournel-Judet
+  edicion: 4ª ed. + clásico
+  nota: Se explicita la edición.
+- area: Tumores
+  obra: WHO Classification of Tumours, Soft Tissue and Bone + OKU Musculoskeletal Tumors
+  edicion: 5ª ed., 2020 + 5ª ed., 2024
+  nota: La lista citaba 'Enneking; Campanacci', hoy históricos. Se mantienen como fuente secundaria.
+- area: Trauma pediátrico
+  obra: Rockwood & Wilkins' Fractures in Children
+  edicion: 10ª ed., 2024
+  nota: NO estaba en el mapa bibliográfico cerrado. Debe incorporarse para el módulo PED.
+- area: Ortopedia pediátrica
+  obra: Tachdjian's Pediatric Orthopaedics
+  edicion: 6ª ed., 2022
+  nota: NO estaba en el mapa bibliográfico cerrado. Debe incorporarse para el módulo PED.
+- area: Artículos
+  obra: Revistas indexadas de los últimos 10 años vía Portal Timbó (ANII)
+  edicion: 2016 en adelante
+  nota: JBJS, Bone Joint J, JOT, CORR, AJSM, Spine, FAI, JSES, JHS.

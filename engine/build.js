@@ -17,7 +17,7 @@ const { parseTema, metricas } = require('./md');
 const renderDocx = require('./render-docx');
 const renderHtml = require('./render-html');
 const estado = require('./estado');
-const { PATHS, carpetaTema, colorDe, moduloDe } = require('./config');
+const { PATHS, MODULOS, carpetaTema, colorDe, moduloDe } = require('./config');
 
 function slugTitulo(id, dir) {
   // 1) meta.yaml, 2) temario.yaml, 3) primer # del 00, 4) el ID
@@ -66,8 +66,10 @@ function buscarSoffice() {
 async function build(id, opts) {
   const dir = carpetaTema(id);
   if (!dir) throw new Error(`No existe la carpeta de contenido de ${id} (contenido/${moduloDe(id)}/${id}-*/).`);
-  const mod = moduloDe(id);
-  const color = colorDe(id);
+  // --modulo override: fuerza el color de otro módulo (para verificar bordes).
+  const modOverride = opts.modulo && MODULOS[opts.modulo] ? opts.modulo : null;
+  const mod = modOverride || moduloDe(id);
+  const color = modOverride ? MODULOS[modOverride].color : colorDe(id);
   const titulo = slugTitulo(id, dir);
 
   const tema = parseTema(dir);
@@ -144,14 +146,17 @@ async function build(id, opts) {
 
 if (require.main === module) {
   const args = process.argv.slice(2);
-  const id = args.find((a) => !a.startsWith('--'));
-  if (!id) { console.error('uso: node engine/build.js <ID> [--html] [--pdf] [--anki] [--all]'); process.exit(1); }
+  const moduloIdx = args.indexOf('--modulo');
+  const moduloVal = moduloIdx >= 0 ? args[moduloIdx + 1] : null;
+  const id = args.find((a) => !a.startsWith('--') && a !== moduloVal);
+  if (!id) { console.error('uso: node engine/build.js <ID> [--html] [--pdf] [--anki] [--all] [--modulo <MOD>]'); process.exit(1); }
   const all = args.includes('--all');
   const opts = {
     docx: true,
     html: all || args.includes('--html'),
     pdf: all || args.includes('--pdf'),
     anki: all || args.includes('--anki'),
+    modulo: moduloVal,
   };
   build(id, opts).then((r) => {
     console.log(`\n🏗️  Build ${id}`);

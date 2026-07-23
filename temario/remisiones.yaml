@@ -1,0 +1,125 @@
+version: 1
+regla: Un tema = un solo archivo CANONICO. Los demas modulos lo citan por codigo, nunca lo reescriben.
+conflictos:
+- tema: Osteonecrosis
+  modulos_que_lo_reclaman: GEN, MIC, MSC, MSA, MIA, PED
+  canonico: GEN-ME-08
+  modulo_canonico: GEN
+  desarrolla_el_canonico: Fisiopatología, etiologías, ARCO/Ficat/Steinberg, principios de descompresión e injerto
+  desarrollan_los_que_remiten: 'Solo particularidades locales: cabeza femoral (MIC-05), astrágalo (MIA-26), escafoides (MSA-27),
+    semilunar (MSC-20), Perthes (PED-15)'
+- tema: Fractura periprotésica
+  modulos_que_lo_reclaman: ART, MIA, MSA, MIC, MSC
+  canonico: ART-08 / ART-12
+  modulo_canonico: ART
+  desarrolla_el_canonico: Vancouver, Su, estabilidad del vástago como eje de decisión, revisión con megaprótesis
+  desarrollan_los_que_remiten: El módulo regional solo la menciona como complicación tardía y remite
+- tema: Infección periprotésica
+  modulos_que_lo_reclaman: GEN, ART
+  canonico: GEN-IN-08
+  modulo_canonico: GEN
+  desarrolla_el_canonico: Criterios ICM/EBJIS, DAIR, uno vs dos tiempos, espaciadores, supresión
+  desarrollan_los_que_remiten: ART la cita en complicaciones de cada artroplastia
+- tema: MPNST
+  modulos_que_lo_reclaman: TUM, TUMI
+  canonico: TUMI-11
+  modulo_canonico: TUMI
+  desarrolla_el_canonico: Biología, NF1, H3K27me3, márgenes, RT adyuvante, pronóstico
+  desarrollan_los_que_remiten: TUM-10 desarrolla solo el compromiso óseo primario y remite
+- tema: Osteomielitis vertebral / espondilodiscitis
+  modulos_que_lo_reclaman: GEN, COL
+  canonico: COL-22
+  modulo_canonico: COL
+  desarrolla_el_canonico: Presentación vertebral, biopsia, absceso epidural, indicación e instrumentación
+  desarrollan_los_que_remiten: GEN-IN-02 desarrolla la osteomielitis general y remite para la localización vertebral
+- tema: Tuberculosis osteoarticular
+  modulos_que_lo_reclaman: GEN, COL
+  canonico: GEN-IN-05
+  modulo_canonico: GEN
+  desarrolla_el_canonico: Patogenia, formas clínicas, diagnóstico, esquema antituberculoso, principios quirúrgicos
+  desarrollan_los_que_remiten: 'COL-23 desarrolla el mal de Pott: cifosis, absceso frío, paraplejía, Hong Kong'
+- tema: Pubalgia
+  modulos_que_lo_reclaman: MIC, GEN, deportiva
+  canonico: MIC-07
+  modulo_canonico: MIC
+  desarrolla_el_canonico: Encare completo del dolor inguinal del deportista y su tratamiento
+  desarrollan_los_que_remiten: GEN-CB-05 aporta la base de entesopatía
+- tema: Fractura del sacro
+  modulos_que_lo_reclaman: MIA, COL
+  canonico: MIA-02
+  modulo_canonico: MIA
+  desarrolla_el_canonico: Denis, Roy-Camille, tornillo iliosacro, contexto del anillo pelviano
+  desarrollan_los_que_remiten: COL-07 desarrolla la disociación espinopélvica y la fijación lumbopélvica
+- tema: Metástasis óseas
+  modulos_que_lo_reclaman: TUM, COL, GEN
+  canonico: TUM-19
+  modulo_canonico: TUM
+  desarrolla_el_canonico: Principios, Mirels, embolización, osteosíntesis profiláctica, cementoplastia, paliativos
+  desarrollan_los_que_remiten: COL-24 desarrolla SINS/NOMS/Patchell y separation surgery; GEN-PT-10 remite
+- tema: Lesión de nervio periférico
+  modulos_que_lo_reclaman: GEN, MSA, MSC, MIC
+  canonico: GEN-UR-07
+  modulo_canonico: GEN
+  desarrolla_el_canonico: Seddon/Sunderland, degeneración walleriana, EMG, timing, injertos y transferencias
+  desarrollan_los_que_remiten: MSA-36 (agudo del MS y plexo), MSC-17 y MSC-24 (compresivas), MIC-31 (MI paralítico)
+- tema: Artrosis
+  modulos_que_lo_reclaman: GEN, MIC, MSC, ART
+  canonico: GEN-AR-01
+  modulo_canonico: GEN
+  desarrolla_el_canonico: Fisiopatología, historia natural, Kellgren-Lawrence, escalonamiento terapéutico general
+  desarrollan_los_que_remiten: Cada localización desarrolla su encare, sus osteotomías y remite a ART para la prótesis
+- tema: Osteocondritis disecante
+  modulos_que_lo_reclaman: MIC, PED
+  canonico: MIC-12
+  modulo_canonico: MIC
+  desarrolla_el_canonico: ICRS, técnicas de reparación condral en el adulto
+  desarrollan_los_que_remiten: PED-22 desarrolla la forma juvenil, potencial de curación y conducta conservadora
+- tema: Espondilolistesis
+  modulos_que_lo_reclaman: COL, PED
+  canonico: COL-19
+  modulo_canonico: COL
+  desarrolla_el_canonico: Meyerding, Marchetti-Bartolozzi, slip angle, técnicas de fusión
+  desarrollan_los_que_remiten: PED-25 desarrolla la displásica del adolescente y el alto grado
+- tema: Inestabilidad rotuliana
+  modulos_que_lo_reclaman: MIA, MIC
+  canonico: MIC-15
+  modulo_canonico: MIC
+  desarrolla_el_canonico: Displasia troclear, TT-TG, Caton-Deschamps, reconstrucción del MPFL, osteotomías
+  desarrollan_los_que_remiten: MIA-12 desarrolla solo el episodio agudo y su manejo inicial
+- tema: Lesión del LCA
+  modulos_que_lo_reclaman: MIA, MIC
+  canonico: MIA-14 (agudo) / MIC-16 (crónico)
+  modulo_canonico: MIA + MIC
+  desarrolla_el_canonico: 'MIA-14: lesión aguda, lesiones asociadas, timing. MIC-16: técnica de reconstrucción, injertos,
+    revisión'
+  desarrollan_los_que_remiten: División explícita por tiempo evolutivo, no duplicar la técnica en MIA
+- tema: Rotura del manguito
+  modulos_que_lo_reclaman: MSA, MSC
+  canonico: MSC-02 / MSC-03
+  modulo_canonico: MSC
+  desarrolla_el_canonico: Rotura degenerativa, reparación, irreparable, artropatía
+  desarrollan_los_que_remiten: MSA-35 desarrolla solo la rotura aguda traumática del paciente joven
+- tema: Charcot
+  modulos_que_lo_reclaman: GEN, MIC
+  canonico: GEN-AR-06
+  modulo_canonico: GEN
+  desarrolla_el_canonico: Fisiopatología, Eichenholtz, principios generales
+  desarrollan_los_que_remiten: MIC-22 y GEN-IN-09 aportan el pie de Charcot y su reconstrucción
+- tema: Fracturas por fragilidad y osteoporosis
+  modulos_que_lo_reclaman: GEN-PT, GEN-ME
+  canonico: GEN-ME-01
+  modulo_canonico: GEN
+  desarrolla_el_canonico: Diagnóstico, tratamiento farmacológico, prevención de segunda fractura, FLS
+  desarrollan_los_que_remiten: GEN-PT-11 desarrolla la biomecánica del hueso insuficiente y las fracturas atípicas
+- tema: Síndrome compartimental
+  modulos_que_lo_reclaman: GEN, MIA, MSA, PED
+  canonico: GEN-UR-03
+  modulo_canonico: GEN
+  desarrolla_el_canonico: Fisiopatología, presión diferencial, técnica de fasciotomía por segmento, Volkmann
+  desarrollan_los_que_remiten: Los módulos regionales solo lo listan como urgencia asociada y remiten
+- tema: Biomateriales y tribología
+  modulos_que_lo_reclaman: GEN, ART
+  canonico: GEN-BM-01 a 03
+  modulo_canonico: GEN
+  desarrolla_el_canonico: Metales, cerámicas, polímeros, PMMA, polietileno, pares de fricción
+  desarrollan_los_que_remiten: ART-01 y ART-02 los aplican al diseño protésico, al desgaste y a la osteólisis

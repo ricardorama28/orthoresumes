@@ -32,3 +32,8 @@ Nunca escribas una referencia que no esté en `_brief.md` o que no puedas ubicar
 - No cerrás una sección sin haber cubierto **todos los subaspectos** de ese punto en `docs/ESQUEMA-12.md`. El esquema es vinculante: recorrelo ítem por ítem antes de dar una sección por terminada.
 - Lo que **no aplica** a la entidad se escribe **explícitamente**: `No aplica en esta entidad` + el motivo (una línea). Omitir un subaspecto en silencio no está permitido — el `auditor-formato` no puede distinguir entre "no aplica" y "se olvidó", y lo va a reportar como ausente.
 - Antes de pasar a la siguiente tanda, además de `node engine/contar.js <ID>` (presupuesto), verificá con `python engine/validar.py <ID> --estructura` que no queden subaspectos ausentes sin marcar.
+
+**Remisiones (antiduplicación)**
+
+- Si el brief del `curador` indica que este tema **remite** (según `temario/remisiones.yaml`), **no reescribas** el contenido reservado al canónico: escribí una **referencia cruzada legible** con el código y el título, por ejemplo `→ desarrollado en GEN-UR-03 (Síndrome compartimental)`, y desarrollá sólo lo que el brief asigna a este documento.
+- **Contenido clave**: cubrí todas las siglas, clasificaciones y conceptos del checklist `contenido_clave` que el brief trae. El `auditor-formato` verifica que aparezcan en el texto.

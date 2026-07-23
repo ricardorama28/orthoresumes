@@ -1,13 +1,13 @@
 {
   "version": 1,
   "actualizado": "2026-07-23",
-  "nivel_objetivo_default": "ultra_plus",
+  "origen": "Indice_Maestro_UPOME_2026.xlsx",
   "temas": {
-    "GEN-01": {
-      "titulo": "Hueso normal del adulto: anatomía, fisiología, metabolismo, envejecimiento",
+    "GEN-CB-01": {
+      "titulo": "Hueso normal del adulto: anatomía, fisiología, metabolismo y envejecimiento",
       "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -15,14 +15,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-02": {
-      "titulo": "Cartílago normal del adulto: anatomía, fisiología, metabolismo, envejecimiento",
+    "GEN-CB-02": {
+      "titulo": "Cartílago articular normal: estructura, metabolismo, biomecánica y envejecimiento",
       "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -30,14 +32,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-03": {
+    "GEN-CB-03": {
       "titulo": "Fisiología normal y patológica de la sinovial",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -45,14 +49,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-04": {
-      "titulo": "Anatomía y fisiología del músculo y del tendón",
+    "GEN-CB-04": {
+      "titulo": "Anatomía y fisiología del músculo esquelético",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -60,14 +66,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-05": {
-      "titulo": "Cotaciones funcionales de los miembros y el raquis",
+    "GEN-CB-05": {
+      "titulo": "Tendón, ligamento y entesis: estructura, biomecánica y reparación",
       "modulo": "GEN",
-      "prioridad": 3,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -75,14 +83,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-06": {
-      "titulo": "Semiología de los miembros y el raquis",
+    "GEN-CB-06": {
+      "titulo": "Nociones de biomecánica: fuerzas, materiales y biomecánica articular",
       "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -90,14 +100,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-07": {
-      "titulo": "Anatomía y fisiología de la posición sentada, de pie y de la marcha",
+    "GEN-CB-07": {
+      "titulo": "Biomecánica del hueso y mecanismos de producción de fracturas",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -105,14 +117,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-08": {
-      "titulo": "Imagenología en traumatología y ortopedia",
+    "GEN-CB-08": {
+      "titulo": "Anatomía y fisiología de la sedestación, bipedestación y marcha",
       "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -120,14 +134,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-09": {
-      "titulo": "Centellografía ósea",
+    "GEN-CB-09": {
+      "titulo": "Cotaciones funcionales de los miembros y del raquis",
       "modulo": "GEN",
-      "prioridad": 3,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -135,14 +151,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-10": {
-      "titulo": "Electromiografía",
+    "GEN-CB-10": {
+      "titulo": "Semiología de los miembros y del raquis",
       "modulo": "GEN",
-      "prioridad": 3,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -150,14 +168,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-11": {
-      "titulo": "Profilaxis de accidentes tromboembólicos venosos en COT",
+    "GEN-CB-11": {
+      "titulo": "Imagenología en traumatología: radiología convencional, TC y RM",
       "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -165,14 +185,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-12": {
-      "titulo": "Injertos y sustitutos óseos",
+    "GEN-CB-12": {
+      "titulo": "Centellografía y medicina nuclear en ortopedia (SPECT, PET-TC)",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -180,14 +202,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-13": {
-      "titulo": "Nociones de biomecánica articular",
+    "GEN-CB-13": {
+      "titulo": "Electromiografía y estudios de conducción nerviosa",
       "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -195,13 +219,15 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-14": {
-      "titulo": "Nociones de bacteriología clínica en COT",
+    "GEN-CB-14": {
+      "titulo": "Densitometría ósea y marcadores de recambio óseo",
       "modulo": "GEN",
-      "prioridad": 2,
+      "bloque": "Ciencias básicas",
       "estado": "pendiente",
       "parrafos": 0,
       "tablas": 0,
@@ -210,13 +236,15 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-15": {
-      "titulo": "Osteítis y osteomielitis piógenas inespecíficas",
+    "GEN-CB-15": {
+      "titulo": "Laboratorio en ortopedia, punción y análisis del líquido sinovial",
       "modulo": "GEN",
-      "prioridad": 1,
+      "bloque": "Ciencias básicas",
       "estado": "pendiente",
       "parrafos": 0,
       "tablas": 0,
@@ -225,14 +253,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-16": {
-      "titulo": "Osteítis y osteoartritis específicas: tuberculosis osteoarticular",
+    "GEN-CB-16": {
+      "titulo": "Biopsia ósea y de partes blandas: principios y errores",
       "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -240,13 +270,15 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-17": {
-      "titulo": "Artritis séptica y osteoartritis",
+    "GEN-BM-01": {
+      "titulo": "Biomateriales I: aleaciones metálicas, corrosión, fatiga y creep",
       "modulo": "GEN",
-      "prioridad": 1,
+      "bloque": "Biomateriales y sustitutos óseos",
       "estado": "pendiente",
       "parrafos": 0,
       "tablas": 0,
@@ -255,13 +287,15 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-18": {
-      "titulo": "Osteopatías endocrinas",
+    "GEN-BM-02": {
+      "titulo": "Biomateriales II: cerámicas, polímeros, PMMA y polietileno",
       "modulo": "GEN",
-      "prioridad": 2,
+      "bloque": "Biomateriales y sustitutos óseos",
       "estado": "pendiente",
       "parrafos": 0,
       "tablas": 0,
@@ -270,13 +304,15 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-19": {
-      "titulo": "Osteopatías cortisónicas",
+    "GEN-BM-03": {
+      "titulo": "Tribología y pares de fricción en artroplastia",
       "modulo": "GEN",
-      "prioridad": 3,
+      "bloque": "Biomateriales y sustitutos óseos",
       "estado": "pendiente",
       "parrafos": 0,
       "tablas": 0,
@@ -285,14 +321,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-20": {
-      "titulo": "Hiperparatiroidismo",
+    "GEN-BM-04": {
+      "titulo": "Injertos óseos y sustitutos: autoinjerto, aloinjerto, MOD y fosfatos de calcio",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Biomateriales y sustitutos óseos",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -300,13 +338,15 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-21": {
-      "titulo": "Osteoporosis",
+    "GEN-BM-05": {
+      "titulo": "Estimulación biológica de la consolidación: BMP, ultrasonido, PRP, campos electromagnéticos",
       "modulo": "GEN",
-      "prioridad": 1,
+      "bloque": "Biomateriales y sustitutos óseos",
       "estado": "pendiente",
       "parrafos": 0,
       "tablas": 0,
@@ -315,14 +355,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-22": {
-      "titulo": "Osteomalacias",
+    "GEN-PT-01": {
+      "titulo": "Fracturas: definición, mecanismo, patrones y clasificación general",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -330,14 +372,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-23": {
-      "titulo": "Hueso y radioterapia",
+    "GEN-PT-02": {
+      "titulo": "Consolidación de las fracturas: biología, primaria y secundaria",
       "modulo": "GEN",
-      "prioridad": 3,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -345,14 +389,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-24": {
-      "titulo": "Osteonecrosis",
+    "GEN-PT-03": {
+      "titulo": "Estabilidad absoluta y relativa: principios AO de osteosíntesis",
       "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -360,14 +406,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-25": {
-      "titulo": "Osteopatía del hemodializado",
+    "GEN-PT-04": {
+      "titulo": "Tornillos y placas: tipos, principios biomecánicos e indicaciones",
       "modulo": "GEN",
-      "prioridad": 3,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -375,14 +423,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-26": {
-      "titulo": "Enfermedad de Paget",
+    "GEN-PT-05": {
+      "titulo": "Enclavado endomedular: principios, fresado, bloqueo y biomecánica",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -390,14 +440,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-27": {
-      "titulo": "Artropatía gotosa",
+    "GEN-PT-06": {
+      "titulo": "Fijación externa: monolateral, circular e Ilizarov",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -405,14 +457,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-28": {
-      "titulo": "Condrocalcinosis",
+    "GEN-PT-07": {
+      "titulo": "Tratamiento ortopédico: reducción cerrada, yesos, férulas y tracción",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -420,14 +474,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-29": {
-      "titulo": "Artropatías metabólicas",
+    "GEN-PT-08": {
+      "titulo": "Fracturas expuestas: clasificación, desbridamiento y estabilización",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -435,13 +491,15 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-30": {
-      "titulo": "Artropatías hemofílicas",
+    "GEN-PT-09": {
+      "titulo": "Cobertura de partes blandas en trauma: principios de ortoplastia",
       "modulo": "GEN",
-      "prioridad": 2,
+      "bloque": "Principios de trauma",
       "estado": "pendiente",
       "parrafos": 0,
       "tablas": 0,
@@ -450,119 +508,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-31": {
-      "titulo": "Osteoartropatías nerviosas (artropatía de Charcot)",
-      "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "GEN-32": {
-      "titulo": "Algodistrofia / síndrome de dolor regional complejo",
-      "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "GEN-33": {
-      "titulo": "Consolidación de las fracturas",
-      "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "GEN-34": {
-      "titulo": "Biomecánica del hueso",
-      "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "GEN-35": {
-      "titulo": "Fracturas expuestas",
-      "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "GEN-36": {
-      "titulo": "Fracturas epifisarias del adulto",
-      "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "GEN-37": {
-      "titulo": "Fracturas diafisarias del adulto",
-      "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "GEN-38": {
+    "GEN-PT-10": {
       "titulo": "Fracturas en hueso patológico",
       "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -570,14 +525,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-39": {
-      "titulo": "Fracturas de fatiga",
+    "GEN-PT-11": {
+      "titulo": "Fracturas de fatiga, por insuficiencia y por fragilidad",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -585,14 +542,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-40": {
-      "titulo": "Complicaciones vasculares en ortopedia y traumatología",
+    "GEN-PT-12": {
+      "titulo": "Fracturas epifisarias del adulto (articulares): principios de tratamiento",
       "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -600,14 +559,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-41": {
-      "titulo": "Heridas por proyectiles",
+    "GEN-PT-13": {
+      "titulo": "Fracturas diafisarias del adulto: principios de tratamiento",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -615,14 +576,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-42": {
-      "titulo": "Politraumatizado y control de daños",
+    "GEN-PT-14": {
+      "titulo": "Pseudoartrosis: clasificación, diagnóstico y tratamiento",
       "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -630,14 +593,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-43": {
-      "titulo": "Síndromes compartimentales",
+    "GEN-PT-15": {
+      "titulo": "Consolidación viciosa y pérdida ósea segmentaria",
       "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -645,29 +610,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-44": {
-      "titulo": "Seudoartrosis",
-      "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "GEN-45": {
+    "GEN-PT-16": {
       "titulo": "Incidentes, accidentes y complicaciones del tratamiento de las fracturas",
       "modulo": "GEN",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Principios de trauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -675,14 +627,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-46": {
-      "titulo": "Lesiones traumáticas de los nervios periféricos",
+    "GEN-UR-01": {
+      "titulo": "Politraumatizado: evaluación inicial, ATLS y control de daños ortopédico",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Urgencias traumatológicas y politrauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -690,13 +644,15 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-47": {
-      "titulo": "Patología traumática del músculo estriado",
+    "GEN-UR-02": {
+      "titulo": "Shock hemorrágico, coagulopatía del trauma y reanimación hemostática",
       "modulo": "GEN",
-      "prioridad": 2,
+      "bloque": "Urgencias traumatológicas y politrauma",
       "estado": "pendiente",
       "parrafos": 0,
       "tablas": 0,
@@ -705,14 +661,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-48": {
-      "titulo": "Patología del músculo estriado del esqueleto",
+    "GEN-UR-03": {
+      "titulo": "Síndromes compartimentales: fisiopatología, diagnóstico y fasciotomías",
       "modulo": "GEN",
-      "prioridad": 3,
-      "estado": "pendiente",
+      "bloque": "Urgencias traumatológicas y politrauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -720,14 +678,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-49": {
-      "titulo": "Entesopatías",
+    "GEN-UR-04": {
+      "titulo": "Complicaciones vasculares en ortopedia y traumatología",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Urgencias traumatológicas y politrauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -735,14 +695,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-50": {
-      "titulo": "Traumatología de los tendones",
+    "GEN-UR-05": {
+      "titulo": "Heridas por proyectiles",
       "modulo": "GEN",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Urgencias traumatológicas y politrauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -750,14 +712,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-51": {
-      "titulo": "Quistes sinoviales",
+    "GEN-UR-06": {
+      "titulo": "Embolia grasa, rabdomiólisis y síndrome de aplastamiento",
       "modulo": "GEN",
-      "prioridad": 3,
-      "estado": "pendiente",
+      "bloque": "Urgencias traumatológicas y politrauma",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -765,13 +729,118 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
-    "GEN-52": {
-      "titulo": "Bursitis y bursopatías",
+    "GEN-UR-07": {
+      "titulo": "Lesiones traumáticas de los nervios periféricos: principios generales",
       "modulo": "GEN",
-      "prioridad": 2,
+      "bloque": "Urgencias traumatológicas y politrauma",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-IN-01": {
+      "titulo": "Nociones de bacteriología clínica y biofilm en ortopedia",
+      "modulo": "GEN",
+      "bloque": "Infecciones osteoarticulares",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-IN-02": {
+      "titulo": "Osteomielitis piógena inespecífica: aguda, subaguda y crónica",
+      "modulo": "GEN",
+      "bloque": "Infecciones osteoarticulares",
+      "estado": "ultra_plus",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
+    },
+    "GEN-IN-03": {
+      "titulo": "Osteítis crónica: desbridamiento, manejo del espacio muerto y reconstrucción",
+      "modulo": "GEN",
+      "bloque": "Infecciones osteoarticulares",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-IN-04": {
+      "titulo": "Artritis y osteoartritis sépticas",
+      "modulo": "GEN",
+      "bloque": "Infecciones osteoarticulares",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-IN-05": {
+      "titulo": "Osteoartritis específica: tuberculosis osteoarticular",
+      "modulo": "GEN",
+      "bloque": "Infecciones osteoarticulares",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-IN-06": {
+      "titulo": "Infecciones osteoarticulares específicas no tuberculosas",
+      "modulo": "GEN",
+      "bloque": "Infecciones osteoarticulares",
       "estado": "pendiente",
       "parrafos": 0,
       "tablas": 0,
@@ -780,14 +849,577 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-IN-07": {
+      "titulo": "Infección asociada a osteosíntesis (FRI): criterios, DAIR y recambio",
+      "modulo": "GEN",
+      "bloque": "Infecciones osteoarticulares",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-IN-08": {
+      "titulo": "Infección periprotésica: diagnóstico, DAIR y recambio en uno o dos tiempos",
+      "modulo": "GEN",
+      "bloque": "Infecciones osteoarticulares",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-IN-09": {
+      "titulo": "Pie diabético: úlcera, infección y osteomielitis",
+      "modulo": "GEN",
+      "bloque": "Infecciones osteoarticulares",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-ME-01": {
+      "titulo": "Osteoporosis: diagnóstico, tratamiento y prevención de segunda fractura",
+      "modulo": "GEN",
+      "bloque": "Osteodistrofias y enfermedad metabólica",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-ME-02": {
+      "titulo": "Osteopatías endocrinas",
+      "modulo": "GEN",
+      "bloque": "Osteodistrofias y enfermedad metabólica",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-ME-03": {
+      "titulo": "Hiperparatiroidismo primario y secundario",
+      "modulo": "GEN",
+      "bloque": "Osteodistrofias y enfermedad metabólica",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-ME-04": {
+      "titulo": "Osteopatías cortisónicas",
+      "modulo": "GEN",
+      "bloque": "Osteodistrofias y enfermedad metabólica",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-ME-05": {
+      "titulo": "Osteomalacias",
+      "modulo": "GEN",
+      "bloque": "Osteodistrofias y enfermedad metabólica",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-ME-06": {
+      "titulo": "Osteopatía del hemodializado y osteodistrofia renal",
+      "modulo": "GEN",
+      "bloque": "Osteodistrofias y enfermedad metabólica",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-ME-07": {
+      "titulo": "Hueso y radioterapia",
+      "modulo": "GEN",
+      "bloque": "Osteodistrofias y enfermedad metabólica",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-ME-08": {
+      "titulo": "Osteonecrosis: fisiopatología, clasificaciones y principios de tratamiento",
+      "modulo": "GEN",
+      "bloque": "Osteodistrofias y enfermedad metabólica",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-ME-09": {
+      "titulo": "Enfermedad de Paget ósea",
+      "modulo": "GEN",
+      "bloque": "Osteodistrofias y enfermedad metabólica",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-AR-01": {
+      "titulo": "Artrosis: fisiopatología, historia natural y principios terapéuticos",
+      "modulo": "GEN",
+      "bloque": "Artropatías",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-AR-02": {
+      "titulo": "Artropatía gotosa e hiperuricemia",
+      "modulo": "GEN",
+      "bloque": "Artropatías",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-AR-03": {
+      "titulo": "Condrocalcinosis y enfermedad por depósito de CPPD",
+      "modulo": "GEN",
+      "bloque": "Artropatías",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-AR-04": {
+      "titulo": "Artropatías inflamatorias: AR y espondiloartropatías en el paciente quirúrgico",
+      "modulo": "GEN",
+      "bloque": "Artropatías",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-AR-05": {
+      "titulo": "Artropatía hemofílica",
+      "modulo": "GEN",
+      "bloque": "Artropatías",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-AR-06": {
+      "titulo": "Osteoartropatías nerviosas: artropatía de Charcot",
+      "modulo": "GEN",
+      "bloque": "Artropatías",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-AR-07": {
+      "titulo": "Algodistrofia / síndrome de dolor regional complejo",
+      "modulo": "GEN",
+      "bloque": "Artropatías",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-PE-01": {
+      "titulo": "Profilaxis del tromboembolismo venoso en cirugía ortopédica",
+      "modulo": "GEN",
+      "bloque": "Perioperatorio y seguridad quirúrgica",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-PE-02": {
+      "titulo": "Profilaxis antibiótica quirúrgica, asepsia y prevención de infección de sitio",
+      "modulo": "GEN",
+      "bloque": "Perioperatorio y seguridad quirúrgica",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-PE-03": {
+      "titulo": "Manejo hematológico perioperatorio: ácido tranexámico y transfusión",
+      "modulo": "GEN",
+      "bloque": "Perioperatorio y seguridad quirúrgica",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-PE-04": {
+      "titulo": "Analgesia multimodal y bloqueos regionales en ortopedia",
+      "modulo": "GEN",
+      "bloque": "Perioperatorio y seguridad quirúrgica",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-PE-05": {
+      "titulo": "Optimización preoperatoria, ortogeriatría y prevención de caídas",
+      "modulo": "GEN",
+      "bloque": "Perioperatorio y seguridad quirúrgica",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-PE-06": {
+      "titulo": "Seguridad quirúrgica: posicionamiento, torniquete, radioprotección y prevención de errores",
+      "modulo": "GEN",
+      "bloque": "Perioperatorio y seguridad quirúrgica",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-RE-01": {
+      "titulo": "Principios de rehabilitación y fases de reparación tisular",
+      "modulo": "GEN",
+      "bloque": "Rehabilitación, ortesis y amputaciones",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-RE-02": {
+      "titulo": "Ortesis de miembro superior, miembro inferior y corsés",
+      "modulo": "GEN",
+      "bloque": "Rehabilitación, ortesis y amputaciones",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-RE-03": {
+      "titulo": "Amputaciones: indicaciones, escalas de salvamento y niveles",
+      "modulo": "GEN",
+      "bloque": "Rehabilitación, ortesis y amputaciones",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-RE-04": {
+      "titulo": "Amputaciones de miembro inferior y protetización",
+      "modulo": "GEN",
+      "bloque": "Rehabilitación, ortesis y amputaciones",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-RE-05": {
+      "titulo": "Amputaciones de miembro superior y reimplante",
+      "modulo": "GEN",
+      "bloque": "Rehabilitación, ortesis y amputaciones",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-RE-06": {
+      "titulo": "Dolor fantasma, neuroma y dolor crónico postraumático",
+      "modulo": "GEN",
+      "bloque": "Rehabilitación, ortesis y amputaciones",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-ML-01": {
+      "titulo": "Aspectos médico-legales en traumatología: consentimiento, historia clínica y peritaje",
+      "modulo": "GEN",
+      "bloque": "Médico-legal y metodología",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "GEN-ML-02": {
+      "titulo": "Metodología de la investigación y medicina basada en evidencia en ortopedia",
+      "modulo": "GEN",
+      "bloque": "Médico-legal y metodología",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "TUM-01": {
       "titulo": "Tumores óseos: clasificación, diagnóstico y principios terapéuticos",
       "modulo": "TUM",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Generalidades",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -795,14 +1427,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "TUM-02": {
-      "titulo": "Tumores óseos de histogénesis fibrosa e histiocitaria",
+      "titulo": "Estadificación, biopsia y márgenes quirúrgicos en tumores óseos",
       "modulo": "TUM",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Generalidades",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -810,14 +1444,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "TUM-03": {
-      "titulo": "Tumores óseos de histogénesis cartilaginosa",
+      "titulo": "Reconstrucción tras resección tumoral: aloinjertos, endoprótesis y alternativas",
       "modulo": "TUM",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Generalidades",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -825,14 +1461,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "TUM-04": {
-      "titulo": "Tumores óseos de histogénesis ósea",
+      "titulo": "Tumores óseos benignos formadores de hueso: osteoma, osteoma osteoide y osteoblastoma",
       "modulo": "TUM",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Histogénesis ósea",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -840,14 +1478,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "TUM-05": {
-      "titulo": "Tumores óseos de histogénesis vascular",
+      "titulo": "Osteosarcoma: variantes convencionales y de superficie",
       "modulo": "TUM",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Histogénesis ósea",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -855,14 +1495,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "TUM-06": {
-      "titulo": "Tumores óseos de histogénesis nerviosa",
+      "titulo": "Tumores cartilaginosos benignos: encondroma, osteocondroma, condroblastoma y FCM",
       "modulo": "TUM",
-      "prioridad": 3,
-      "estado": "pendiente",
+      "bloque": "Histogénesis cartilaginosa",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -870,14 +1512,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "TUM-07": {
-      "titulo": "Tumores óseos de histogénesis adiposa y mixtos",
+      "titulo": "Condrosarcoma: central, periférico, desdiferenciado, mesenquimático y de células claras",
       "modulo": "TUM",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Histogénesis cartilaginosa",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -885,14 +1529,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "TUM-08": {
-      "titulo": "Tumores óseos de histogénesis notocordial (cordoma)",
+      "titulo": "Tumores óseos de histogénesis fibrosa e histiocitaria",
       "modulo": "TUM",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Otras histogénesis",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -900,14 +1546,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "TUM-09": {
-      "titulo": "Tumores óseos en enfermedad preexistente o en hueso irradiado",
+      "titulo": "Tumores óseos de histogénesis vascular",
       "modulo": "TUM",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Otras histogénesis",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -915,14 +1563,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "TUM-10": {
-      "titulo": "Metástasis óseas",
+      "titulo": "Tumores óseos de histogénesis nerviosa",
       "modulo": "TUM",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Otras histogénesis",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -930,14 +1580,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "TUM-11": {
-      "titulo": "Lesiones seudotumorales",
+      "titulo": "Tumores óseos de histogénesis adiposa y mixtos",
       "modulo": "TUM",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Otras histogénesis",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -945,14 +1597,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "TUM-12": {
-      "titulo": "Tumores de partes blandas de los miembros",
+      "titulo": "Tumores de histogénesis notocordal: cordoma",
       "modulo": "TUM",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Otras histogénesis",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -960,13 +1614,239 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "TUM-13": {
-      "titulo": "Tumores y distrofias de la sinovial",
+      "titulo": "Tumores óseos hematopoyéticos: mieloma, plasmocitoma, linfoma e histiocitosis",
       "modulo": "TUM",
-      "prioridad": 2,
+      "bloque": "Otras histogénesis",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUM-14": {
+      "titulo": "Tumor de células gigantes del hueso",
+      "modulo": "TUM",
+      "bloque": "Otras histogénesis",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUM-15": {
+      "titulo": "Sarcoma de Ewing y sarcomas indiferenciados de células redondas",
+      "modulo": "TUM",
+      "bloque": "Otras histogénesis",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUM-16": {
+      "titulo": "Adamantinoma y displasia osteofibrosa",
+      "modulo": "TUM",
+      "bloque": "Otras histogénesis",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUM-17": {
+      "titulo": "Lesiones seudotumorales: quiste óseo simple, QOA, displasia fibrosa y miositis osificante",
+      "modulo": "TUM",
+      "bloque": "Lesiones seudotumorales y secundarios",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUM-18": {
+      "titulo": "Tumores óseos sobre enfermedad preexistente o en hueso irradiado",
+      "modulo": "TUM",
+      "bloque": "Lesiones seudotumorales y secundarios",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUM-19": {
+      "titulo": "Metástasis óseas y fractura patológica",
+      "modulo": "TUM",
+      "bloque": "Lesiones seudotumorales y secundarios",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUMI-01": {
+      "titulo": "Tumores de partes blandas de los miembros: evaluación, estadificación y principios",
+      "modulo": "TUMI",
+      "bloque": "Generalidades",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUMI-02": {
+      "titulo": "Tumores adipocíticos benignos y lipoma atípico",
+      "modulo": "TUMI",
+      "bloque": "Bloques por histogénesis",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUMI-03": {
+      "titulo": "Liposarcoma: bien diferenciado, desdiferenciado, mixoide y pleomórfico",
+      "modulo": "TUMI",
+      "bloque": "Bloques por histogénesis",
+      "estado": "ultra_plus",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
+    },
+    "TUMI-04": {
+      "titulo": "Sarcoma pleomórfico indiferenciado (UPS)",
+      "modulo": "TUMI",
+      "bloque": "Bloques por histogénesis",
+      "estado": "ultra_plus",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
+    },
+    "TUMI-05": {
+      "titulo": "Tumores fibroblásticos y miofibroblásticos benignos: fascitis nodular y fibromatosis desmoide",
+      "modulo": "TUMI",
+      "bloque": "Bloques por histogénesis",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUMI-06": {
+      "titulo": "Fibrosarcoma y mixofibrosarcoma",
+      "modulo": "TUMI",
+      "bloque": "Bloques por histogénesis",
+      "estado": "ultra_plus",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
+    },
+    "TUMI-07": {
+      "titulo": "Dermatofibrosarcoma protuberans",
+      "modulo": "TUMI",
+      "bloque": "Bloques por histogénesis",
       "estado": "pendiente",
       "parrafos": 0,
       "tablas": 0,
@@ -975,14 +1855,155 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUMI-08": {
+      "titulo": "Leiomiosarcoma de partes blandas",
+      "modulo": "TUMI",
+      "bloque": "Bloques por histogénesis",
+      "estado": "ultra_plus",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
+    },
+    "TUMI-09": {
+      "titulo": "Rabdomiosarcoma",
+      "modulo": "TUMI",
+      "bloque": "Bloques por histogénesis",
+      "estado": "ultra_plus",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
+    },
+    "TUMI-10": {
+      "titulo": "Tumores vasculares de partes blandas y malformaciones",
+      "modulo": "TUMI",
+      "bloque": "Bloques por histogénesis",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUMI-11": {
+      "titulo": "Tumores de vaina nerviosa periférica: schwannoma, neurofibroma y MPNST",
+      "modulo": "TUMI",
+      "bloque": "Bloques por histogénesis",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUMI-12": {
+      "titulo": "Sarcomas de histogénesis incierta: sinovial, epitelioide, células claras y alveolar",
+      "modulo": "TUMI",
+      "bloque": "Bloques por histogénesis",
+      "estado": "ultra_plus",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
+    },
+    "TUMI-13": {
+      "titulo": "Tumor desmoplásico de células pequeñas y redondas",
+      "modulo": "TUMI",
+      "bloque": "Bloques por histogénesis",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUMI-14": {
+      "titulo": "Tumores y distrofias de la sinovial: TCG de vaina tendinosa y tumor tenosinovial difuso (PVNS)",
+      "modulo": "TUMI",
+      "bloque": "Sinovial",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "TUMI-15": {
+      "titulo": "Condromatosis sinovial y condrosarcoma sinovial",
+      "modulo": "TUMI",
+      "bloque": "Sinovial",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-01": {
-      "titulo": "Traumatismos de la cintura escapular",
+      "titulo": "Fractura de clavícula: tercio medio",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Cintura escapular",
+      "estado": "ultra_plus",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -990,14 +2011,17 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
     },
     "MSA-02": {
-      "titulo": "Fracturas de clavícula",
+      "titulo": "Fractura de clavícula: tercio distal y tercio proximal",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Cintura escapular",
+      "estado": "ultra_plus",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1005,29 +2029,17 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
     },
     "MSA-03": {
-      "titulo": "Fracturas de escápula",
-      "modulo": "MSA",
-      "prioridad": 2,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "MSA-04": {
       "titulo": "Luxación acromioclavicular aguda",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Cintura escapular",
+      "estado": "ultra_plus",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1035,14 +2047,35 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
+    },
+    "MSA-04": {
+      "titulo": "Luxación esternoclavicular aguda",
+      "modulo": "MSA",
+      "bloque": "Cintura escapular",
+      "estado": "ultra_plus",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
     },
     "MSA-05": {
-      "titulo": "Luxación esternoclavicular",
+      "titulo": "Fracturas de escápula, complejo suspensorio superior y disociación escapulotorácica",
       "modulo": "MSA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Cintura escapular",
+      "estado": "ultra_plus",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1050,14 +2083,17 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
     },
     "MSA-06": {
       "titulo": "Fractura del húmero proximal",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Hombro y húmero proximal",
+      "estado": "ultra_plus",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1065,14 +2101,17 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
     },
     "MSA-07": {
       "titulo": "Luxación glenohumeral anterior aguda",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Hombro y húmero proximal",
+      "estado": "ultra_plus",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1080,14 +2119,17 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
     },
     "MSA-08": {
       "titulo": "Luxación glenohumeral posterior aguda",
       "modulo": "MSA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Hombro y húmero proximal",
+      "estado": "ultra_plus",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1095,14 +2137,17 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
     },
     "MSA-09": {
-      "titulo": "Fractura-luxación de hombro y luxatio erecta",
+      "titulo": "Fractura-luxación de hombro y luxación inferior (luxatio erecta)",
       "modulo": "MSA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Hombro y húmero proximal",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1110,14 +2155,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-10": {
       "titulo": "Fractura diafisaria de húmero y parálisis radial",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Húmero y codo",
+      "estado": "ultra_plus",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1125,14 +2172,17 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion",
+        "revalidar contra spec"
+      ]
     },
     "MSA-11": {
-      "titulo": "Fracturas del húmero distal (supra e intercondíleas)",
+      "titulo": "Fractura del húmero distal (supra e intercondílea, columnas)",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Húmero y codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1140,14 +2190,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-12": {
       "titulo": "Fracturas del capitellum y de la tróclea",
       "modulo": "MSA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Húmero y codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1155,14 +2207,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-13": {
-      "titulo": "Luxación de codo",
+      "titulo": "Fracturas de epicóndilo y epitróclea del adulto",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Húmero y codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1170,14 +2224,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-14": {
-      "titulo": "Tríada terrible del codo",
+      "titulo": "Fractura de olécranon",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Húmero y codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1185,14 +2241,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-15": {
-      "titulo": "Fracturas de olécranon",
+      "titulo": "Fractura de la cabeza y cuello del radio",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Húmero y codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1200,14 +2258,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-16": {
-      "titulo": "Fracturas de la cabeza y el cuello del radio",
+      "titulo": "Fractura de coronoides",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Húmero y codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1215,14 +2275,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-17": {
-      "titulo": "Fracturas de la apófisis coronoides",
+      "titulo": "Luxación simple de codo e inestabilidad aguda",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Húmero y codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1230,14 +2292,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-18": {
-      "titulo": "Fracturas de la extremidad superior de los dos huesos del antebrazo",
+      "titulo": "Tríada terrible del codo",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Húmero y codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1245,14 +2309,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-19": {
-      "titulo": "Fracturas diafisarias del antebrazo",
+      "titulo": "Fractura-luxación del codo: Monteggia del adulto y variantes",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Húmero y codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1260,14 +2326,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-20": {
-      "titulo": "Fractura-luxación de Monteggia",
+      "titulo": "Fractura-luxación transolecraneana y luxación divergente",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Húmero y codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1275,14 +2343,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-21": {
-      "titulo": "Fractura-luxación de Galeazzi",
+      "titulo": "Fractura diafisaria de ambos huesos del antebrazo",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Antebrazo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1290,14 +2360,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-22": {
-      "titulo": "Fracturas de la extremidad distal del radio",
+      "titulo": "Fractura aislada de cúbito (nightstick) y de radio",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Antebrazo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1305,14 +2377,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-23": {
-      "titulo": "Lesiones agudas del complejo fibrocartílago triangular y de la RCD",
+      "titulo": "Fractura-luxación de Galeazzi y lesión de la IRCD aguda",
       "modulo": "MSA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Antebrazo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1320,14 +2394,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-24": {
-      "titulo": "Fractura de escafoides",
+      "titulo": "Lesión de Essex-Lopresti y membrana interósea",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Antebrazo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1335,14 +2411,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-25": {
-      "titulo": "Fracturas de los demás huesos del carpo",
+      "titulo": "Fractura de la extremidad distal del radio",
       "modulo": "MSA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Muñeca",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1350,14 +2428,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-26": {
-      "titulo": "Esguinces y luxaciones del carpo: inestabilidad carpiana",
+      "titulo": "Fracturas de la extremidad distal del cúbito y lesión aguda del TFCC",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Muñeca",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1365,14 +2445,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-27": {
-      "titulo": "Luxaciones carpometacarpianas",
+      "titulo": "Fractura de escafoides",
       "modulo": "MSA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Muñeca",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1380,14 +2462,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-28": {
-      "titulo": "Fracturas de los metacarpianos",
+      "titulo": "Fracturas de los demás huesos del carpo",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Muñeca",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1395,14 +2479,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-29": {
-      "titulo": "Fracturas de las falanges",
+      "titulo": "Esguinces y luxaciones del carpo: luxación perilunar y del semilunar",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Muñeca",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1410,14 +2496,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-30": {
-      "titulo": "Esguinces y luxaciones de los dedos",
+      "titulo": "Luxaciones carpometacarpianas",
       "modulo": "MSA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Muñeca",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1425,14 +2513,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-31": {
-      "titulo": "Lesiones agudas de los tendones flexores de la mano",
+      "titulo": "Fracturas de los metacarpianos",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Mano",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1440,14 +2530,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-32": {
-      "titulo": "Lesiones agudas de los tendones extensores de la mano",
+      "titulo": "Fracturas, esguinces y luxaciones de los dedos",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Mano",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1455,14 +2547,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-33": {
-      "titulo": "Roturas tendinosas proximales del miembro superior",
+      "titulo": "Lesiones agudas de los tendones flexores de la mano",
       "modulo": "MSA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Partes blandas agudas del miembro superior",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1470,14 +2564,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-34": {
-      "titulo": "Lesiones traumáticas agudas de nervios periféricos del miembro superior",
+      "titulo": "Lesiones agudas del aparato extensor de la mano",
       "modulo": "MSA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Partes blandas agudas del miembro superior",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1485,14 +2581,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-35": {
-      "titulo": "Lesión aguda del plexo braquial",
+      "titulo": "Roturas tendinosas proximales agudas del miembro superior",
       "modulo": "MSA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Partes blandas agudas del miembro superior",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1500,14 +2598,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSA-36": {
-      "titulo": "Amputaciones traumáticas y reimplantes del miembro superior",
+      "titulo": "Lesiones traumáticas de los nervios periféricos del miembro superior y del plexo braquial",
       "modulo": "MSA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Partes blandas agudas del miembro superior",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1515,14 +2615,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-01": {
-      "titulo": "Hombro doloroso (periartritis escapulohumeral)",
+      "titulo": "Hombro doloroso: encare diagnóstico y síndrome subacromial",
       "modulo": "MSC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Hombro",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1530,14 +2632,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-02": {
-      "titulo": "Patología del manguito rotador",
+      "titulo": "Patología degenerativa del manguito rotador: roturas parciales y completas",
       "modulo": "MSC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Hombro",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1545,14 +2649,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-03": {
-      "titulo": "Inestabilidad crónica de hombro",
+      "titulo": "Rotura masiva e irreparable del manguito y artropatía por manguito",
       "modulo": "MSC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Hombro",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1560,14 +2666,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-04": {
-      "titulo": "Patología de la articulación acromioclavicular",
+      "titulo": "Tendinopatía calcificante del hombro",
       "modulo": "MSC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Hombro",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1575,14 +2683,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-05": {
-      "titulo": "Rigidez de hombro / capsulitis adhesiva",
+      "titulo": "Patología de la porción larga del bíceps y lesiones SLAP",
       "modulo": "MSC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Hombro",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1590,14 +2700,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-06": {
-      "titulo": "Síndrome del rodete glenoideo (lesiones del labrum, SLAP)",
+      "titulo": "Rigidez del hombro y capsulitis adhesiva",
       "modulo": "MSC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Hombro",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1605,14 +2717,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-07": {
-      "titulo": "Omartrosis y artroplastia de hombro",
+      "titulo": "Inestabilidad glenohumeral anterior recurrente y pérdida ósea glenoidea",
       "modulo": "MSC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Hombro",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1620,14 +2734,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-08": {
-      "titulo": "Artrosis del codo",
+      "titulo": "Inestabilidad posterior y multidireccional del hombro",
       "modulo": "MSC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Hombro",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1635,14 +2751,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-09": {
-      "titulo": "Epicondilitis y epitrocleítis",
+      "titulo": "Síndrome del rodete glenoideo",
       "modulo": "MSC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Hombro",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1650,14 +2768,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-10": {
-      "titulo": "Rigidez e inestabilidad crónica del codo",
+      "titulo": "Artrosis glenohumeral y necrosis de la cabeza humeral",
       "modulo": "MSC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Hombro",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1665,14 +2785,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-11": {
-      "titulo": "Síndromes compresivos del miembro superior (túnel carpiano, cubital)",
+      "titulo": "Patología crónica de la articulación acromioclavicular",
       "modulo": "MSC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Hombro",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1680,14 +2802,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-12": {
-      "titulo": "Parálisis traumáticas del plexo braquial: secuelas y reconstrucción",
+      "titulo": "Escápula alada y neuropatías periescapulares",
       "modulo": "MSC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Hombro",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1695,14 +2819,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-13": {
-      "titulo": "Artrosis del puño y de la mano",
+      "titulo": "Artrosis del codo",
       "modulo": "MSC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1710,14 +2836,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-14": {
-      "titulo": "Lesiones tendinosas crónicas de la mano",
+      "titulo": "Epicondilitis y epitrocleitis",
       "modulo": "MSC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1725,14 +2853,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-15": {
-      "titulo": "Enfermedad de Dupuytren",
+      "titulo": "Inestabilidad crónica del codo: PLRI e inestabilidad medial",
       "modulo": "MSC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1740,14 +2870,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-16": {
-      "titulo": "Tenosinovitis estenosantes (De Quervain, dedo en resorte)",
+      "titulo": "Rigidez del codo y osificación heterotópica",
       "modulo": "MSC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1755,14 +2887,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-17": {
-      "titulo": "Necrosis avascular del carpo (Kienböck, Preiser)",
+      "titulo": "Neuropatías compresivas del codo y antebrazo",
       "modulo": "MSC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1770,14 +2904,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-18": {
-      "titulo": "Seudoartrosis de escafoides y colapso SNAC/SLAC",
+      "titulo": "Secuelas del antebrazo: sinostosis, consolidación viciosa e inestabilidad radiocubital distal",
       "modulo": "MSC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Codo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1785,14 +2921,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-19": {
-      "titulo": "Rizartrosis del pulgar",
+      "titulo": "Pseudoartrosis de escafoides, SNAC y SLAC",
       "modulo": "MSC",
-      "prioridad": 3,
-      "estado": "pendiente",
+      "bloque": "Muñeca",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1800,14 +2938,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MSC-20": {
-      "titulo": "Deformidades adquiridas de los dedos",
+      "titulo": "Enfermedad de Kienböck",
       "modulo": "MSC",
-      "prioridad": 3,
-      "estado": "pendiente",
+      "bloque": "Muñeca",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1815,14 +2955,186 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MSC-21": {
+      "titulo": "Inestabilidad carpiana crónica: escafolunar y lunopiramidal",
+      "modulo": "MSC",
+      "bloque": "Muñeca",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MSC-22": {
+      "titulo": "Artrosis de muñeca, impactación cubitocarpiana y patología crónica del TFCC",
+      "modulo": "MSC",
+      "bloque": "Muñeca",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MSC-23": {
+      "titulo": "Rizartrosis y artrosis de los dedos",
+      "modulo": "MSC",
+      "bloque": "Mano",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MSC-24": {
+      "titulo": "Síndrome del túnel carpiano y canal de Guyon",
+      "modulo": "MSC",
+      "bloque": "Mano",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MSC-25": {
+      "titulo": "Dedo en resorte, De Quervain y tenosinovitis estenosantes",
+      "modulo": "MSC",
+      "bloque": "Mano",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MSC-26": {
+      "titulo": "Enfermedad de Dupuytren",
+      "modulo": "MSC",
+      "bloque": "Mano",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MSC-27": {
+      "titulo": "Secuelas tendinosas de la mano: adherencias, roturas crónicas y transferencias",
+      "modulo": "MSC",
+      "bloque": "Mano",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MSC-28": {
+      "titulo": "Parálisis del miembro superior: reconstrucción por transferencias tendinosas",
+      "modulo": "MSC",
+      "bloque": "Mano",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MSC-29": {
+      "titulo": "Mano reumatoidea",
+      "modulo": "MSC",
+      "bloque": "Mano",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MSC-30": {
+      "titulo": "Infecciones de la mano",
+      "modulo": "MSC",
+      "bloque": "Mano",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-01": {
-      "titulo": "Fracturas de pelvis",
+      "titulo": "Fracturas del anillo pelviano",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Pelvis y acetábulo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1830,14 +3142,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-02": {
-      "titulo": "Fracturas del cotilo",
+      "titulo": "Fracturas del sacro y lesiones sacroilíacas",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Pelvis y acetábulo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1845,14 +3159,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-03": {
-      "titulo": "Luxación traumática de cadera",
+      "titulo": "Fracturas del cotilo: clasificación y abordajes",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Pelvis y acetábulo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1860,14 +3176,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-04": {
-      "titulo": "Fracturas del cuello femoral",
+      "titulo": "Luxaciones traumáticas de la cadera y luxofracturas",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Pelvis y acetábulo",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1875,14 +3193,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-05": {
-      "titulo": "Fracturas pertrocantéreas",
+      "titulo": "Fracturas del cuello femoral",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Fémur",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1890,14 +3210,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-06": {
-      "titulo": "Fracturas subtrocantéreas",
+      "titulo": "Fracturas pertrocantéricas",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Fémur",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1905,14 +3227,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-07": {
-      "titulo": "Fracturas de la diáfisis femoral",
+      "titulo": "Fracturas subtrocantéricas",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Fémur",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1920,14 +3244,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-08": {
-      "titulo": "Fracturas del fémur distal",
+      "titulo": "Fracturas diafisarias del fémur",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Fémur",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1935,14 +3261,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-09": {
-      "titulo": "Fracturas periprotésicas de cadera y rodilla",
+      "titulo": "Fracturas de la extremidad distal del fémur",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Fémur",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1950,14 +3278,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-10": {
-      "titulo": "Lesiones recientes de los ligamentos de la rodilla",
+      "titulo": "Fracturas de la rótula",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1965,14 +3295,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-11": {
-      "titulo": "Luxación de rodilla y lesiones multiligamentarias",
+      "titulo": "Lesiones agudas del aparato extensor: rotura del tendón cuadricipital y rotuliano",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1980,14 +3312,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-12": {
-      "titulo": "Lesiones del aparato extensor de la rodilla",
+      "titulo": "Luxación aguda de rótula y lesión del MPFL",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -1995,14 +3329,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-13": {
-      "titulo": "Fracturas de rótula",
+      "titulo": "Luxación de rodilla y lesiones multiligamentarias",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2010,14 +3346,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-14": {
-      "titulo": "Fracturas de los platillos tibiales",
+      "titulo": "Lesiones agudas del pivot central: LCA y LCP",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2025,14 +3363,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-15": {
-      "titulo": "Lesiones traumáticas de los meniscos",
+      "titulo": "Lesiones agudas de los ligamentos periféricos y esquinas de la rodilla",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2040,14 +3380,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-16": {
-      "titulo": "Fracturas cerradas de la pierna",
+      "titulo": "Lesiones traumáticas de los meniscos",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2055,14 +3397,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-17": {
-      "titulo": "Fracturas expuestas de la pierna",
+      "titulo": "Lesiones osteocondrales agudas de la rodilla",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2070,14 +3414,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-18": {
-      "titulo": "Fracturas del pilón tibial",
+      "titulo": "Fracturas de los platillos tibiales",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2085,14 +3431,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-19": {
-      "titulo": "Fracturas maleolares y luxaciones del cuello del pie",
+      "titulo": "Fracturas cerradas de la pierna",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Pierna",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2100,14 +3448,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-20": {
-      "titulo": "Lesiones de la sindesmosis tibioperonea",
+      "titulo": "Fracturas expuestas de la pierna",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Pierna",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2115,14 +3465,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-21": {
-      "titulo": "Esguinces del tobillo",
+      "titulo": "Fracturas del pilón tibial",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Pierna",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2130,14 +3482,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-22": {
-      "titulo": "Patología del tendón de Aquiles: rotura aguda",
+      "titulo": "Fracturas maleolares y luxaciones del cuello del pie",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2145,14 +3499,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-23": {
-      "titulo": "Fracturas y luxaciones del astrágalo",
+      "titulo": "Lesión de la sindesmosis y fractura de Maisonneuve",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2160,14 +3516,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-24": {
-      "titulo": "Fracturas del calcáneo",
+      "titulo": "Esguinces del tobillo",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2175,14 +3533,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-25": {
-      "titulo": "Luxación de los tendones peroneos",
+      "titulo": "Rotura aguda del tendón de Aquiles",
       "modulo": "MIA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2190,14 +3550,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-26": {
-      "titulo": "Fracturas del tarso anterior",
+      "titulo": "Fracturas y luxaciones del astrágalo",
       "modulo": "MIA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2205,14 +3567,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-27": {
-      "titulo": "Lesiones de Lisfranc",
+      "titulo": "Fracturas del calcáneo",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2220,14 +3584,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-28": {
-      "titulo": "Fracturas de metatarsianos y dedos del pie",
+      "titulo": "Luxaciones y fracturas de Chopart y del mediopié",
       "modulo": "MIA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2235,14 +3601,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-29": {
-      "titulo": "Luxaciones del pie",
+      "titulo": "Lesiones de Lisfranc",
       "modulo": "MIA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2250,14 +3618,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-30": {
-      "titulo": "Lesiones osteocondrales agudas de rodilla y tobillo",
+      "titulo": "Fracturas de metatarsianos y dedos",
       "modulo": "MIA",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2265,14 +3635,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIA-31": {
-      "titulo": "Lesiones traumáticas agudas de nervios del miembro inferior",
+      "titulo": "Luxación aguda de los tendones peroneos",
       "modulo": "MIA",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2280,14 +3652,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-01": {
-      "titulo": "Diagnóstico y tratamiento de una coxopatía crónica",
+      "titulo": "Diagnóstico y tratamiento de una coxopatía crónica: encare",
       "modulo": "MIC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Cadera",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2295,14 +3669,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-02": {
-      "titulo": "Osteonecrosis avascular idiopática de la cabeza femoral",
+      "titulo": "Coxartrosis primaria y secundaria",
       "modulo": "MIC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Cadera",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2310,14 +3686,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-03": {
-      "titulo": "Tratamiento quirúrgico de la coxartrosis",
+      "titulo": "Displasia acetabular del adulto y osteotomías periacetabulares",
       "modulo": "MIC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Cadera",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2325,14 +3703,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-04": {
-      "titulo": "Choque femoroacetabular y resaltos de cadera",
+      "titulo": "Pinzamiento femoroacetabular y lesión labral",
       "modulo": "MIC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Cadera",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2340,14 +3720,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-05": {
-      "titulo": "Pubalgia",
+      "titulo": "Osteonecrosis avascular idiopática de la cabeza femoral",
       "modulo": "MIC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Cadera",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2355,14 +3737,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-06": {
-      "titulo": "Diagnóstico y tratamiento de una rodilla dolorosa",
+      "titulo": "Resaltos de la cadera interno y externo",
       "modulo": "MIC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Cadera",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2370,14 +3754,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-07": {
-      "titulo": "Tratamiento quirúrgico de la gonartrosis",
+      "titulo": "Pubalgia y patología de la ingle del deportista",
       "modulo": "MIC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Cadera",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2385,13 +3771,15 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-08": {
-      "titulo": "Inestabilidades crónicas de la rodilla",
+      "titulo": "Tendinopatía glútea y síndrome trocantéreo doloroso",
       "modulo": "MIC",
-      "prioridad": 1,
+      "bloque": "Cadera",
       "estado": "pendiente",
       "parrafos": 0,
       "tablas": 0,
@@ -2400,14 +3788,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-09": {
-      "titulo": "Genu recurvatum y desejes frontales",
+      "titulo": "Diagnóstico y tratamiento de una rodilla dolorosa: encare",
       "modulo": "MIC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2415,14 +3805,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-10": {
-      "titulo": "Osteocondritis disecante de la rodilla",
+      "titulo": "Gonartrosis: tratamiento no quirúrgico y osteotomías",
       "modulo": "MIC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2430,14 +3822,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-11": {
-      "titulo": "Osteonecrosis de los huesos de la rodilla",
+      "titulo": "Meniscopatía degenerativa y secuelas meniscales",
       "modulo": "MIC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2445,14 +3839,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-12": {
-      "titulo": "Condromalacia rotuliana y síndrome femoropatelar",
+      "titulo": "Lesiones condrales y osteocondritis disecante de la rodilla",
       "modulo": "MIC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2460,14 +3856,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-13": {
-      "titulo": "Inestabilidades de la rótula",
+      "titulo": "Osteonecrosis de los huesos de la rodilla (SPONK y secundaria)",
       "modulo": "MIC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2475,14 +3873,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-14": {
-      "titulo": "Rigidez de la rodilla",
+      "titulo": "Síndrome patelofemoral y condromalacia rotuliana",
       "modulo": "MIC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2490,14 +3890,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-15": {
-      "titulo": "Artrosis del pie y del tobillo",
+      "titulo": "Inestabilidad rotuliana crónica",
       "modulo": "MIC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2505,14 +3907,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-16": {
-      "titulo": "Pie plano valgo estático y disfunción del tibial posterior",
+      "titulo": "Inestabilidades crónicas de la rodilla: reconstrucción del LCA y del LCP",
       "modulo": "MIC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2520,14 +3924,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-17": {
-      "titulo": "Pie cavo",
+      "titulo": "Rigidez de rodilla y artrofibrosis",
       "modulo": "MIC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2535,14 +3941,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-18": {
-      "titulo": "Talalgias y fascitis plantar",
+      "titulo": "Genu varo, genu valgo y genu recurvatum del adulto",
       "modulo": "MIC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Rodilla",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2550,14 +3958,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-19": {
-      "titulo": "Neuralgia de Morton",
+      "titulo": "Artrosis del tobillo",
       "modulo": "MIC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2565,14 +3975,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-20": {
-      "titulo": "Metatarsalgias estáticas",
+      "titulo": "Artrosis subtalar, mediotarsiana y de Lisfranc",
       "modulo": "MIC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2580,14 +3992,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-21": {
-      "titulo": "Hallux valgus",
+      "titulo": "Inestabilidad crónica del tobillo y lesiones osteocondrales del astrágalo",
       "modulo": "MIC",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2595,14 +4009,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-22": {
-      "titulo": "Hallux rigidus",
+      "titulo": "Pie plano valgo estático y pie plano adquirido del adulto (deformidad progresiva del colapso)",
       "modulo": "MIC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2610,14 +4026,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-23": {
-      "titulo": "Patología no traumática de los dedos del pie",
+      "titulo": "Pie cavo y pie cavovaro",
       "modulo": "MIC",
-      "prioridad": 3,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2625,14 +4043,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-24": {
-      "titulo": "Miembro inferior paralítico",
+      "titulo": "Talalgias y fascitis plantar",
       "modulo": "MIC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2640,14 +4060,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-25": {
-      "titulo": "Tendinopatía crónica del Aquiles",
+      "titulo": "Neuralgia de Morton y síndrome del túnel tarsiano",
       "modulo": "MIC",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2655,13 +4077,117 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "MIC-26": {
-      "titulo": "Pie diabético",
+      "titulo": "Metatarsalgias estáticas y patología sesamoidea",
       "modulo": "MIC",
-      "prioridad": 2,
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MIC-27": {
+      "titulo": "Hallux valgus",
+      "modulo": "MIC",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MIC-28": {
+      "titulo": "Hallux rigidus y hallux varus",
+      "modulo": "MIC",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MIC-29": {
+      "titulo": "Patología no traumática de los dedos menores",
+      "modulo": "MIC",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MIC-30": {
+      "titulo": "Tendinopatías crónicas del tobillo y del pie",
+      "modulo": "MIC",
+      "bloque": "Tobillo y pie",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MIC-31": {
+      "titulo": "Miembro inferior paralítico: evaluación y tratamiento",
+      "modulo": "MIC",
+      "bloque": "Neuro-ortopedia del miembro inferior",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "MIC-32": {
+      "titulo": "Neuropatías compresivas del miembro inferior",
+      "modulo": "MIC",
+      "bloque": "Neuro-ortopedia del miembro inferior",
       "estado": "pendiente",
       "parrafos": 0,
       "tablas": 0,
@@ -2670,14 +4196,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "COL-01": {
-      "titulo": "Biomecánica del raquis",
+      "titulo": "Anatomía, fisiología y biomecánica del raquis y del disco intervertebral",
       "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Ciencias básicas del raquis",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2685,13 +4213,15 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "COL-02": {
-      "titulo": "Traumatismos raquimedulares",
+      "titulo": "Balance sagital y parámetros espinopélvicos",
       "modulo": "COL",
-      "prioridad": 1,
+      "bloque": "Ciencias básicas del raquis",
       "estado": "pendiente",
       "parrafos": 0,
       "tablas": 0,
@@ -2700,14 +4230,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "COL-03": {
-      "titulo": "Lesiones traumáticas del raquis cervical alto",
+      "titulo": "Traumatismos raquimedulares: evaluación inicial y principios generales",
       "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Trauma raquimedular",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2715,14 +4247,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "COL-04": {
-      "titulo": "Lesiones traumáticas del raquis cervical subaxial",
+      "titulo": "Lesiones traumáticas del raquis cervical superior (C0-C2)",
       "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Trauma raquimedular",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2730,14 +4264,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "COL-05": {
-      "titulo": "Fracturas y luxaciones del raquis toracolumbar",
+      "titulo": "Lesiones traumáticas del raquis cervical subaxial (C3-C7)",
       "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Trauma raquimedular",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2745,14 +4281,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "COL-06": {
-      "titulo": "Complicaciones y secuelas neurológicas del lesionado medular",
+      "titulo": "Fracturas y luxaciones del raquis toracolumbar",
       "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Trauma raquimedular",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2760,14 +4298,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "COL-07": {
-      "titulo": "Disco intervertebral y estructuras vecinas: anatomía, fisiología y biomecánica",
+      "titulo": "Fracturas del sacro y disociación espinopélvica",
       "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Trauma raquimedular",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2775,14 +4315,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "COL-08": {
-      "titulo": "Cervicalgias y cervicobraquialgias",
+      "titulo": "Lesión medular: evaluación ASIA, síndromes y manejo agudo",
       "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
+      "bloque": "Trauma raquimedular",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2790,14 +4332,16 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "COL-09": {
-      "titulo": "Dorsalgias",
+      "titulo": "Complicaciones y secuelas neurológicas de los lesionados medulares",
       "modulo": "COL",
-      "prioridad": 2,
-      "estado": "pendiente",
+      "bloque": "Trauma raquimedular",
+      "estado": "pendiente_renivelar",
       "parrafos": 0,
       "tablas": 0,
       "caracteres": 0,
@@ -2805,163 +4349,202 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     },
     "COL-10": {
-      "titulo": "Lumbalgias",
-      "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "COL-11": {
-      "titulo": "Ciáticas y lumborradiculalgias discales",
-      "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "COL-12": {
-      "titulo": "Ciatalgias e irradiaciones no discales",
-      "modulo": "COL",
-      "prioridad": 2,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "COL-13": {
-      "titulo": "Espondilolisis y espondilolistesis",
-      "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "COL-14": {
-      "titulo": "Estenosis de canal lumbar",
-      "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "COL-15": {
-      "titulo": "Espondiloartrosis",
-      "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "COL-16": {
-      "titulo": "Tuberculosis vertebral (mal de Pott)",
-      "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "COL-17": {
-      "titulo": "Espondilodiscitis infecciosas no tuberculosas",
-      "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "COL-18": {
-      "titulo": "Escoliosis idiopática del adulto",
-      "modulo": "COL",
-      "prioridad": 2,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "COL-19": {
-      "titulo": "Tumores y metástasis del raquis",
-      "modulo": "COL",
-      "prioridad": 1,
-      "estado": "pendiente",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
-      "commit": null,
-      "notas": "",
-      "pendiente": []
-    },
-    "COL-20": {
       "titulo": "Fracturas vertebrales osteoporóticas",
       "modulo": "COL",
-      "prioridad": 2,
+      "bloque": "Trauma raquimedular",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-11": {
+      "titulo": "Cervicalgias",
+      "modulo": "COL",
+      "bloque": "Patología degenerativa",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-12": {
+      "titulo": "Hernia discal cervical y radiculopatía",
+      "modulo": "COL",
+      "bloque": "Patología degenerativa",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-13": {
+      "titulo": "Mielopatía cervical espondilótica y estenosis",
+      "modulo": "COL",
+      "bloque": "Patología degenerativa",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-14": {
+      "titulo": "Dorsalgias y hernia discal torácica",
+      "modulo": "COL",
+      "bloque": "Patología degenerativa",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-15": {
+      "titulo": "Lumbalgias",
+      "modulo": "COL",
+      "bloque": "Patología degenerativa",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-16": {
+      "titulo": "Ciáticas y otras lumborradiculalgias discales",
+      "modulo": "COL",
+      "bloque": "Patología degenerativa",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-17": {
+      "titulo": "Ciatalgias e irradiaciones no discales",
+      "modulo": "COL",
+      "bloque": "Patología degenerativa",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-18": {
+      "titulo": "Estenosis del canal lumbar: central, receso lateral y foraminal",
+      "modulo": "COL",
+      "bloque": "Patología degenerativa",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-19": {
+      "titulo": "Espondilólisis y espondilolistesis",
+      "modulo": "COL",
+      "bloque": "Patología degenerativa",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-20": {
+      "titulo": "Espondiloartrosis y síndrome facetario",
+      "modulo": "COL",
+      "bloque": "Patología degenerativa",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-21": {
+      "titulo": "Síndrome de cauda equina",
+      "modulo": "COL",
+      "bloque": "Patología degenerativa",
       "estado": "pendiente",
       "parrafos": 0,
       "tablas": 0,
@@ -2970,8 +4553,843 @@
       "validado": false,
       "fecha": null,
       "commit": null,
-      "notas": "",
-      "pendiente": []
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-22": {
+      "titulo": "Espondilodiscitis infecciosas no tuberculosas",
+      "modulo": "COL",
+      "bloque": "Infección, tumor y deformidad",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-23": {
+      "titulo": "Tuberculosis vertebral (mal de Pott)",
+      "modulo": "COL",
+      "bloque": "Infección, tumor y deformidad",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-24": {
+      "titulo": "Tumores y metástasis del raquis",
+      "modulo": "COL",
+      "bloque": "Infección, tumor y deformidad",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "COL-25": {
+      "titulo": "Escoliosis idiopática del adulto y deformidad degenerativa",
+      "modulo": "COL",
+      "bloque": "Infección, tumor y deformidad",
+      "estado": "pendiente_renivelar",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-01": {
+      "titulo": "Principios generales de artroplastia: fijación, osteointegración y diseño",
+      "modulo": "ART",
+      "bloque": "Principios",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-02": {
+      "titulo": "Desgaste, osteólisis y aflojamiento aséptico",
+      "modulo": "ART",
+      "bloque": "Principios",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-03": {
+      "titulo": "Planificación preoperatoria y abordajes en artroplastia",
+      "modulo": "ART",
+      "bloque": "Principios",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-04": {
+      "titulo": "Artroplastia total de cadera primaria",
+      "modulo": "ART",
+      "bloque": "Cadera",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-05": {
+      "titulo": "Hemiartroplastia y artroplastia en fractura de cadera",
+      "modulo": "ART",
+      "bloque": "Cadera",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-06": {
+      "titulo": "Luxación protésica de cadera e inestabilidad",
+      "modulo": "ART",
+      "bloque": "Cadera",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-07": {
+      "titulo": "Revisión de cadera y defectos óseos acetabulares y femorales",
+      "modulo": "ART",
+      "bloque": "Cadera",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-08": {
+      "titulo": "Fracturas periprotésicas de cadera",
+      "modulo": "ART",
+      "bloque": "Cadera",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-09": {
+      "titulo": "Artroplastia total de rodilla primaria",
+      "modulo": "ART",
+      "bloque": "Rodilla",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-10": {
+      "titulo": "Artroplastia unicompartimental de rodilla",
+      "modulo": "ART",
+      "bloque": "Rodilla",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-11": {
+      "titulo": "Revisión de rodilla, defectos óseos y constricción",
+      "modulo": "ART",
+      "bloque": "Rodilla",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-12": {
+      "titulo": "Fracturas periprotésicas de rodilla",
+      "modulo": "ART",
+      "bloque": "Rodilla",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-13": {
+      "titulo": "Artroplastia de hombro: anatómica, reversa y hemiartroplastia",
+      "modulo": "ART",
+      "bloque": "Otras articulaciones",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-14": {
+      "titulo": "Artroplastia de codo, muñeca y pequeñas articulaciones",
+      "modulo": "ART",
+      "bloque": "Otras articulaciones",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "ART-15": {
+      "titulo": "Artroplastia total de tobillo",
+      "modulo": "ART",
+      "bloque": "Otras articulaciones",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-01": {
+      "titulo": "Crecimiento óseo, fisis y particularidades del esqueleto inmaduro",
+      "modulo": "PED",
+      "bloque": "Generalidades",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-02": {
+      "titulo": "Fracturas fisarias: clasificación de Salter-Harris y secuelas del crecimiento",
+      "modulo": "PED",
+      "bloque": "Generalidades",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-03": {
+      "titulo": "Cojera en el niño y evaluación de la marcha infantil",
+      "modulo": "PED",
+      "bloque": "Generalidades",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-04": {
+      "titulo": "Maltrato infantil en traumatología",
+      "modulo": "PED",
+      "bloque": "Generalidades",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-05": {
+      "titulo": "Fracturas supracondíleas de húmero en el niño",
+      "modulo": "PED",
+      "bloque": "Trauma pediátrico",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-06": {
+      "titulo": "Fracturas del cóndilo lateral y de la epitróclea",
+      "modulo": "PED",
+      "bloque": "Trauma pediátrico",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-07": {
+      "titulo": "Luxación de codo y Monteggia del niño",
+      "modulo": "PED",
+      "bloque": "Trauma pediátrico",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-08": {
+      "titulo": "Fracturas de antebrazo, muñeca y mano en el niño",
+      "modulo": "PED",
+      "bloque": "Trauma pediátrico",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-09": {
+      "titulo": "Fracturas de clavícula y húmero proximal en el niño",
+      "modulo": "PED",
+      "bloque": "Trauma pediátrico",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-10": {
+      "titulo": "Fracturas de pelvis y del cuello femoral en el niño",
+      "modulo": "PED",
+      "bloque": "Trauma pediátrico",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-11": {
+      "titulo": "Fracturas diafisarias de fémur en el niño",
+      "modulo": "PED",
+      "bloque": "Trauma pediátrico",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-12": {
+      "titulo": "Fracturas de tibia y de tobillo en el niño: Tillaux y triplanar",
+      "modulo": "PED",
+      "bloque": "Trauma pediátrico",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-13": {
+      "titulo": "Lesiones de espina tibial, rótula y ligamentarias en el esqueleto inmaduro",
+      "modulo": "PED",
+      "bloque": "Trauma pediátrico",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-14": {
+      "titulo": "Displasia del desarrollo de la cadera",
+      "modulo": "PED",
+      "bloque": "Cadera pediátrica",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-15": {
+      "titulo": "Enfermedad de Legg-Calvé-Perthes",
+      "modulo": "PED",
+      "bloque": "Cadera pediátrica",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-16": {
+      "titulo": "Epifisiolisis femoral proximal",
+      "modulo": "PED",
+      "bloque": "Cadera pediátrica",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-17": {
+      "titulo": "Cadera séptica y sinovitis transitoria del niño",
+      "modulo": "PED",
+      "bloque": "Cadera pediátrica",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-18": {
+      "titulo": "Pie bot congénito y método de Ponseti",
+      "modulo": "PED",
+      "bloque": "Deformidades y columna",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-19": {
+      "titulo": "Pie plano, pie cavo y coaliciones tarsales en el niño",
+      "modulo": "PED",
+      "bloque": "Deformidades y columna",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-20": {
+      "titulo": "Genu varo, genu valgo, enfermedad de Blount y crecimiento guiado",
+      "modulo": "PED",
+      "bloque": "Deformidades y columna",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-21": {
+      "titulo": "Dismetrías de miembros inferiores",
+      "modulo": "PED",
+      "bloque": "Deformidades y columna",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-22": {
+      "titulo": "Menisco discoide y osteocondritis disecante juvenil",
+      "modulo": "PED",
+      "bloque": "Deformidades y columna",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-23": {
+      "titulo": "Escoliosis idiopática del adolescente",
+      "modulo": "PED",
+      "bloque": "Deformidades y columna",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-24": {
+      "titulo": "Escoliosis congénita, neuromuscular y de inicio precoz",
+      "modulo": "PED",
+      "bloque": "Deformidades y columna",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-25": {
+      "titulo": "Cifosis de Scheuermann y espondilolistesis pediátrica",
+      "modulo": "PED",
+      "bloque": "Deformidades y columna",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-26": {
+      "titulo": "Parálisis cerebral: evaluación y cirugía multinivel",
+      "modulo": "PED",
+      "bloque": "Neuromuscular y displasias",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 1,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-27": {
+      "titulo": "Mielomeningocele, artrogriposis y distrofias musculares",
+      "modulo": "PED",
+      "bloque": "Neuromuscular y displasias",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-28": {
+      "titulo": "Parálisis braquial obstétrica",
+      "modulo": "PED",
+      "bloque": "Neuromuscular y displasias",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-29": {
+      "titulo": "Displasias óseas y osteogénesis imperfecta",
+      "modulo": "PED",
+      "bloque": "Neuromuscular y displasias",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 2,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
+    },
+    "PED-30": {
+      "titulo": "Malformaciones congénitas del miembro superior y de la mano",
+      "modulo": "PED",
+      "bloque": "Neuromuscular y displasias",
+      "estado": "pendiente",
+      "parrafos": 0,
+      "tablas": 0,
+      "caracteres": 0,
+      "anki": 0,
+      "validado": false,
+      "fecha": null,
+      "commit": null,
+      "pri": 3,
+      "pendiente": [
+        "sin medir - correr /auditar tras la migracion"
+      ]
     }
   }
 }
