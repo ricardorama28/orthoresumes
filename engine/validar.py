@@ -4,19 +4,24 @@
 validar.py — gate de calidad de UPOME.
 
 Uso:
-    python engine/validar.py <ID> [--nivel ultra|ultra_plus] [--json]
+    python engine/validar.py <ID> [--nivel ultra|ultra_plus] [--estructura] [--json]
 
-Devuelve exit code 0 sólo si el tema alcanza el nivel solicitado (por defecto
-ultra_plus). Cualquier defecto → exit code != 0, para hacer fallar el build.
+Devuelve exit code 0 sólo si el tema PASA LOS DOS VEREDICTOS: numérico y
+estructural. Cualquier defecto → exit code != 0, para hacer fallar el build.
+Con --estructura se corre y reporta sólo el veredicto estructural.
 
 Diseño:
-  * Métricas de contenido (párrafos, caracteres, tablas, pasos, callouts, MCQ,
-    cortas, cuantitativos, referencias, densidad de negrita): se cuentan sobre
-    el Markdown fuente, replicando engine/md.js. Determinístico y coincidente
-    con engine/contar.js. Es el gate, no confía en el build.
-  * Invariantes de FORMATO (A4, Calibri, encabezado, pie y borde de página con
-    el color del módulo): se verifican sobre el .docx compilado con python-docx.
-    El borde de página es el bug histórico nº 1 y se comprueba explícitamente.
+  * Veredicto NUMÉRICO — métricas de contenido (párrafos, caracteres, tablas,
+    pasos, callouts, MCQ, cortas, cuantitativos, referencias, densidad de
+    negrita) contadas sobre el Markdown fuente, replicando engine/md.js;
+    determinístico y coincidente con engine/contar.js. Incluye los invariantes
+    de FORMATO del .docx (A4, Calibri, encabezado, pie y borde de página con el
+    color del módulo, verificados con python-docx; el borde es el bug nº 1).
+  * Veredicto ESTRUCTURAL — completitud de subaspectos por sección según
+    engine/esquema.json (derivado de docs/ESQUEMA-12.md). Reporta, por sección,
+    los subaspectos ausentes que no fueron cubiertos ni marcados «No aplica».
+    Pesa igual que el numérico: un tema con las métricas en verde pero sin
+    «criterios de reducción» NO CUMPLE.
 """
 import sys
 import os
@@ -24,9 +29,17 @@ import re
 import json
 import glob
 
+# Salida UTF-8 robusta en cualquier shell (Git Bash/cmd usan cp1252 y rompen con emojis)
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except Exception:
+    pass
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 SPEC = json.load(open(os.path.join(HERE, "spec.json"), encoding="utf-8"))
+ESQUEMA = json.load(open(os.path.join(HERE, "esquema.json"), encoding="utf-8"))
 
 QUANT_RE = re.compile(
     r"\d+(?:[.,]\d+)?\s?(?:mm|cm|°|%|grados?|semanas?|sem\b|meses|mes\b|años?|días?|dias?|mg|Gy|ml|kg|min|N·?m?|puntos?)",
@@ -273,6 +286,59 @@ def verificar_formato(docx_path, color_mod):
     return (len(problemas) == 0), problemas, datos
 
 
+# ─────────────────────────── veredicto estructural ──────────────────────────
+def _texto_seccion(archivo):
+    """Texto plano de una sección para el match de subaspectos (minúsculas)."""
+    txt = open(archivo, encoding="utf-8").read()
+    return txt.lower()
+
+
+def verificar_estructura(dir_tema):
+    """
+    Recorre los subaspectos de engine/esquema.json por sección y reporta los
+    ausentes. Un subaspecto está cubierto si aparece cualquiera de sus 'any'
+    en el texto de la sección (esto captura también la marca «No aplica»,
+    porque escribirla incluye el término del subaspecto).
+
+    @returns dict con: ok (bool), secciones (lista por NN), total, cubiertos,
+             ausentes_total.
+    """
+    esquema = ESQUEMA["secciones"]
+    # mapear NN -> ruta de archivo de esa sección
+    archivos = {}
+    for f in secciones_md(dir_tema):
+        nn = os.path.basename(f)[:2]
+        archivos[nn] = f
+
+    secciones = []
+    total = 0
+    cubiertos = 0
+    ausentes_total = 0
+    for nn in sorted(esquema.keys()):
+        subs = esquema[nn]
+        total += len(subs)
+        if nn not in archivos:
+            secciones.append(dict(nn=nn, presentes=0, total=len(subs),
+                                  ausentes=[s["label"] for s in subs], falta_archivo=True))
+            ausentes_total += len(subs)
+            continue
+        texto = _texto_seccion(archivos[nn])
+        ausentes = []
+        for s in subs:
+            cubierto = any(kw.lower() in texto for kw in s["any"])
+            if cubierto:
+                cubiertos += 1
+            else:
+                ausentes.append(s["label"])
+        ausentes_total += len(ausentes)
+        secciones.append(dict(nn=nn, presentes=len(subs) - len(ausentes),
+                              total=len(subs), ausentes=ausentes, falta_archivo=False))
+
+    ok = ausentes_total == 0
+    return dict(ok=ok, secciones=secciones, total=total,
+                cubiertos=cubiertos, ausentes_total=ausentes_total)
+
+
 # ─────────────────────────── evaluación de umbrales ─────────────────────────
 def evaluar(m, anki, formato_ok, nivel):
     th = SPEC["niveles"][nivel]
@@ -310,39 +376,83 @@ def nivel_alcanzado(m, anki, formato_ok):
     return None
 
 
+def imprimir_estructura(estr):
+    """Imprime el bloque del veredicto estructural."""
+    print("\n🧩 Completitud estructural (subaspectos de docs/ESQUEMA-12.md)\n")
+    nombres = {
+        "00": "Definición", "01": "Presentación", "02": "Imágenes", "03": "Diagnóstico",
+        "04": "Clasificación", "05": "Epidemiología", "06": "Etiología", "07": "Anatomía",
+        "08": "Fisiopatología", "09": "Historia natural", "10": "Tratamiento",
+        "11": "Rehabilitación", "12": "Complicaciones", "13": "Cierre",
+    }
+    for s in estr["secciones"]:
+        completo = not s["ausentes"] and not s["falta_archivo"]
+        marca = "✅" if completo else "❌"
+        etiqueta = f"{s['nn']} {nombres.get(s['nn'], '')}"
+        print(f"   {marca}  {etiqueta:<24} {s['presentes']}/{s['total']} subaspectos")
+        if s["falta_archivo"]:
+            print(f"          • (falta el archivo de la sección {s['nn']})")
+        for a in s["ausentes"]:
+            print(f"          • ausente: {a}")
+
+
 # ─────────────────────────── main ───────────────────────────────────────────
 def main():
     args = sys.argv[1:]
     tema_id = next((a for a in args if not a.startswith("--")), None)
     if not tema_id:
-        print("uso: python engine/validar.py <ID> [--nivel ultra|ultra_plus] [--json]")
+        print("uso: python engine/validar.py <ID> [--nivel ultra|ultra_plus] [--estructura] [--json]")
         sys.exit(2)
     nivel = "ultra_plus"
     if "--nivel" in args:
         nivel = args[args.index("--nivel") + 1]
     as_json = "--json" in args
+    solo_estructura = "--estructura" in args
 
     dir_tema = carpeta_tema(tema_id)
     if not dir_tema:
         print(f"ERROR: no existe la carpeta de contenido de {tema_id}")
         sys.exit(2)
 
+    # ── Veredicto ESTRUCTURAL (siempre se computa) ──
+    estr = verificar_estructura(dir_tema)
+
+    # Modo sólo-estructura: para el redactor, sin depender del .docx compilado.
+    if solo_estructura:
+        if as_json:
+            print(json.dumps(dict(id=tema_id, estructura=estr), ensure_ascii=False, indent=2))
+        else:
+            print(f"\n🔬 Validación estructural — {tema_id}")
+            imprimir_estructura(estr)
+            print()
+            if estr["ok"]:
+                print(f"   ✔ ESTRUCTURA COMPLETA — {estr['cubiertos']}/{estr['total']} subaspectos.\n")
+            else:
+                print(f"   ✘ ESTRUCTURA INCOMPLETA — faltan {estr['ausentes_total']} subaspectos "
+                      f"(marcá los que no aplican con «No aplica en esta entidad»).\n")
+        sys.exit(0 if estr["ok"] else 1)
+
+    # ── Veredicto NUMÉRICO ──
     color = SPEC["modulos"][modulo_de(tema_id)]["color"]
     m = contar_markdown(dir_tema)
     anki = contar_anki(dir_tema)
     docx_path = os.path.join(ROOT, "salida", "docx", f"{tema_id}.docx")
     formato_ok, problemas, datos = verificar_formato(docx_path, color)
 
-    checks, ok = evaluar(m, anki, formato_ok, nivel)
+    checks, num_ok = evaluar(m, anki, formato_ok, nivel)
     alcanzado = nivel_alcanzado(m, anki, formato_ok)
+    ok = num_ok and estr["ok"]
 
     if as_json:
         print(json.dumps(dict(id=tema_id, nivel_objetivo=nivel, nivel_alcanzado=alcanzado,
-                              ok=ok, checks=checks, formato=dict(ok=formato_ok, problemas=problemas, datos=datos)),
+                              ok=ok, numerico_ok=num_ok, estructura_ok=estr["ok"],
+                              checks=checks, estructura=estr,
+                              formato=dict(ok=formato_ok, problemas=problemas, datos=datos)),
                          ensure_ascii=False, indent=2))
         sys.exit(0 if ok else 1)
 
-    print(f"\n🔬 Validación — {tema_id}   (objetivo: {nivel})\n")
+    print(f"\n🔬 Validación — {tema_id}   (objetivo: {nivel})")
+    print("\n📏 Veredicto numérico\n")
     for c in checks:
         marca = "✅" if c["ok"] else "❌"
         print(f"   {marca}  {c['metrica']:<26} {str(c['real']):>10}   (req {c['requerido']})")
@@ -361,13 +471,22 @@ def main():
         if extra:
             print("\n   docx: " + " · ".join(extra))
 
+    # ── Veredicto ESTRUCTURAL ──
+    imprimir_estructura(estr)
+
+    # ── Resumen ──
+    print("\n" + "   " + "─" * 56)
+    alc = alcanzado.upper() if alcanzado else "ninguno (por debajo de ULTRA)"
+    marca_num = "✔" if num_ok else "✘"
+    marca_est = "✔" if estr["ok"] else "✘"
+    print(f"   {marca_num} Numérico: {'OK — nivel ' + alc if num_ok else 'NO alcanza ' + nivel.upper() + ' (actual: ' + alc + ')'}")
+    print(f"   {marca_est} Estructural: {'COMPLETA' if estr['ok'] else 'INCOMPLETA — faltan ' + str(estr['ausentes_total']) + ' subaspectos'}")
     print()
     if ok:
         print(f"   ✔ TODAS LAS VALIDACIONES OK — nivel alcanzado: {alcanzado.upper()}\n")
         sys.exit(0)
     else:
-        alc = alcanzado.upper() if alcanzado else "ninguno (por debajo de ULTRA)"
-        print(f"   ✘ NO alcanza {nivel.upper()}. Nivel actual: {alc}\n")
+        print(f"   ✘ NO CUMPLE {nivel.upper()} (requiere numérico Y estructural en verde)\n")
         sys.exit(1)
 
 

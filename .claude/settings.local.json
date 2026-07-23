@@ -24,7 +24,13 @@
       "Bash(git add *)",
       "Bash(git mv *)",
       "Bash(git update-index *)",
-      "Bash(git commit -q -m ' *)"
+      "Bash(git commit -q -m ' *)",
+      "Bash(echo \"=== .claude/agents actuales ===\" && ls .claude/agents/ && echo \"\" && echo \"=== ESQUEMA-12.md en raíz? ===\" && ls -la ESQUEMA-12.md 2>&1 && echo \"\" && echo \"=== docs/ESQUEMA-12.md tamaño ===\" && wc -l docs/ESQUEMA-12.md && echo \"\" && echo \"=== split-agentes.js existe? ===\" && ls -la \"/c/Users/Usuario/AppData/Local/Temp/claude/C--Users-Usuario-Documents-upome/28d0e0ca-8e78-46ba-affd-f84cc7d8eb79/scratchpad/split-agentes.js\" 2>&1 && echo \"\" && echo \"=== git status ===\" && git status --short)",
+      "Bash(rm .claude/agents/revisor-clinico.md && echo \"✓ revisor-clinico.md eliminado\" && ls .claude/agents/ | wc -l && echo \"agentes ahora\")",
+      "Bash(set -e)",
+      "Bash(perl -i -pe 's{python3 engine/validar\\\\.py}{python engine/validar.py}g' .claude/agents/auditor-formato.md)",
+      "Bash(cat)",
+      "Bash(git commit *)"
     ]
   }
 }

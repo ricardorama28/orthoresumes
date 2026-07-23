@@ -7,18 +7,10 @@
       "Read",
       "Bash",
       "PowerShell",
-      "Bash(node engine/*)",
-      "Bash(python engine/*)",
-      "Bash(py engine/*)",
-      "Bash(node engine/contar.js*)",
-      "Bash(node engine/build.js*)",
-      "Bash(node engine/estado.js*)",
-      "Bash(bash scripts/*)",
+      "Edit(//C/Users/Usuario/Documents/upome/**)",
+      "Write(//C/Users/Usuario/Documents/upome/**)",
       "Read(//C/Users/Usuario/Documents/upome/**)",
-      "Bash(git add*)",
-      "Bash(git status*)",
-      "Bash(git commit*)",
-      "Bash(git log*)"
+      "MultiEdit(//C/Users/Usuario/Documents/upome/**)"
     ],
     "deny": [
       "Read(fuentes/**/*.pdf)"

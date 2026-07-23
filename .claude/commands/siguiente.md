@@ -9,8 +9,11 @@ Producí el **próximo tema** del temario, de punta a punta.
 2. Ejecutá el ciclo completo del `docs/WORKFLOW.md` invocando los subagentes en orden:
    - **curador** → crea la carpeta del tema, `meta.yaml` y `_brief.md`.
    - **redactor-ultra** → escribe los `NN-*.md` de a 2–3 secciones, corriendo `node engine/contar.js <ID>` tras cada tanda.
-   - **auditor-formato** → `contar.js` + `validar.py`, lista lo que falta.
-   - **revisor-clinico** → verifica el fondo clínico y bibliográfico.
+   - **esp-\<región\>** (el especialista del módulo: `esp-trauma`, `esp-hombro`, `esp-mano-codo`, `esp-rodilla`, `esp-pie-tobillo`, `esp-columna`, `esp-tumores` o `esp-ortopedia-general`) → revisa el fondo clínico contra la referencia cerrada del módulo.
+   - **ilustrador** → diagramas Mermaid/SVG de los algoritmos y clasificaciones.
+   - **auditor-formato** → `contar.js` + `validar.py` (numérico **y** estructural), lista lo que falta.
+   - **bibliografo** → verifica que cada referencia exista con año/PMID/DOI y coincida con `docs/BIBLIOGRAFIA.md`.
+   - **verificador-cifras** → audita todo criterio cuantitativo (mm/°/%/plazos) y arma `_cifras.md`.
    - **anki** → genera `anki.tsv`.
 3. Compilá: `node engine/build.js <ID> --all` y validá: `python engine/validar.py <ID>` (en Windows, `py engine/validar.py <ID>`).
 4. Si `validar.py` devuelve 0, actualizá el estado a `ultra_plus` (validado) con `node engine/estado.js set <ID> estado=ultra_plus validado=true` y hacé `git add` de la carpeta del tema.

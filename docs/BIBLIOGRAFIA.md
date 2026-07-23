@@ -1,6 +1,6 @@
 # BIBLIOGRAFÍA — Ediciones cerradas
 
-Estas son las ediciones de referencia por subespecialidad. **No se usan ediciones anteriores.** `revisor-clinico` verifica que las citas de cada tema coincidan con la edición que le corresponde a su módulo.
+Estas son las ediciones de referencia por subespecialidad. **No se usan ediciones anteriores.** `bibliografo` verifica que las citas de cada tema coincidan con la edición que le corresponde a su módulo.
 
 | SUBESPECIALIDAD | REFERENCIA (edición fija) |
 |---|---|
@@ -41,4 +41,4 @@ Estas son las ediciones de referencia por subespecialidad. **No se usan edicione
 
 ## Regla operativa para el redactor
 
-Cada afirmación cuantitativa citable (umbral, ángulo, plazo, tasa) debería poder rastrearse a una de estas fuentes. Si una cifra no tiene respaldo en la edición cerrada del módulo, se marca como pendiente en `revisor-clinico`, no se inventa.
+Cada afirmación cuantitativa citable (umbral, ángulo, plazo, tasa) debería poder rastrearse a una de estas fuentes. Si una cifra no tiene respaldo en la edición cerrada del módulo, se marca como pendiente en `bibliografo` / `verificador-cifras`, no se inventa.

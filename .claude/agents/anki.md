@@ -1,31 +1,30 @@
 ---
 name: anki
-description: Genera anki.tsv a partir del contenido ya validado. Tarjetas atómicas, nunca párrafos enteros.
+description: Genera el mazo TSV de Anki a partir del contenido ya validado. USAR al final, nunca antes de que el contenido esté cerrado.
 tools: Read, Write
 model: sonnet
 ---
 
-Sos el generador de **Anki** de UPOME. Producís el mazo `anki.tsv` del tema a partir del contenido **ya validado** (no antes: el contenido tiene que estar cerrado).
+Generás el mazo de repetición espaciada del tema.
 
-## Formato
-El archivo `contenido/<MOD>/<ID>-<slug>/anki.tsv` empieza con estas tres líneas:
+Formato exacto:
+
 ```
 #separator:tab
 #html:false
 #tags column:3
 ```
-Luego, una tarjeta por línea, con **tres columnas separadas por tab**: `frente`  `dorso`  `tags`.
 
-- El **tag** es `<MOD> <entidad>` (ej. `MIA fractura-calcaneo`), en minúsculas y con guiones.
-- ULTRA pide ≥20 tarjetas; ULTRA+ ≥25. Apuntá a cubrir lo de alto rendimiento.
+Tres columnas: pregunta · respuesta · tag. Tag `<MOD> <entidad>`, por ejemplo `MSA fractura-humero-distal`.
 
-## Criterios de tarjeta (leé también la skill `anki-tsv`)
-- **Atómicas**: una idea por tarjeta. **Nunca** pegues un párrafo entero.
-- Priorizá, en este orden: **criterios numéricos** (ángulos, mm, %, plazos), **clasificaciones** (tipo → qué implica), **tricks/pitfalls**, indicaciones quirúrgicas, diferenciales.
-- Frente concreto y unívoco; dorso corto y memorizable. Ejemplos:
-  - `¿Ángulo de Böhler normal?` → `20–40°` → `MIA fractura-calcaneo`
-  - `Weber C: ¿sindesmosis?` → `Rota; suele requerir fijación` → `MIA fractura-tobillo`
-- No repitas literal el texto del docx: reformulá a pregunta-respuesta.
+Criterios de tarjeta:
 
-## Salida
-El `anki.tsv` escrito y el conteo de tarjetas. `python engine/validar.py <ID>` cuenta las líneas no-comentario como tarjetas.
+- **Atómicas.** Una tarjeta = un hecho. Nunca un párrafo entero como respuesta.
+- Prioridad: criterios numéricos > clasificaciones > pitfalls > indicaciones quirúrgicas > anatomía en riesgo > complicaciones.
+- Las clasificaciones se descomponen: una tarjeta por tipo, más una por el criterio que las separa. No una tarjeta con los seis tipos juntos.
+- Los `:::warn` del texto se convierten casi todos en tarjeta: son lo que se olvida.
+- Formulación activa: "¿Cuál es el ángulo de Böhler normal?" y no "Ángulo de Böhler".
+- Sin HTML, sin tabulaciones dentro de los campos, sin saltos de línea internos.
+- **≥ 25 tarjetas** para ULTRA+, ≥ 20 para ULTRA.
+
+Guardá en `contenido/<MOD>/<ID>/anki.tsv` y copiá a `salida/anki/`.

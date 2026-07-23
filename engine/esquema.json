@@ -1,0 +1,97 @@
+{
+  "descripcion": "Subaspectos obligatorios por sección, derivados de docs/ESQUEMA-12.md. Los consume engine/validar.py para el veredicto ESTRUCTURAL (separado del numérico). Un subaspecto se considera cubierto si aparece cualquiera de sus 'any' (match de substring en minúsculas) en el texto de la sección. Como escribir el término seguido de 'No aplica en esta entidad' incluye el propio término, la marca de No-aplica cuenta como cubierto. Si no aparece ni el término ni un No aplica, se reporta como ausente.",
+  "secciones": {
+    "00": [
+      { "id": "definicion", "label": "Definición precisa de la lesión", "any": ["definición", "definicion", "se define"] },
+      { "id": "ubicacion", "label": "Ubicación anatómica", "any": ["ubicación", "ubicacion", "localización anatómica", "región anatómica"] },
+      { "id": "importancia", "label": "Importancia clínica y funcional", "any": ["importancia", "relevancia clínica", "relevancia funcional", "trascendencia"] },
+      { "id": "frecuencia", "label": "Frecuencia en el trauma MSK", "any": ["frecuen", "representa ", "proporción"] },
+      { "id": "ambitos", "label": "Relevancia en urgencia/consultorio/quirófano", "any": ["urgencia", "consultorio", "quirúrgic", "quirófano"] }
+    ],
+    "01": [
+      { "id": "mecanismo", "label": "Mecanismo lesional (directo/indirecto)", "any": ["mecanismo"] },
+      { "id": "energia", "label": "Tipo de energía (alta/baja)", "any": ["energía", "energia", "alta energ", "baja energ"] },
+      { "id": "correlacion", "label": "Correlación mecanismo-patrón", "any": ["mecanismo y patrón", "mecanismo-patrón", "correlación", "patrón de fractura", "patrón lesional"] },
+      { "id": "edad", "label": "Edad típica / distribución", "any": ["edad", "etario", "década", "grupo etario"] },
+      { "id": "sintomas", "label": "Síntomas", "any": ["síntoma", "sintoma", "dolor", "impotencia funcional"] },
+      { "id": "signos", "label": "Signos", "any": ["signo", "deformidad", "equimosis", "crepitación"] },
+      { "id": "examen", "label": "Examen físico sistemático", "any": ["examen físico", "inspección", "palpación", "movilidad"] },
+      { "id": "neurovascular", "label": "Examen neurovascular distal", "any": ["neurovascular", "pulso", "relleno capilar", "sensibilidad distal"] },
+      { "id": "urgencias", "label": "Urgencias asociadas", "any": ["urgencia", "expuesta", "compartimental", "politrauma"] }
+    ],
+    "02": [
+      { "id": "rx", "label": "Radiografías obligatorias", "any": ["radiograf", "proyección", "proyecciones", "incidencia radiográfica"] },
+      { "id": "tc", "label": "Tomografía", "any": ["tomograf"] },
+      { "id": "rm", "label": "Resonancia magnética", "any": ["resonancia"] },
+      { "id": "angio", "label": "Arteriografía / angio-TC", "any": ["angio", "arteriograf", "compromiso vascular"] },
+      { "id": "analisis", "label": "Análisis radiográfico sistemático", "any": ["análisis radiográfico", "morfología", "desplazamiento", "angulación", "conminu"] }
+    ],
+    "03": [
+      { "id": "presuntivo", "label": "Diagnóstico presuntivo", "any": ["presuntivo", "presuntiva", "sospecha", "hipótesis"] },
+      { "id": "positivo", "label": "Diagnóstico positivo / de certeza", "any": ["positivo", "de certeza", "confirmación", "confirmatori"] },
+      { "id": "estabilidad", "label": "Determinación de estabilidad/inestabilidad", "any": ["estabilidad", "inestabilidad", "estable", "inestable"] },
+      { "id": "diferenciales", "label": "Diagnósticos diferenciales", "any": ["diferencial"] }
+    ],
+    "04": [
+      { "id": "aoota", "label": "AO/OTA", "any": ["ao/ota", "ao ota", "ao-ota", "clasificación ao", "código ao"] },
+      { "id": "especificas", "label": "Clasificaciones específicas con autor/año", "any": ["clasificación de", "garden", "pauwels", "neer", "lauge", "weber", "schatzker", "salter", "gustilo", "tscherne", "sanders", "hawkins", "herbert", "rockwood", "jupiter", "mason", "regan", "denis", "aospine", "enneking"] },
+      { "id": "implicancia", "label": "Implicancia terapéutica", "any": ["implicancia", "implicación terapéutica", "elección de implante", "elección del implante", "conducta según", "decide la conducta"] }
+    ],
+    "05": [
+      { "id": "incidencia", "label": "Incidencia / prevalencia", "any": ["incidencia", "prevalencia", "por 100.000", "casos por"] },
+      { "id": "demografia", "label": "Edad y sexo", "any": ["edad", "sexo", "predominio", "varones", "mujeres"] },
+      { "id": "factores_epi", "label": "Poblaciones / factores epidemiológicos", "any": ["población", "poblacion", "factores de riesgo", "contexto clínico"] }
+    ],
+    "06": [
+      { "id": "etiopatogenia", "label": "Etiopatogenia", "any": ["etiopatogenia", "etiología", "etiologia", "origen del proceso", "patogenia"] },
+      { "id": "factores", "label": "Factores de riesgo", "any": ["factores de riesgo", "osteoporosis", "tabaquismo", "fragilidad", "sobrecarga"] },
+      { "id": "mecanismo_vs_etiologia", "label": "Distinción mecanismo vs. etiología", "any": ["diferencia entre mecanismo", "predisponente", "por qué ese hueso", "factores predisponentes"] }
+    ],
+    "07": [
+      { "id": "anatomia_aplicada", "label": "Anatomía aplicada (irrigación/inervación)", "any": ["anatomía", "anatomia", "irrigación", "inervación", "ligamento", "inserción"] },
+      { "id": "estructuras_riesgo", "label": "Estructuras nobles en riesgo", "any": ["en riesgo", "estructuras nobles", "nervio", "arteria", "pedículo"] },
+      { "id": "reparos", "label": "Reparos anatómicos", "any": ["reparo", "referencia anatómica", "referencias anatómicas"] },
+      { "id": "anat_patologica", "label": "Anatomía patológica", "any": ["anatomía patológica", "anatomia patologica", "daño tisular", "conminución", "compromiso articular"] }
+    ],
+    "08": [
+      { "id": "biomecanica", "label": "Alteraciones biomecánicas", "any": ["biomecánic", "biomecanic", "del eje", "longitud", "rotación", "congruencia"] },
+      { "id": "respuesta_biologica", "label": "Respuesta biológica / reparación", "any": ["hematoma fracturario", "reparación ósea", "respuesta biológica", "consolidación", "callo"] },
+      { "id": "impacto_funcional", "label": "Impacto funcional (dolor/rigidez/deformidad)", "any": ["impacto funcional", "dolor", "rigidez", "deformidad", "pérdida funcional"] }
+    ],
+    "09": [
+      { "id": "evolucion", "label": "Evolución sin tratamiento", "any": ["sin tratamiento", "evolución natural", "historia natural", "librado a"] },
+      { "id": "secuelas", "label": "Secuelas / complicaciones evolutivas", "any": ["seudoartrosis", "consolidación viciosa", "artrosis", "necrosis", "rigidez", "deformidad residual"] }
+    ],
+    "10": [
+      { "id": "objetivos", "label": "Objetivos del tratamiento", "any": ["objetivo"] },
+      { "id": "algoritmo", "label": "Algoritmo (conservador vs. quirúrgico)", "any": ["algoritmo", "conservador", "quirúrgico", "cuándo operar"] },
+      { "id": "ortopedico", "label": "Tratamiento ortopédico", "any": ["ortopédico", "ortopedico", "inmovilización", "yeso", "férula", "ortesis", "brace", "tracción"] },
+      { "id": "indicaciones_qx", "label": "Indicaciones quirúrgicas (absolutas/relativas)", "any": ["indicaciones absolutas", "indicaciones relativas", "indicación quirúrgica", "absolutas", "relativas"] },
+      { "id": "opciones_qx", "label": "Opciones quirúrgicas e implantes", "any": ["placa", "clavo", "tornillo", "fijador", "implante", "artroplastia", "osteosíntesis"] },
+      { "id": "criterios_reduccion", "label": "Criterios de reducción aceptable", "any": ["criterios de reducción", "reducción aceptable", "escalón", "gap", "aceptable"] },
+      { "id": "tecnica", "label": "Técnica paso a paso", "any": [":::pasos", "paso a paso", "posición del paciente", "abordaje"] },
+      { "id": "preparacion", "label": "Preparación (anestesia/profilaxis/isquemia)", "any": ["anestesia", "profilaxis", "isquemia", "manguito", "radioscop"] },
+      { "id": "pronostico_tto", "label": "Pronóstico del tratamiento", "any": ["factores pronóstic", "resultados esperables", "pronóstico"] }
+    ],
+    "11": [
+      { "id": "inmediato", "label": "Manejo inmediato (dolor/herida/profilaxis)", "any": ["control del dolor", "cuidados de la herida", "profilaxis", "antibiótic"] },
+      { "id": "movilizacion", "label": "Movilización / carga / rehabilitación", "any": ["movilización", "carga", "rehabilitación", "fisioterapia"] },
+      { "id": "consolidacion", "label": "Criterios de consolidación / controles", "any": ["consolidación", "controles radiográficos", "criterios de consolidación"] },
+      { "id": "retorno", "label": "Retorno funcional/laboral/deportivo", "any": ["retorno", "deportiv", "laboral"] }
+    ],
+    "12": [
+      { "id": "inmediatas", "label": "Complicaciones inmediatas", "any": ["inmediatas", "vascular", "nerviosa", "compartimental", "infección precoz"] },
+      { "id": "mediatas", "label": "Complicaciones mediatas", "any": ["mediatas", "retardo de consolidación", "consolidación viciosa", "rigidez"] },
+      { "id": "tardias", "label": "Complicaciones tardías", "any": ["tardías", "seudoartrosis", "artrosis", "necrosis avascular", "refractura"] },
+      { "id": "prevencion_manejo", "label": "Prevención y manejo de cada una", "any": ["prevención", "prevenir", "manejo", "cómo se trata"] }
+    ],
+    "13": [
+      { "id": "perlas", "label": "Perlas UDELAR", "any": ["perla"] },
+      { "id": "algoritmo", "label": "Algoritmo práctico", "any": ["algoritmo"] },
+      { "id": "mcq", "label": "MCQ con clave", "any": [":::mcq"] },
+      { "id": "cortas", "label": "Preguntas de respuesta corta", "any": [":::corta", "respuesta corta"] },
+      { "id": "bibliografia", "label": "Bibliografía con año", "any": ["bibliografía", "bibliografia", "referencias"] },
+      { "id": "cuatro_preguntas", "label": "Síntesis: cuatro preguntas", "any": ["gravedad", "determina el tratamiento", "complicaciones más importantes", "factores pronóstic"] }
+    ]
+  }
+}

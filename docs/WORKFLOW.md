@@ -20,7 +20,7 @@ Toda sesión empieza con `/estado`. El estado vive en `temario/progreso.json`, n
 ## Ciclo completo (lo que hace `/siguiente` y `/tema <ID>`)
 
 ```
-curador → redactor-ultra → auditor-formato → revisor-clinico → anki → build → estado
+curador → redactor-ultra → esp-<región> → ilustrador → auditor-formato → bibliografo → verificador-cifras → anki → build → estado
 ```
 
 1. **`curador`** — Lee `temario.yaml`, `progreso.json` y `fuentes/`. Elige el próximo tema por prioridad (peso en examen × relevancia clínica × dificultad). Crea la carpeta del tema, `meta.yaml` y un **brief de fuentes** (`_brief.md`): clasificaciones a incluir, criterios cuantitativos hallados, referencias con año, y qué dice el COT vs qué dice la referencia cerrada del módulo. **No escribe contenido.**
@@ -29,7 +29,7 @@ curador → redactor-ultra → auditor-formato → revisor-clinico → anki → 
 
 3. **`auditor-formato`** — Corre `contar.js` y `validar.py`, interpreta la salida y lista **exactamente qué falta** para el nivel objetivo. No arregla: reporta.
 
-4. **`revisor-clinico`** — Verifica el fondo: clasificaciones con autor/año, criterios cuantitativos correctos y citables, indicaciones quirúrgicas coherentes con el patrón, cero afirmaciones sin respaldo, ediciones bibliográficas según `docs/BIBLIOGRAFIA.md`. Produce un informe accionable.
+4. **`esp-<región>`** (especialista del módulo) — Verifica el fondo clínico contra la referencia cerrada del módulo: clasificaciones con autor/año, criterios cuantitativos correctos, indicaciones quirúrgicas coherentes con el patrón. Luego **`bibliografo`** (referencias con año/PMID/DOI vs `docs/BIBLIOGRAFIA.md`) y **`verificador-cifras`** (auditoría de mm/°/%/plazos) producen sus informes accionables.
 
 5. **`anki`** — Genera `anki.tsv` a partir del contenido ya validado. Tarjetas atómicas (criterios numéricos, clasificaciones, tricks/pitfalls), nunca párrafos enteros.
 
