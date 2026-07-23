@@ -3,9 +3,17 @@ description: Produce el próximo tema por prioridad, ciclo completo curador→re
 allowed-tools: Bash, Read, Write, Edit, Task, Glob, Grep
 ---
 
-Producí el **próximo tema** del temario, de punta a punta.
+Producí el **próximo tema de la fase activa**, de punta a punta.
 
-1. Corré `node engine/estado.js dashboard` y tomá el **próximo recomendado** (o dejá que el subagente `curador` afine la prioridad por peso en examen × relevancia clínica × dificultad).
+1. Elegí el tema **dentro de la fase activa** (no globalmente):
+   ```
+   node engine/estado.js siguiente
+   ```
+   Devuelve el ID elegido, ordenando entre los temas **sin cerrar** de la fase activa por **prioridad** y, a igual prioridad, por **distancia al nivel objetivo** (primero los que más faltan: `pendiente` → `pendiente_renivelar` → `esqueleto` → `borrador` → `ultra` → `ultra_plus` sin validar).
+
+   **Si la fase está completa** (ningún tema sin cerrar), el comando lo avisa y propone la fase siguiente. **No avances solo**: informá a la usuaria y esperá que confirme con `/fase <N>`.
+
+   El detalle del plan está en `docs/PLAN.md`; la definición de fases en `temario/fases.yaml`.
 2. Ejecutá el ciclo completo del `docs/WORKFLOW.md` invocando los subagentes en orden:
    - **curador** → crea la carpeta del tema, `meta.yaml` y `_brief.md`.
    - **redactor-ultra** → escribe los `NN-*.md` de a 2–3 secciones, corriendo `node engine/contar.js <ID>` tras cada tanda.

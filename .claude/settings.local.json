@@ -36,7 +36,12 @@
       "Bash(echo \"exit=$?\")",
       "Bash(git push *)",
       "Bash(\"/c/Program Files/nodejs/node.exe\" \"/c/Users/Usuario/AppData/Local/Temp/claude/C--Users-Usuario-Documents-upome/28d0e0ca-8e78-46ba-affd-f84cc7d8eb79/scratchpad/gen-demo.js\")",
-      "Bash(\"/c/Program Files/nodejs/node.exe\" \"/c/Users/Usuario/AppData/Local/Temp/claude/C--Users-Usuario-Documents-upome/28d0e0ca-8e78-46ba-affd-f84cc7d8eb79/scratchpad/fix-progreso.js\")"
+      "Bash(\"/c/Program Files/nodejs/node.exe\" \"/c/Users/Usuario/AppData/Local/Temp/claude/C--Users-Usuario-Documents-upome/28d0e0ca-8e78-46ba-affd-f84cc7d8eb79/scratchpad/fix-progreso.js\")",
+      "Bash(\"/c/Program Files/nodejs/node.exe\" \"/c/Users/Usuario/AppData/Local/Temp/claude/C--Users-Usuario-Documents-upome/28d0e0ca-8e78-46ba-affd-f84cc7d8eb79/scratchpad/inject-fase.js\")",
+      "Bash(\"/c/Program Files/nodejs/node.exe\" engine/estado.js siguiente)",
+      "Bash(\"/c/Program Files/nodejs/node.exe\" engine/estado.js fase)",
+      "Bash(bash tests/verificar-motor.sh)",
+      "Bash(\"/c/Program Files/nodejs/node.exe\" engine/estado.js dashboard)"
     ]
   }
 }

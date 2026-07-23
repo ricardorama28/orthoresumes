@@ -127,8 +127,9 @@ El **estado `pendiente_renivelar`** marca los 227 documentos existentes que est�
 
 ```bash
 /estado                 # dónde estamos — SIEMPRE lo primero de la sesión
-/siguiente              # produce el próximo tema por prioridad
-/tema MSA-11            # produce un tema específico
+/fase                   # fase activa del plan (9 fases); /fase 2 la cambia
+/siguiente              # produce el próximo tema DENTRO de la fase activa
+/tema MSA-11            # produce un tema específico (de cualquier fase)
 /expandir COL-04        # lleva un tema existente al nivel objetivo
 /auditar MSA            # reconstruye el estado desde el disco
 /publicar MSA-11        # docx + pdf + html + anki

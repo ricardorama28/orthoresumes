@@ -24,6 +24,8 @@ const PATHS = {
   temario: path.join(ROOT, 'temario'),
   progreso: path.join(ROOT, 'temario', 'progreso.json'),
   temarioYaml: path.join(ROOT, 'temario', 'temario.yaml'),
+  fasesYaml: path.join(ROOT, 'temario', 'fases.yaml'),
+  remisionesYaml: path.join(ROOT, 'temario', 'remisiones.yaml'),
   salida: path.join(ROOT, 'salida'),
   plantillas: path.join(ROOT, 'plantillas'),
 };
