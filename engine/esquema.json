@@ -1,5 +1,5 @@
 {
-  "descripcion": "Subaspectos obligatorios por sección, derivados de docs/ESQUEMA-12.md. Los consume engine/validar.py para el veredicto ESTRUCTURAL (separado del numérico). Un subaspecto se considera cubierto si aparece cualquiera de sus 'any' (match de substring en minúsculas) en el texto de la sección. Como escribir el término seguido de 'No aplica en esta entidad' incluye el propio término, la marca de No-aplica cuenta como cubierto. Si no aparece ni el término ni un No aplica, se reporta como ausente.",
+  "descripcion": "Subaspectos obligatorios por sección, derivados de docs/ESQUEMA-12.md. Los consume engine/validar.py para el veredicto ESTRUCTURAL (separado del numérico). Un subaspecto se considera cubierto si alguno de sus 'any' aparece en el CONTENIDO real de la sección: se ignoran las líneas de título (#, ##, ###), así que un encabezado vacío NO cuenta; el término tiene que estar dentro de una línea de prosa/lista/tabla/callout/paso con contexto (más de MIN_CONTEXTO caracteres además del propio término). Los marcadores de directiva (':::mcq', ':::corta', ':::pasos') sí cuentan por presencia, porque denotan un bloque real. Escribir el término seguido de 'No aplica en esta entidad' (con su motivo) cuenta como cubierto, porque incluye el término dentro de contenido. Si no aparece ni en contenido ni como No aplica, se reporta como ausente.",
   "secciones": {
     "00": [
       { "id": "definicion", "label": "Definición precisa de la lesión", "any": ["definición", "definicion", "se define"] },
@@ -68,7 +68,9 @@
       { "id": "ortopedico", "label": "Tratamiento ortopédico", "any": ["ortopédico", "ortopedico", "inmovilización", "yeso", "férula", "ortesis", "brace", "tracción"] },
       { "id": "indicaciones_qx", "label": "Indicaciones quirúrgicas (absolutas/relativas)", "any": ["indicaciones absolutas", "indicaciones relativas", "indicación quirúrgica", "absolutas", "relativas"] },
       { "id": "opciones_qx", "label": "Opciones quirúrgicas e implantes", "any": ["placa", "clavo", "tornillo", "fijador", "implante", "artroplastia", "osteosíntesis"] },
-      { "id": "criterios_reduccion", "label": "Criterios de reducción aceptable", "any": ["criterios de reducción", "reducción aceptable", "escalón", "gap", "aceptable"] },
+      { "id": "criterios_reduccion", "label": "Criterios de reducción aceptable (concepto)", "any": ["criterios de reducción", "reducción aceptable", "reducción tolerable"] },
+      { "id": "reduccion_ejes", "label": "Reducción: eje / longitud / rotación", "any": ["del eje", "eje mecánico", "eje anatómico", "longitud", "acortamiento", "rotación", "angulación"] },
+      { "id": "reduccion_articular", "label": "Reducción articular: congruencia / escalón / gap", "any": ["congruencia", "escalón", "gap articular", "gap ", "incongruencia"] },
       { "id": "tecnica", "label": "Técnica paso a paso", "any": [":::pasos", "paso a paso", "posición del paciente", "abordaje"] },
       { "id": "preparacion", "label": "Preparación (anestesia/profilaxis/isquemia)", "any": ["anestesia", "profilaxis", "isquemia", "manguito", "radioscop"] },
       { "id": "pronostico_tto", "label": "Pronóstico del tratamiento", "any": ["factores pronóstic", "resultados esperables", "pronóstico"] }
@@ -83,7 +85,9 @@
       { "id": "inmediatas", "label": "Complicaciones inmediatas", "any": ["inmediatas", "vascular", "nerviosa", "compartimental", "infección precoz"] },
       { "id": "mediatas", "label": "Complicaciones mediatas", "any": ["mediatas", "retardo de consolidación", "consolidación viciosa", "rigidez"] },
       { "id": "tardias", "label": "Complicaciones tardías", "any": ["tardías", "seudoartrosis", "artrosis", "necrosis avascular", "refractura"] },
-      { "id": "prevencion_manejo", "label": "Prevención y manejo de cada una", "any": ["prevención", "prevenir", "manejo", "cómo se trata"] }
+      { "id": "comp_prevencion", "label": "Por complicación: prevención", "any": ["prevención", "prevenir", "profilaxis", "medidas preventivas", "cómo evitar"] },
+      { "id": "comp_sospecha", "label": "Por complicación: sospecha / detección", "any": ["sospecha", "cómo sospechar", "diagnóstico precoz", "detección precoz", "signos de alarma", "cómo reconocer", "detectar"] },
+      { "id": "comp_tratamiento", "label": "Por complicación: tratamiento / manejo", "any": ["tratamiento de la complicación", "cómo se trata", "manejo de la complicación", "resolución", "conducta ante", "cómo se maneja"] }
     ],
     "13": [
       { "id": "perlas", "label": "Perlas UDELAR", "any": ["perla"] },

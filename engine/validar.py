@@ -287,18 +287,58 @@ def verificar_formato(docx_path, color_mod):
 
 
 # ─────────────────────────── veredicto estructural ──────────────────────────
-def _texto_seccion(archivo):
-    """Texto plano de una sección para el match de subaspectos (minúsculas)."""
-    txt = open(archivo, encoding="utf-8").read()
-    return txt.lower()
+# Contexto mínimo (caracteres además del propio término) para que un término
+# cuente como CONTENIDO real y no como un encabezado o un ítem-stub vacío.
+MIN_CONTEXTO = 15
+
+
+def _lineas_seccion(archivo):
+    """
+    Devuelve (cuerpo, crudo) en minúsculas.
+      * cuerpo: líneas de CONTENIDO — se excluyen los títulos (#, ##, ###) para
+        que un encabezado vacío no cuente. Incluye prosa, listas, filas de
+        tabla, líneas de callout, pasos y marcadores de directiva.
+      * crudo: todo el texto en minúsculas, usado sólo para detectar marcadores
+        de directiva (:::mcq, :::corta, :::pasos), que denotan un bloque real
+        aunque su línea marcadora sea corta.
+    """
+    crudo = open(archivo, encoding="utf-8").read().replace("\r\n", "\n")
+    cuerpo = []
+    for ln in crudo.split("\n"):
+        s = ln.strip()
+        if not s or s.startswith("#"):
+            continue
+        cuerpo.append(s.lower())
+    return cuerpo, crudo.lower()
+
+
+def _cubierto(sub, cuerpo, crudo):
+    """
+    Un subaspecto está cubierto si:
+      - alguno de sus 'any' es un marcador de directiva (':::…') presente en el
+        texto crudo, o
+      - alguno de sus 'any' aparece en una línea de CONTENIDO con contexto
+        suficiente (la línea tiene ≥ MIN_CONTEXTO caracteres además del término).
+    Así, un título vacío o un ítem-stub («- Escalón») NO alcanza para cubrir.
+    """
+    for kw in sub["any"]:
+        k = kw.lower()
+        if k.startswith(":::"):
+            if k in crudo:
+                return True
+            continue
+        for ln in cuerpo:
+            if k in ln and (len(ln) - len(k)) >= MIN_CONTEXTO:
+                return True
+    return False
 
 
 def verificar_estructura(dir_tema):
     """
     Recorre los subaspectos de engine/esquema.json por sección y reporta los
-    ausentes. Un subaspecto está cubierto si aparece cualquiera de sus 'any'
-    en el texto de la sección (esto captura también la marca «No aplica»,
-    porque escribirla incluye el término del subaspecto).
+    ausentes. La cobertura se evalúa sobre el CONTENIDO real (no los títulos):
+    ver _cubierto. La marca «No aplica en esta entidad», al escribirse como
+    contenido que incluye el término del subaspecto, cuenta como cubierta.
 
     @returns dict con: ok (bool), secciones (lista por NN), total, cubiertos,
              ausentes_total.
@@ -322,11 +362,10 @@ def verificar_estructura(dir_tema):
                                   ausentes=[s["label"] for s in subs], falta_archivo=True))
             ausentes_total += len(subs)
             continue
-        texto = _texto_seccion(archivos[nn])
+        cuerpo, crudo = _lineas_seccion(archivos[nn])
         ausentes = []
         for s in subs:
-            cubierto = any(kw.lower() in texto for kw in s["any"])
-            if cubierto:
+            if _cubierto(s, cuerpo, crudo):
                 cubiertos += 1
             else:
                 ausentes.append(s["label"])
