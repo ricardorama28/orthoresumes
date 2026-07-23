@@ -1,0 +1,22 @@
+{
+  "name": "upome-engine",
+  "version": "1.0.0",
+  "description": "Motor de compilación UPOME: Markdown único → docx / pdf / html / anki",
+  "type": "commonjs",
+  "private": true,
+  "bin": {
+    "upome-build": "build.js"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "contar": "node contar.js"
+  },
+  "dependencies": {
+    "docx": "^9.6.1",
+    "js-yaml": "^4.1.0",
+    "marked": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

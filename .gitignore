@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+engine/node_modules/
+
+# Entorno Python
+.venv/
+__pycache__/
+*.pyc
+
+# Salidas compiladas (se regeneran desde contenido/*.md)
+salida/**
+!salida/**/.gitkeep
+
+# Fuentes pesadas: los PDFs no se versionan (derechos + tamaño)
+fuentes/**/*.pdf
+
+# Temporales del sistema
+.DS_Store
+Thumbs.db
+*.tmp
+~$*.docx

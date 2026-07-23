@@ -1,0 +1,59 @@
+{
+  "descripcion": "Fuente única de umbrales, presupuesto y colores. La consumen engine/config.js (JS) y engine/validar.py (Python). No dupliques estos números en otro lado.",
+  "modulos": {
+    "GEN": { "nombre": "Generales",                "color": "EAB308" },
+    "TUM": { "nombre": "Tumores",                  "color": "C55A11" },
+    "MSA": { "nombre": "Miembro superior agudo",   "color": "38BDF8" },
+    "MSC": { "nombre": "Miembro superior crónico", "color": "2563EB" },
+    "MIA": { "nombre": "Miembro inferior agudo",   "color": "EC4899" },
+    "MIC": { "nombre": "Miembro inferior crónico", "color": "7C3AED" },
+    "COL": { "nombre": "Columna",                  "color": "16A34A" },
+    "DEMO": { "nombre": "Demostración / prueba del pipeline", "color": "64748B" }
+  },
+  "niveles": {
+    "ultra": {
+      "parrafos": 300,
+      "caracteres": 38000,
+      "tablas": 2,
+      "pasos": 20,
+      "callouts": 12,
+      "callouts_por_seccion": false,
+      "mcq": 10,
+      "cortas": 6,
+      "anki": 20,
+      "cuantitativos": 15,
+      "referencias": 10
+    },
+    "ultra_plus": {
+      "parrafos": 560,
+      "caracteres": 64000,
+      "tablas": 3,
+      "pasos": 40,
+      "callouts": 25,
+      "callouts_por_seccion": true,
+      "mcq": 14,
+      "cortas": 10,
+      "anki": 25,
+      "cuantitativos": 25,
+      "referencias": 15
+    }
+  },
+  "negrita": { "min": 0.35, "max": 0.55 },
+  "presupuesto": [
+    { "file": "00", "seccion": "Definición y marco general",              "parrafos": 25 },
+    { "file": "01", "seccion": "Presentación clínica",                     "parrafos": 65 },
+    { "file": "02", "seccion": "Imágenes",                                 "parrafos": 55 },
+    { "file": "03", "seccion": "Diagnóstico",                              "parrafos": 30 },
+    { "file": "04", "seccion": "Clasificación",                            "parrafos": 50 },
+    { "file": "05", "seccion": "Epidemiología",                            "parrafos": 18 },
+    { "file": "06", "seccion": "Etiología y factores de riesgo",           "parrafos": 22 },
+    { "file": "07", "seccion": "Anatomía y anatomía patológica",           "parrafos": 50 },
+    { "file": "08", "seccion": "Fisiopatología",                           "parrafos": 28 },
+    { "file": "09", "seccion": "Historia natural / pronóstico",            "parrafos": 22 },
+    { "file": "10", "seccion": "Tratamiento",                              "parrafos": 150 },
+    { "file": "11", "seccion": "Rehabilitación y cuidados posoperatorios", "parrafos": 30 },
+    { "file": "12", "seccion": "Complicaciones",                           "parrafos": 50 },
+    { "file": "13", "seccion": "Cierre",                                   "parrafos": 50 }
+  ],
+  "total_presupuesto": 645
+}

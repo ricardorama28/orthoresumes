@@ -1,0 +1,242 @@
+# UPOME — Índice canónico del temario (programa COT / UDELAR)
+# Este archivo NO se edita para registrar avance. El avance vive en temario/progreso.json.
+# Aquí sólo se agregan, renombran o reasignan temas.
+#
+# Campos: id · t (título) · mod (módulo/color) · pri (1 alta, 2 media, 3 baja frecuencia en examen)
+# nivel: nivel objetivo por defecto (ultra_plus salvo excepción justificada)
+
+version: 1
+nivel_objetivo_default: ultra_plus
+
+modulos:
+  GEN: { nombre: "Generales",                color: "EAB308" }
+  TUM: { nombre: "Tumores",                  color: "C55A11" }
+  MSA: { nombre: "Miembro superior agudo",   color: "38BDF8" }
+  MSC: { nombre: "Miembro superior crónico", color: "2563EB" }
+  MIA: { nombre: "Miembro inferior agudo",   color: "EC4899" }
+  MIC: { nombre: "Miembro inferior crónico", color: "7C3AED" }
+  COL: { nombre: "Columna",                  color: "16A34A" }
+
+temas:
+
+  # ─────────── GENERALIDADES ───────────
+  - { id: GEN-01, mod: GEN, pri: 1, t: "Hueso normal del adulto: anatomía, fisiología, metabolismo, envejecimiento" }
+  - { id: GEN-02, mod: GEN, pri: 1, t: "Cartílago normal del adulto: anatomía, fisiología, metabolismo, envejecimiento" }
+  - { id: GEN-03, mod: GEN, pri: 2, t: "Fisiología normal y patológica de la sinovial" }
+  - { id: GEN-04, mod: GEN, pri: 2, t: "Anatomía y fisiología del músculo y del tendón" }
+  - { id: GEN-05, mod: GEN, pri: 3, t: "Cotaciones funcionales de los miembros y el raquis" }
+  - { id: GEN-06, mod: GEN, pri: 1, t: "Semiología de los miembros y el raquis" }
+  - { id: GEN-07, mod: GEN, pri: 2, t: "Anatomía y fisiología de la posición sentada, de pie y de la marcha" }
+  - { id: GEN-08, mod: GEN, pri: 1, t: "Imagenología en traumatología y ortopedia" }
+  - { id: GEN-09, mod: GEN, pri: 3, t: "Centellografía ósea" }
+  - { id: GEN-10, mod: GEN, pri: 3, t: "Electromiografía" }
+  - { id: GEN-11, mod: GEN, pri: 1, t: "Profilaxis de accidentes tromboembólicos venosos en COT" }
+  - { id: GEN-12, mod: GEN, pri: 2, t: "Injertos y sustitutos óseos" }
+  - { id: GEN-13, mod: GEN, pri: 1, t: "Nociones de biomecánica articular" }
+
+  # ─────────── OSTEÍTIS MICROBIANAS ───────────
+  - { id: GEN-14, mod: GEN, pri: 2, t: "Nociones de bacteriología clínica en COT" }
+  - { id: GEN-15, mod: GEN, pri: 1, t: "Osteítis y osteomielitis piógenas inespecíficas" }
+  - { id: GEN-16, mod: GEN, pri: 1, t: "Osteítis y osteoartritis específicas: tuberculosis osteoarticular" }
+  - { id: GEN-17, mod: GEN, pri: 1, t: "Artritis séptica y osteoartritis" }
+
+  # ─────────── OSTEODISTROFIAS ADQUIRIDAS ───────────
+  - { id: GEN-18, mod: GEN, pri: 2, t: "Osteopatías endocrinas" }
+  - { id: GEN-19, mod: GEN, pri: 3, t: "Osteopatías cortisónicas" }
+  - { id: GEN-20, mod: GEN, pri: 2, t: "Hiperparatiroidismo" }
+  - { id: GEN-21, mod: GEN, pri: 1, t: "Osteoporosis" }
+  - { id: GEN-22, mod: GEN, pri: 2, t: "Osteomalacias" }
+  - { id: GEN-23, mod: GEN, pri: 3, t: "Hueso y radioterapia" }
+  - { id: GEN-24, mod: GEN, pri: 1, t: "Osteonecrosis" }
+  - { id: GEN-25, mod: GEN, pri: 3, t: "Osteopatía del hemodializado" }
+
+  # ─────────── OSTEODISTROFIAS DE NATURALEZA DESCONOCIDA / ARTROPATÍAS ───────────
+  - { id: GEN-26, mod: GEN, pri: 2, t: "Enfermedad de Paget" }
+  - { id: GEN-27, mod: GEN, pri: 2, t: "Artropatía gotosa" }
+  - { id: GEN-28, mod: GEN, pri: 2, t: "Condrocalcinosis" }
+  - { id: GEN-29, mod: GEN, pri: 2, t: "Artropatías metabólicas" }
+  - { id: GEN-30, mod: GEN, pri: 2, t: "Artropatías hemofílicas" }
+  - { id: GEN-31, mod: GEN, pri: 2, t: "Osteoartropatías nerviosas (artropatía de Charcot)" }
+  - { id: GEN-32, mod: GEN, pri: 1, t: "Algodistrofia / síndrome de dolor regional complejo" }
+
+  # ─────────── PRINCIPIOS DE FRACTURAS (transversales) ───────────
+  - { id: GEN-33, mod: GEN, pri: 1, t: "Consolidación de las fracturas" }
+  - { id: GEN-34, mod: GEN, pri: 1, t: "Biomecánica del hueso" }
+  - { id: GEN-35, mod: GEN, pri: 1, t: "Fracturas expuestas" }
+  - { id: GEN-36, mod: GEN, pri: 1, t: "Fracturas epifisarias del adulto" }
+  - { id: GEN-37, mod: GEN, pri: 1, t: "Fracturas diafisarias del adulto" }
+  - { id: GEN-38, mod: GEN, pri: 1, t: "Fracturas en hueso patológico" }
+  - { id: GEN-39, mod: GEN, pri: 2, t: "Fracturas de fatiga" }
+  - { id: GEN-40, mod: GEN, pri: 1, t: "Complicaciones vasculares en ortopedia y traumatología" }
+  - { id: GEN-41, mod: GEN, pri: 2, t: "Heridas por proyectiles" }
+  - { id: GEN-42, mod: GEN, pri: 1, t: "Politraumatizado y control de daños" }
+  - { id: GEN-43, mod: GEN, pri: 1, t: "Síndromes compartimentales" }
+  - { id: GEN-44, mod: GEN, pri: 1, t: "Seudoartrosis" }
+  - { id: GEN-45, mod: GEN, pri: 1, t: "Incidentes, accidentes y complicaciones del tratamiento de las fracturas" }
+  - { id: GEN-46, mod: GEN, pri: 2, t: "Lesiones traumáticas de los nervios periféricos" }
+
+  # ─────────── MÚSCULOS, TENDONES Y SINOVIALES ───────────
+  - { id: GEN-47, mod: GEN, pri: 2, t: "Patología traumática del músculo estriado" }
+  - { id: GEN-48, mod: GEN, pri: 3, t: "Patología del músculo estriado del esqueleto" }
+  - { id: GEN-49, mod: GEN, pri: 2, t: "Entesopatías" }
+  - { id: GEN-50, mod: GEN, pri: 2, t: "Traumatología de los tendones" }
+  - { id: GEN-51, mod: GEN, pri: 3, t: "Quistes sinoviales" }
+  - { id: GEN-52, mod: GEN, pri: 2, t: "Bursitis y bursopatías" }
+
+  # ─────────── TUMORES ───────────
+  - { id: TUM-01, mod: TUM, pri: 1, t: "Tumores óseos: clasificación, diagnóstico y principios terapéuticos" }
+  - { id: TUM-02, mod: TUM, pri: 1, t: "Tumores óseos de histogénesis fibrosa e histiocitaria" }
+  - { id: TUM-03, mod: TUM, pri: 1, t: "Tumores óseos de histogénesis cartilaginosa" }
+  - { id: TUM-04, mod: TUM, pri: 1, t: "Tumores óseos de histogénesis ósea" }
+  - { id: TUM-05, mod: TUM, pri: 2, t: "Tumores óseos de histogénesis vascular" }
+  - { id: TUM-06, mod: TUM, pri: 3, t: "Tumores óseos de histogénesis nerviosa" }
+  - { id: TUM-07, mod: TUM, pri: 2, t: "Tumores óseos de histogénesis adiposa y mixtos" }
+  - { id: TUM-08, mod: TUM, pri: 2, t: "Tumores óseos de histogénesis notocordial (cordoma)" }
+  - { id: TUM-09, mod: TUM, pri: 2, t: "Tumores óseos en enfermedad preexistente o en hueso irradiado" }
+  - { id: TUM-10, mod: TUM, pri: 1, t: "Metástasis óseas" }
+  - { id: TUM-11, mod: TUM, pri: 1, t: "Lesiones seudotumorales" }
+  - { id: TUM-12, mod: TUM, pri: 1, t: "Tumores de partes blandas de los miembros" }
+  - { id: TUM-13, mod: TUM, pri: 2, t: "Tumores y distrofias de la sinovial" }
+
+  # ─────────── MIEMBRO SUPERIOR AGUDO ───────────
+  - { id: MSA-01, mod: MSA, pri: 1, t: "Traumatismos de la cintura escapular" }
+  - { id: MSA-02, mod: MSA, pri: 1, t: "Fracturas de clavícula" }
+  - { id: MSA-03, mod: MSA, pri: 2, t: "Fracturas de escápula" }
+  - { id: MSA-04, mod: MSA, pri: 1, t: "Luxación acromioclavicular aguda" }
+  - { id: MSA-05, mod: MSA, pri: 2, t: "Luxación esternoclavicular" }
+  - { id: MSA-06, mod: MSA, pri: 1, t: "Fractura del húmero proximal" }
+  - { id: MSA-07, mod: MSA, pri: 1, t: "Luxación glenohumeral anterior aguda" }
+  - { id: MSA-08, mod: MSA, pri: 2, t: "Luxación glenohumeral posterior aguda" }
+  - { id: MSA-09, mod: MSA, pri: 2, t: "Fractura-luxación de hombro y luxatio erecta" }
+  - { id: MSA-10, mod: MSA, pri: 1, t: "Fractura diafisaria de húmero y parálisis radial" }
+  - { id: MSA-11, mod: MSA, pri: 1, t: "Fracturas del húmero distal (supra e intercondíleas)" }
+  - { id: MSA-12, mod: MSA, pri: 2, t: "Fracturas del capitellum y de la tróclea" }
+  - { id: MSA-13, mod: MSA, pri: 1, t: "Luxación de codo" }
+  - { id: MSA-14, mod: MSA, pri: 1, t: "Tríada terrible del codo" }
+  - { id: MSA-15, mod: MSA, pri: 1, t: "Fracturas de olécranon" }
+  - { id: MSA-16, mod: MSA, pri: 1, t: "Fracturas de la cabeza y el cuello del radio" }
+  - { id: MSA-17, mod: MSA, pri: 1, t: "Fracturas de la apófisis coronoides" }
+  - { id: MSA-18, mod: MSA, pri: 1, t: "Fracturas de la extremidad superior de los dos huesos del antebrazo" }
+  - { id: MSA-19, mod: MSA, pri: 1, t: "Fracturas diafisarias del antebrazo" }
+  - { id: MSA-20, mod: MSA, pri: 1, t: "Fractura-luxación de Monteggia" }
+  - { id: MSA-21, mod: MSA, pri: 1, t: "Fractura-luxación de Galeazzi" }
+  - { id: MSA-22, mod: MSA, pri: 1, t: "Fracturas de la extremidad distal del radio" }
+  - { id: MSA-23, mod: MSA, pri: 2, t: "Lesiones agudas del complejo fibrocartílago triangular y de la RCD" }
+  - { id: MSA-24, mod: MSA, pri: 1, t: "Fractura de escafoides" }
+  - { id: MSA-25, mod: MSA, pri: 2, t: "Fracturas de los demás huesos del carpo" }
+  - { id: MSA-26, mod: MSA, pri: 1, t: "Esguinces y luxaciones del carpo: inestabilidad carpiana" }
+  - { id: MSA-27, mod: MSA, pri: 2, t: "Luxaciones carpometacarpianas" }
+  - { id: MSA-28, mod: MSA, pri: 1, t: "Fracturas de los metacarpianos" }
+  - { id: MSA-29, mod: MSA, pri: 1, t: "Fracturas de las falanges" }
+  - { id: MSA-30, mod: MSA, pri: 2, t: "Esguinces y luxaciones de los dedos" }
+  - { id: MSA-31, mod: MSA, pri: 1, t: "Lesiones agudas de los tendones flexores de la mano" }
+  - { id: MSA-32, mod: MSA, pri: 1, t: "Lesiones agudas de los tendones extensores de la mano" }
+  - { id: MSA-33, mod: MSA, pri: 2, t: "Roturas tendinosas proximales del miembro superior" }
+  - { id: MSA-34, mod: MSA, pri: 2, t: "Lesiones traumáticas agudas de nervios periféricos del miembro superior" }
+  - { id: MSA-35, mod: MSA, pri: 1, t: "Lesión aguda del plexo braquial" }
+  - { id: MSA-36, mod: MSA, pri: 2, t: "Amputaciones traumáticas y reimplantes del miembro superior" }
+
+  # ─────────── MIEMBRO SUPERIOR CRÓNICO ───────────
+  - { id: MSC-01, mod: MSC, pri: 1, t: "Hombro doloroso (periartritis escapulohumeral)" }
+  - { id: MSC-02, mod: MSC, pri: 1, t: "Patología del manguito rotador" }
+  - { id: MSC-03, mod: MSC, pri: 1, t: "Inestabilidad crónica de hombro" }
+  - { id: MSC-04, mod: MSC, pri: 1, t: "Patología de la articulación acromioclavicular" }
+  - { id: MSC-05, mod: MSC, pri: 1, t: "Rigidez de hombro / capsulitis adhesiva" }
+  - { id: MSC-06, mod: MSC, pri: 2, t: "Síndrome del rodete glenoideo (lesiones del labrum, SLAP)" }
+  - { id: MSC-07, mod: MSC, pri: 2, t: "Omartrosis y artroplastia de hombro" }
+  - { id: MSC-08, mod: MSC, pri: 2, t: "Artrosis del codo" }
+  - { id: MSC-09, mod: MSC, pri: 1, t: "Epicondilitis y epitrocleítis" }
+  - { id: MSC-10, mod: MSC, pri: 2, t: "Rigidez e inestabilidad crónica del codo" }
+  - { id: MSC-11, mod: MSC, pri: 1, t: "Síndromes compresivos del miembro superior (túnel carpiano, cubital)" }
+  - { id: MSC-12, mod: MSC, pri: 2, t: "Parálisis traumáticas del plexo braquial: secuelas y reconstrucción" }
+  - { id: MSC-13, mod: MSC, pri: 1, t: "Artrosis del puño y de la mano" }
+  - { id: MSC-14, mod: MSC, pri: 1, t: "Lesiones tendinosas crónicas de la mano" }
+  - { id: MSC-15, mod: MSC, pri: 2, t: "Enfermedad de Dupuytren" }
+  - { id: MSC-16, mod: MSC, pri: 2, t: "Tenosinovitis estenosantes (De Quervain, dedo en resorte)" }
+  - { id: MSC-17, mod: MSC, pri: 2, t: "Necrosis avascular del carpo (Kienböck, Preiser)" }
+  - { id: MSC-18, mod: MSC, pri: 2, t: "Seudoartrosis de escafoides y colapso SNAC/SLAC" }
+  - { id: MSC-19, mod: MSC, pri: 3, t: "Rizartrosis del pulgar" }
+  - { id: MSC-20, mod: MSC, pri: 3, t: "Deformidades adquiridas de los dedos" }
+
+  # ─────────── MIEMBRO INFERIOR AGUDO ───────────
+  - { id: MIA-01, mod: MIA, pri: 1, t: "Fracturas de pelvis" }
+  - { id: MIA-02, mod: MIA, pri: 1, t: "Fracturas del cotilo" }
+  - { id: MIA-03, mod: MIA, pri: 1, t: "Luxación traumática de cadera" }
+  - { id: MIA-04, mod: MIA, pri: 1, t: "Fracturas del cuello femoral" }
+  - { id: MIA-05, mod: MIA, pri: 1, t: "Fracturas pertrocantéreas" }
+  - { id: MIA-06, mod: MIA, pri: 1, t: "Fracturas subtrocantéreas" }
+  - { id: MIA-07, mod: MIA, pri: 1, t: "Fracturas de la diáfisis femoral" }
+  - { id: MIA-08, mod: MIA, pri: 1, t: "Fracturas del fémur distal" }
+  - { id: MIA-09, mod: MIA, pri: 1, t: "Fracturas periprotésicas de cadera y rodilla" }
+  - { id: MIA-10, mod: MIA, pri: 1, t: "Lesiones recientes de los ligamentos de la rodilla" }
+  - { id: MIA-11, mod: MIA, pri: 1, t: "Luxación de rodilla y lesiones multiligamentarias" }
+  - { id: MIA-12, mod: MIA, pri: 1, t: "Lesiones del aparato extensor de la rodilla" }
+  - { id: MIA-13, mod: MIA, pri: 1, t: "Fracturas de rótula" }
+  - { id: MIA-14, mod: MIA, pri: 1, t: "Fracturas de los platillos tibiales" }
+  - { id: MIA-15, mod: MIA, pri: 1, t: "Lesiones traumáticas de los meniscos" }
+  - { id: MIA-16, mod: MIA, pri: 1, t: "Fracturas cerradas de la pierna" }
+  - { id: MIA-17, mod: MIA, pri: 1, t: "Fracturas expuestas de la pierna" }
+  - { id: MIA-18, mod: MIA, pri: 1, t: "Fracturas del pilón tibial" }
+  - { id: MIA-19, mod: MIA, pri: 1, t: "Fracturas maleolares y luxaciones del cuello del pie" }
+  - { id: MIA-20, mod: MIA, pri: 1, t: "Lesiones de la sindesmosis tibioperonea" }
+  - { id: MIA-21, mod: MIA, pri: 1, t: "Esguinces del tobillo" }
+  - { id: MIA-22, mod: MIA, pri: 1, t: "Patología del tendón de Aquiles: rotura aguda" }
+  - { id: MIA-23, mod: MIA, pri: 1, t: "Fracturas y luxaciones del astrágalo" }
+  - { id: MIA-24, mod: MIA, pri: 1, t: "Fracturas del calcáneo" }
+  - { id: MIA-25, mod: MIA, pri: 2, t: "Luxación de los tendones peroneos" }
+  - { id: MIA-26, mod: MIA, pri: 2, t: "Fracturas del tarso anterior" }
+  - { id: MIA-27, mod: MIA, pri: 1, t: "Lesiones de Lisfranc" }
+  - { id: MIA-28, mod: MIA, pri: 2, t: "Fracturas de metatarsianos y dedos del pie" }
+  - { id: MIA-29, mod: MIA, pri: 2, t: "Luxaciones del pie" }
+  - { id: MIA-30, mod: MIA, pri: 1, t: "Lesiones osteocondrales agudas de rodilla y tobillo" }
+  - { id: MIA-31, mod: MIA, pri: 2, t: "Lesiones traumáticas agudas de nervios del miembro inferior" }
+
+  # ─────────── MIEMBRO INFERIOR CRÓNICO ───────────
+  - { id: MIC-01, mod: MIC, pri: 1, t: "Diagnóstico y tratamiento de una coxopatía crónica" }
+  - { id: MIC-02, mod: MIC, pri: 1, t: "Osteonecrosis avascular idiopática de la cabeza femoral" }
+  - { id: MIC-03, mod: MIC, pri: 1, t: "Tratamiento quirúrgico de la coxartrosis" }
+  - { id: MIC-04, mod: MIC, pri: 2, t: "Choque femoroacetabular y resaltos de cadera" }
+  - { id: MIC-05, mod: MIC, pri: 2, t: "Pubalgia" }
+  - { id: MIC-06, mod: MIC, pri: 1, t: "Diagnóstico y tratamiento de una rodilla dolorosa" }
+  - { id: MIC-07, mod: MIC, pri: 1, t: "Tratamiento quirúrgico de la gonartrosis" }
+  - { id: MIC-08, mod: MIC, pri: 1, t: "Inestabilidades crónicas de la rodilla" }
+  - { id: MIC-09, mod: MIC, pri: 2, t: "Genu recurvatum y desejes frontales" }
+  - { id: MIC-10, mod: MIC, pri: 2, t: "Osteocondritis disecante de la rodilla" }
+  - { id: MIC-11, mod: MIC, pri: 2, t: "Osteonecrosis de los huesos de la rodilla" }
+  - { id: MIC-12, mod: MIC, pri: 2, t: "Condromalacia rotuliana y síndrome femoropatelar" }
+  - { id: MIC-13, mod: MIC, pri: 1, t: "Inestabilidades de la rótula" }
+  - { id: MIC-14, mod: MIC, pri: 2, t: "Rigidez de la rodilla" }
+  - { id: MIC-15, mod: MIC, pri: 2, t: "Artrosis del pie y del tobillo" }
+  - { id: MIC-16, mod: MIC, pri: 1, t: "Pie plano valgo estático y disfunción del tibial posterior" }
+  - { id: MIC-17, mod: MIC, pri: 2, t: "Pie cavo" }
+  - { id: MIC-18, mod: MIC, pri: 1, t: "Talalgias y fascitis plantar" }
+  - { id: MIC-19, mod: MIC, pri: 2, t: "Neuralgia de Morton" }
+  - { id: MIC-20, mod: MIC, pri: 2, t: "Metatarsalgias estáticas" }
+  - { id: MIC-21, mod: MIC, pri: 1, t: "Hallux valgus" }
+  - { id: MIC-22, mod: MIC, pri: 2, t: "Hallux rigidus" }
+  - { id: MIC-23, mod: MIC, pri: 3, t: "Patología no traumática de los dedos del pie" }
+  - { id: MIC-24, mod: MIC, pri: 2, t: "Miembro inferior paralítico" }
+  - { id: MIC-25, mod: MIC, pri: 2, t: "Tendinopatía crónica del Aquiles" }
+  - { id: MIC-26, mod: MIC, pri: 2, t: "Pie diabético" }
+
+  # ─────────── COLUMNA ───────────
+  - { id: COL-01, mod: COL, pri: 1, t: "Biomecánica del raquis" }
+  - { id: COL-02, mod: COL, pri: 1, t: "Traumatismos raquimedulares" }
+  - { id: COL-03, mod: COL, pri: 1, t: "Lesiones traumáticas del raquis cervical alto" }
+  - { id: COL-04, mod: COL, pri: 1, t: "Lesiones traumáticas del raquis cervical subaxial" }
+  - { id: COL-05, mod: COL, pri: 1, t: "Fracturas y luxaciones del raquis toracolumbar" }
+  - { id: COL-06, mod: COL, pri: 1, t: "Complicaciones y secuelas neurológicas del lesionado medular" }
+  - { id: COL-07, mod: COL, pri: 1, t: "Disco intervertebral y estructuras vecinas: anatomía, fisiología y biomecánica" }
+  - { id: COL-08, mod: COL, pri: 1, t: "Cervicalgias y cervicobraquialgias" }
+  - { id: COL-09, mod: COL, pri: 2, t: "Dorsalgias" }
+  - { id: COL-10, mod: COL, pri: 1, t: "Lumbalgias" }
+  - { id: COL-11, mod: COL, pri: 1, t: "Ciáticas y lumborradiculalgias discales" }
+  - { id: COL-12, mod: COL, pri: 2, t: "Ciatalgias e irradiaciones no discales" }
+  - { id: COL-13, mod: COL, pri: 1, t: "Espondilolisis y espondilolistesis" }
+  - { id: COL-14, mod: COL, pri: 1, t: "Estenosis de canal lumbar" }
+  - { id: COL-15, mod: COL, pri: 1, t: "Espondiloartrosis" }
+  - { id: COL-16, mod: COL, pri: 1, t: "Tuberculosis vertebral (mal de Pott)" }
+  - { id: COL-17, mod: COL, pri: 1, t: "Espondilodiscitis infecciosas no tuberculosas" }
+  - { id: COL-18, mod: COL, pri: 2, t: "Escoliosis idiopática del adulto" }
+  - { id: COL-19, mod: COL, pri: 1, t: "Tumores y metástasis del raquis" }
+  - { id: COL-20, mod: COL, pri: 2, t: "Fracturas vertebrales osteoporóticas" }

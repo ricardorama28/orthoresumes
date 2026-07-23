@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Write",
+      "Edit",
+      "Read",
+      "Bash",
+      "PowerShell",
+      "Bash(node engine/*)",
+      "Bash(python engine/*)",
+      "Bash(py engine/*)",
+      "Bash(node engine/contar.js*)",
+      "Bash(node engine/build.js*)",
+      "Bash(node engine/estado.js*)",
+      "Bash(bash scripts/*)",
+      "Read(//C/Users/Usuario/Documents/upome/**)",
+      "Bash(git add*)",
+      "Bash(git status*)",
+      "Bash(git commit*)",
+      "Bash(git log*)"
+    ],
+    "deny": [
+      "Read(fuentes/**/*.pdf)"
+    ]
+  },
+  "env": {
+    "UPOME_NIVEL_DEFAULT": "ultra_plus"
+  }
+}

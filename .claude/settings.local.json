@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($paths = @\\(\"C:\\\\Program Files\\\\nodejs\\\\node.exe\",\"C:\\\\Program Files \\(x86\\)\\\\nodejs\\\\node.exe\",\"$env:LOCALAPPDATA\\\\Programs\\\\nodejs\\\\node.exe\",\"$env:APPDATA\\\\npm\\\\node.exe\",\"$env:LOCALAPPDATA\\\\Microsoft\\\\WindowsApps\\\\node.exe\"\\); foreach\\($p in $paths\\){ if\\(Test-Path $p\\){ Write-Output \"FOUND: $p\" } }; Write-Output \"---nvm---\"; Test-Path \"$env:APPDATA\\\\nvm\"; Write-Output \"---volta---\"; Test-Path \"$env:LOCALAPPDATA\\\\Volta\"; Write-Output \"---scoop---\"; Test-Path \"$env:USERPROFILE\\\\scoop\\\\apps\\\\nodejs\"; Write-Output \"---fnm---\"; Get-ChildItem \"$env:LOCALAPPDATA\\\\fnm_multishells\" -ErrorAction SilentlyContinue | Select-Object -First 1; Write-Output \"---winget/where---\"; where.exe node 2>$null; where.exe soffice 2>$null; Write-Output \"done\")",
+      "PowerShell(Write-Output \"WINGET:\"; \\(Get-Command winget -ErrorAction SilentlyContinue\\).Source; Write-Output \"CHOCO:\"; \\(Get-Command choco -ErrorAction SilentlyContinue\\).Source; Write-Output \"done\")",
+      "PowerShell(winget install --id OpenJS.NodeJS.LTS -e --accept-source-agreements --accept-package-agreements --silent)",
+      "PowerShell(winget install --id OpenJS.NodeJS.LTS -e --source winget --accept-package-agreements --silent)",
+      "PowerShell($node = \"C:\\\\Program Files\\\\nodejs\\\\node.exe\"; if\\(Test-Path $node\\){ & $node --version; & \"C:\\\\Program Files\\\\nodejs\\\\npm.cmd\" --version } else { Write-Output \"not at default path\"; Get-ChildItem \"C:\\\\Program Files\\\\nodejs\" -ErrorAction SilentlyContinue })",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; Set-Location \"C:\\\\Users\\\\Usuario\\\\Documents\\\\upome\\\\engine\"; npm install --no-fund --no-audit 2>&1 | Select-Object -Last 15)",
+      "PowerShell(python -m pip install --user python-docx PyYAML --quiet --disable-pip-version-check 2>&1)",
+      "PowerShell($p = \\(Get-Command python -ErrorAction SilentlyContinue\\).Source; Write-Output \"alias: $p\"; $real = & python -c \"import sys; print\\(sys.executable\\)\" 2>$null; Write-Output \"real: $real\"; Get-ChildItem \"$env:LOCALAPPDATA\\\\Programs\\\\Python\" -Directory -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })",
+      "PowerShell(py --version)",
+      "PowerShell(py -c \"import sys; print\\('EXE:', sys.executable\\)\")",
+      "PowerShell(py -m pip install --user python-docx PyYAML --disable-pip-version-check 2>&1)",
+      "Bash(node -e ' *)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; Set-Location \"C:\\\\Users\\\\Usuario\\\\Documents\\\\upome\\\\engine\"; node -e \"const d=require\\('docx'\\);const need=['Document','Packer','Paragraph','TextRun','Table','TableRow','TableCell','WidthType','BorderStyle','AlignmentType','HeadingLevel','PageBorderDisplay','PageBorderOffsetFrom','Header','Footer','PageOrientation','convertMillimetersToTwip','ShadingType','VerticalAlign','LevelFormat','TabStopType','TabStopPosition','TableLayoutType'];for\\(const n of need\\)console.log\\(\\(d[n]!==undefined?'OK ':'MISSING '\\)+n\\);console.log\\('ALL_PAGES=',d.PageBorderDisplay&&d.PageBorderDisplay.ALL_PAGES\\);console.log\\('PAGE=',d.PageBorderOffsetFrom&&d.PageBorderOffsetFrom.PAGE\\);\")",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; Set-Location \"C:\\\\Users\\\\Usuario\\\\Documents\\\\upome\"; node \"C:\\\\Users\\\\Usuario\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Usuario-Documents-upome\\\\28d0e0ca-8e78-46ba-affd-f84cc7d8eb79\\\\scratchpad\\\\gen-demo.js\"; Write-Output \"---CONTAR---\"; node engine/contar.js DEMO-01)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; Set-Location \"C:\\\\Users\\\\Usuario\\\\Documents\\\\upome\"; node engine/build.js DEMO-01 --all)",
+      "PowerShell(Set-Location \"C:\\\\Users\\\\Usuario\\\\Documents\\\\upome\"; py engine/validar.py DEMO-01; Write-Output \"EXITCODE=$LASTEXITCODE\")",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; Set-Location \"C:\\\\Users\\\\Usuario\\\\Documents\\\\upome\"; node engine/estado.js dashboard)",
+      "Bash(bash scripts/nuevo-tema.sh MSA-11 \"Fracturas del húmero distal \\(supra e intercondíleas\\)\")",
+      "Bash(git add *)",
+      "Bash(git mv *)",
+      "Bash(git update-index *)",
+      "Bash(git commit -q -m ' *)"
+    ]
+  }
+}
