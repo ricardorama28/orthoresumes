@@ -1,0 +1,22 @@
+id: MSA-09
+titulo: "Fractura-luxación de hombro y luxación inferior (luxatio erecta)"
+modulo: MSA
+bloque: "Hombro y húmero proximal"
+slug: fractura-luxacion-de-hombro-y-luxacion-inferior-luxatio-erec
+fase: 0
+pri: 1
+nivel_objetivo: ultra_plus
+bibliografia_ancla: "Rockwood & Matsen's The Shoulder, 6.ª ed. (2021)"
+referencias:
+  - "Rockwood & Matsen's The Shoulder, 6.ª ed. (2021) — ancla del tema"
+  - "Rockwood & Green's Fractures in Adults, 10.ª ed. (2024) — componente traumático"
+  - "AO Surgery Reference — húmero proximal (segmento 11)"
+  - "Campbell's Operative Orthopaedics, 15.ª ed. (2026)"
+contenido_clave:
+  - "Riesgo de osteonecrosis (ONA) de la cabeza humeral"
+  - "Lesión del nervio axilar"
+remisiones:
+  - "Osteonecrosis: canónico GEN-ME-08 — acá sólo la particularidad local postraumática"
+  - "Nervio axilar y plexo: canónicos GEN-UR-07 y MSA-36 — acá sólo exploración y manejo en esta lesión"
+  - "Luxación anterior pura: MSA-07 · Luxación posterior pura: MSA-08"
+  - "Fractura aislada de húmero proximal: MSA-06"

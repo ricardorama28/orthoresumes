@@ -1,0 +1,51 @@
+%% MSA-09 · Fractura-luxación de hombro y luxatio erecta
+%% Esquema 4/6 — Clasificación de Neer (1970): los 4 segmentos de Codman y los 6 grupos
+%% Color de acento del módulo MSA: #38BDF8
+flowchart TD
+
+    Root["<b>CLASIFICACIÓN DE NEER (1970)</b><br/>construida sobre los 4 SEGMENTOS DE CODMAN:<br/>cabeza (articular) · troquíter · troquín · diáfisis<br/>(delimitada por el cuello quirúrgico)"]
+
+    Root --> Umbral["<b>UMBRAL DE 'PARTE DESPLAZADA'</b><br/>desplazamiento MAYOR DE 1 cm<br/>o angulación MAYOR DE 45°<br/>— EXCEPCIÓN troquíter: mayor de 5 mm<br/>(≥ 3 mm en deportista overhead)"]
+
+    Umbral --> G1["<b>GRUPO I</b> — Mínimamente desplazada<br/>Rasgo distintivo: NINGÚN segmento supera<br/>el umbral, aunque haya varios trazos visibles<br/>(4 trazos ≠ 4 partes si nada se desplazó)"]
+
+    Umbral --> G2["<b>GRUPO II</b> — Cuello anatómico desplazado<br/>Rasgo distintivo: trazo INTRAcapsular;<br/>máximo riesgo vascular aislado<br/>(peor pronóstico de todos los trazos únicos)"]
+
+    Umbral --> G3["<b>GRUPO III</b> — Cuello quirúrgico desplazado<br/>Rasgo distintivo: 2 partes,<br/>AMBAS tuberosidades íntegras<br/>(diáfisis medializada por el pectoral mayor)"]
+
+    Umbral --> G4["<b>GRUPO IV</b> — Troquíter desplazado<br/>Rasgo distintivo: mayor de 5 mm<br/>(≥ 3 mm en deportista/trabajo overhead);<br/>retracción posterosuperior por el manguito"]
+
+    Umbral --> G5["<b>GRUPO V</b> — Troquín desplazado<br/>Rasgo distintivo: bloquea la rotación interna<br/>o arrastra un fragmento articular;<br/>desplazamiento medial por el subescapular"]
+
+    Umbral --> G6{"<b>GRUPO VI — FRACTURA-LUXACIÓN</b><br/>Rasgo distintivo: el SEGMENTO ARTICULAR<br/>está FUERA de la articulación<br/>— NO es un criterio aritmético, es biológico<br/>y mecánico: perdió contacto con la glenoides,<br/>la cápsula se desgarró y los vasos<br/>que la nutren pudieron avulsionarse"}
+
+    G6 --> V2["2 PARTES + luxación<br/>troquíter+luxación anterior ·<br/>troquín+luxación posterior ·<br/>cuello quirúrgico+cabeza libre<br/>Riesgo vascular: bajo a moderado"]
+
+    G6 --> V3["3 PARTES + luxación<br/>cabeza unida a UNA sola tuberosidad,<br/>rotada por ella<br/>Riesgo vascular: moderado a alto"]
+
+    G6 --> V4["4 PARTES + luxación<br/>cabeza LIBRE, sin ninguna inserción,<br/>fuera de la glena<br/>Riesgo vascular: ALTO — series clásicas<br/>de ONA 45–90 % [VERIFICAR]"]
+
+    G6 --> VHS["HEAD-SPLITTING<br/>trazo que divide la superficie articular<br/>en 2 o más fragmentos<br/>Riesgo vascular: MUY ALTO"]
+
+    G6 --> VImp["IMPRESIÓN CEFÁLICA<br/>Hill-Sachs (posterolateral) o<br/>Hill-Sachs invertida (anteromedial)<br/>Riesgo vascular: variable según<br/>profundidad y % de superficie"]
+
+    Pie["Los seis grupos de Neer describen CUÁNTOS fragmentos están desplazados según el<br/>umbral de 1 cm/45° (5 mm/3 mm para el troquíter). El grupo VI es una categoría<br/>propia — no aritmética — porque el segmento articular perdió su relación con la<br/>glenoides; de ahí se derivan los subtipos por número de partes, dirección, head-split<br/>e impresión cefálica que definen el resto del algoritmo terapéutico. La cifra de<br/>osteonecrosis en 4 partes con luxación está marcada [VERIFICAR] en el documento fuente."]
+
+    classDef raiz fill:#38BDF8,stroke:#0369a1,stroke-width:2px,color:#ffffff,font-weight:bold;
+    classDef umbral fill:#f0f9ff,stroke:#38BDF8,stroke-width:2px,color:#0c4a6e,font-weight:bold;
+    classDef leve fill:#f0fdf4,stroke:#16a34a,stroke-width:1.5px,color:#14532d;
+    classDef moderado fill:#fffbeb,stroke:#d97706,stroke-width:1.5px,color:#78350f;
+    classDef grave fill:#fef2f2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d;
+    classDef foco fill:#fdf4ff,stroke:#a21caf,stroke-width:2px,color:#581c87,font-weight:bold;
+    classDef pie fill:#f8fafc,stroke:#94a3b8,stroke-width:1px,color:#334155,font-style:italic;
+
+    class Root raiz;
+    class Umbral umbral;
+    class G1 leve;
+    class G2,G3 moderado;
+    class G4,G5 moderado;
+    class G6 foco;
+    class V2,V3 moderado;
+    class V4,VHS grave;
+    class VImp moderado;
+    class Pie pie;

@@ -1,0 +1,57 @@
+%% MSA-09 · Fractura-luxación de hombro y luxatio erecta
+%% Esquema 3/6 — Reducción en dos tiempos de la luxatio erecta humeri
+%% Color de acento del módulo MSA: #38BDF8
+flowchart TD
+
+    Start(["LUXATIO ERECTA HUMERI<br/>signo patognomónico: brazo BLOQUEADO<br/>en abducción de 110–160°,<br/>codo flectado, antebrazo sobre la cabeza"])
+
+    Start --> Prep["Documentar examen neurovascular completo<br/>+ Rx AP y axilar/Velpeau<br/>(NUNCA aducir el brazo para radiografiar)"]
+
+    Prep --> FxAsoc{"¿Fractura asociada?<br/>troquíter (50–80 % [VERIFICAR]) ·<br/>cuello quirúrgico · reborde glenoideo inferior"}
+
+    FxAsoc -->|"Sí — hay trazo óseo"| AG["Anestesia GENERAL + relajación completa<br/>umbral BAJO para reducción abierta"]
+    FxAsoc -->|"No — luxación pura"| Sedacion["Sedación consciente<br/>(propofol/fentanilo)"]
+
+    AG --> Posicion
+    Sedacion --> Posicion["Decúbito dorsal + contratracción<br/>(sábana por la axila hacia<br/>el hombro contralateral)"]
+
+    Posicion --> T1["<b>PRIMER TIEMPO</b><br/>Traccionar en el EJE del húmero tal como está<br/>(dirección cefálica y algo anterior,<br/>SIN modificar el ángulo de abducción<br/>de 110–160°) durante 1–2 minutos<br/>+ empujar la cabeza desde la axila<br/>hacia arriba y lateral con el pulgar<br/>(desengancharla del reborde glenoideo inferior)"]
+
+    T1 --> Conversion{"¿Se pierde el bloqueo rígido en abducción<br/>y la cabeza pasa a palparse<br/>por delante y por debajo de la coracoides?<br/>(conversión inferior → anterior)"}
+
+    Conversion -->|"SÍ — convertida en luxación ANTERIOR"| T2["<b>SEGUNDO TIEMPO</b><br/>Aducir el brazo LENTAMENTE hacia el tronco<br/>(arco por delante del plano coronal)<br/>manteniendo la tracción,<br/>+ rotación interna suave, NUNCA forzada<br/>(resalto palpable y a menudo audible)"]
+
+    T2 --> Verificar["Verificar con Rx en 2 planos<br/>AXILAR/VELPEAU OBLIGATORIA<br/>(el AP aislado no descarta<br/>reducción incompleta)<br/>+ reexamen neurovascular"]
+
+    Verificar --> Fin(["REDUCIDA →<br/>cabestrillo/Velpeau en rotación neutra<br/>1–3 semanas<br/>(1–2 sem si mayor de 60 años,<br/>por riesgo de rigidez)<br/>+ RM diferida si mayor de 40 años"])
+
+    Conversion -->|"NO — tope elástico en vez de<br/>desplazamiento progresivo, o<br/>reluxación inmediata al soltar"| Milch{"¿Intentar variante de Milch?<br/>pulgar sobre la cabeza en la axila +<br/>abducción máxima y RE suave +<br/>empuje cefálico-lateral, luego aducir"}
+
+    Milch -->|"Convierte y reduce"| Verificar
+    Milch -->|"Persiste irreductible"| Irreductible["<b>IRREDUCTIBLE</b><br/>→ REDUCCIÓN ABIERTA<br/>vía deltopectoral"]
+
+    Irreductible --> Causas["Causas anatómicas a resolver<br/>bajo visión directa:<br/>• ojal capsular (anillo constrictor,<br/>mecanismo de hernia estrangulada)<br/>• tendón de la porción larga del bíceps<br/>interpuesto (el más clásico)<br/>• fragmento óseo interpuesto<br/>(troquíter avulsionado / reborde glenoideo)"]
+
+    Causas --> Axilar["Identificar el nervio axilar ANTES<br/>de trabajar el borde inferior del subescapular:<br/>su trayecto está DESPLAZADO<br/>por la cabeza luxada"]
+
+    Axilar --> ReduccionAbierta["Reducir bajo visión con instrumental romo<br/>+ reparar troquíter/manguito<br/>en el mismo acto"]
+
+    ReduccionAbierta --> Verificar
+
+    Pie["La luxatio erecta NO se reduce bajando el brazo primero: eso comprime la cabeza<br/>contra el reborde glenoideo y el paquete axilar. La técnica en dos tiempos convierte<br/>primero la luxación inferior en anterior (tracción en el eje del brazo abducido +<br/>desenganche) y recién después aduce y rota para completar la reducción. La cifra<br/>de avulsión del troquíter (50–80 %) está marcada [VERIFICAR] en el documento fuente."]
+
+    classDef terminal fill:#38BDF8,stroke:#0369a1,stroke-width:2px,color:#ffffff,font-weight:bold;
+    classDef decision fill:#ffffff,stroke:#38BDF8,stroke-width:2px,color:#0c4a6e;
+    classDef tiempo fill:#f0f9ff,stroke:#38BDF8,stroke-width:2px,color:#0c4a6e,font-weight:bold;
+    classDef proceso fill:#f8fafc,stroke:#64748b,stroke-width:1px,color:#1e293b;
+    classDef irreductible fill:#fef2f2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d;
+    classDef favorable fill:#f0fdf4,stroke:#16a34a,stroke-width:1.5px,color:#14532d;
+    classDef pie fill:#f8fafc,stroke:#94a3b8,stroke-width:1px,color:#334155,font-style:italic;
+
+    class Start terminal;
+    class Fin favorable;
+    class FxAsoc,Conversion,Milch decision;
+    class T1,T2 tiempo;
+    class Prep,Posicion,AG,Sedacion,Verificar,Causas,Axilar,ReduccionAbierta proceso;
+    class Irreductible irreductible;
+    class Pie pie;

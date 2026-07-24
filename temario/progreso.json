@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "actualizado": "2026-07-23",
+  "actualizado": "2026-07-24",
   "origen": "Indice_Maestro_UPOME_2026.xlsx",
   "temas": {
     "GEN-CB-01": {
@@ -2147,18 +2147,28 @@
       "titulo": "Fractura-luxación de hombro y luxación inferior (luxatio erecta)",
       "modulo": "MSA",
       "bloque": "Hombro y húmero proximal",
-      "estado": "pendiente_renivelar",
-      "parrafos": 0,
-      "tablas": 0,
-      "caracteres": 0,
-      "anki": 0,
-      "validado": false,
-      "fecha": null,
+      "estado": "ultra_plus",
+      "parrafos": 1257,
+      "tablas": 9,
+      "caracteres": 350759,
+      "anki": 71,
+      "validado": true,
+      "fecha": "2026-07-24",
       "commit": null,
       "pri": 1,
       "pendiente": [
-        "sin medir - correr /auditar tras la migracion"
-      ]
+        "VERIFICACION CLINICA PENDIENTE contra Rockwood & Matsen 6.a ed. (2021): el tema pasa validar.py pero no esta verificado contra el libro",
+        "Cifras de luxatio erecta: el texto dice manguito ~80% y neurologica ~60%; la serie comparable mas reciente (Ostermann 2022, n=38) da ~16% y ~21%. Resolver antes de estudiar de esta seccion",
+        "Osteonecrosis: el trio 3-14% / 13-34% / ~90% no lo reproduce ninguno de los articulos verificados. Confirmar el rango real contra la edicion ancla",
+        "VPP 0,97 de la triada de Hertel: no verificado contra el texto completo del articulo (solo abstract)",
+        "Posicion de la placa respecto del surco bicipital: posible confusion de eje (AO da 2-4 mm lateral al surco y 5-8 mm distal al troquiter). Confirmar en AO Surgery Reference",
+        "Distancia del nervio supraescapular: posible confusion entre escotadura supraescapular (~3 cm) y espinoglenoidea (~1,8-2 cm)",
+        "Subgrupos AO/OTA 11A2/11A3: nomenclatura previa a 2018; confirmar contra el compendio vigente",
+        "Tecnica de la axilar de Bloom-Obata: descripcion no confirmada",
+        "Acortamiento aparente del brazo en la luxacion anterior (seccion 01): descripcion dudosa",
+        "Ver _cifras.md: ~140 cifras sin cita puntual, con prioridades ordenadas por impacto clinico"
+      ],
+      "notas": "Fase 0. Escrito por 5 redactores en paralelo; revisado por esp-hombro (9 errores corregidos, incluida la doctrina de irrigacion cefalica), verificador-cifras (10 contradicciones internas unificadas) y bibliografo (PMID verificados, Park 1997 agregado). 6 esquemas en esquemas/."
     },
     "MSA-10": {
       "titulo": "Fractura diafisaria de húmero y parálisis radial",

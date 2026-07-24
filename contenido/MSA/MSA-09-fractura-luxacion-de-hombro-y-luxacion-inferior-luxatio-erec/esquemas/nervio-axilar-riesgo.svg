@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" width="900" height="760" font-family="Calibri, Arial, sans-serif">
+  <defs>
+    <marker id="arrowYellow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#a16207"/>
+    </marker>
+    <marker id="arrowRed2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/>
+    </marker>
+    <marker id="arrowBlue2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0369a1"/>
+    </marker>
+  </defs>
+
+  <!-- fondo y borde de acento del módulo MSA -->
+  <rect x="0" y="0" width="900" height="760" fill="#ffffff"/>
+  <rect x="10" y="10" width="880" height="740" fill="none" stroke="#38BDF8" stroke-width="3" rx="8"/>
+
+  <!-- Título -->
+  <text x="450" y="42" text-anchor="middle" font-size="21" font-weight="bold" fill="#0369a1">EL NERVIO AXILAR EN EL ESPACIO CUADRILÁTERO — ESTRUCTURA EN RIESGO DEL ABORDAJE</text>
+  <text x="450" y="65" text-anchor="middle" font-size="13" fill="#475569">Vista posterior esquemática del hombro derecho: límites del espacio cuadrilátero y distancia de la rama anterior al borde del acromion</text>
+
+  <!-- ===================== REPAROS ÓSEOS ===================== -->
+
+  <!-- acromion -->
+  <polygon points="330,110 470,110 500,150 320,150" fill="#f1f5f9" stroke="#64748b" stroke-width="2.5"/>
+  <text x="400" y="134" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">ACROMION</text>
+
+  <!-- borde lateral del acromion: referencia "punto cero" -->
+  <line x1="500" y1="150" x2="500" y2="180" stroke="#0369a1" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="510" y="170" font-size="11.5" fill="#0369a1">borde lateral</text>
+  <text x="510" y="184" font-size="11.5" fill="#0369a1">del acromion</text>
+  <text x="510" y="198" font-size="11.5" fill="#0369a1">("punto cero")</text>
+
+  <!-- diáfisis humeral / cuello quirúrgico, lateral -->
+  <rect x="470" y="150" width="70" height="330" fill="#f8fafc" stroke="#64748b" stroke-width="2" opacity="0.85"/>
+  <line x1="470" y1="290" x2="540" y2="290" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="548" y="294" font-size="12" fill="#7f1d1d">cuello quirúrgico</text>
+  <text x="548" y="308" font-size="12" fill="#7f1d1d">del húmero (límite LATERAL</text>
+  <text x="548" y="322" font-size="12" fill="#7f1d1d">del espacio cuadrilátero)</text>
+
+  <!-- ===================== ESPACIO CUADRILÁTERO ===================== -->
+  <polygon points="330,220 470,220 470,320 330,320" fill="#fef9c3" fill-opacity="0.55" stroke="#a16207" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="400" y="255" text-anchor="middle" font-size="13" font-weight="bold" fill="#78350f">ESPACIO</text>
+  <text x="400" y="271" text-anchor="middle" font-size="13" font-weight="bold" fill="#78350f">CUADRILÁTERO</text>
+  <text x="400" y="287" text-anchor="middle" font-size="11" fill="#78350f">(de Velpeau)</text>
+
+  <!-- límites del espacio cuadrilátero -->
+  <text x="335" y="212" font-size="12" fill="#334155">REDONDO MENOR (límite SUPERIOR)</text>
+  <line x1="330" y1="220" x2="470" y2="220" stroke="#475569" stroke-width="2.5"/>
+
+  <text x="335" y="340" font-size="12" fill="#334155">REDONDO MAYOR (límite INFERIOR)</text>
+  <line x1="330" y1="320" x2="470" y2="320" stroke="#475569" stroke-width="2.5"/>
+
+  <text x="150" y="270" font-size="12" fill="#334155" text-anchor="middle" transform="rotate(-90 150 270)">TRÍCEPS — porción larga</text>
+  <text x="150" y="284" font-size="11" fill="#334155" text-anchor="middle" transform="rotate(-90 150 284)">(límite MEDIAL)</text>
+  <line x1="330" y1="220" x2="330" y2="320" stroke="#475569" stroke-width="2.5"/>
+
+  <!-- ===================== DELTOIDES (contorno) ===================== -->
+  <path d="M330,150 C260,170 220,240 215,330 C210,420 240,500 300,560 L340,560 C300,500 270,420 275,340 C280,260 310,190 360,160 Z" fill="#e2e8f0" fill-opacity="0.5" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M540,160 C600,190 630,260 632,340 C635,420 605,500 565,560 L525,560 C565,500 595,420 590,340 C585,260 555,190 505,160 Z" fill="#e2e8f0" fill-opacity="0.5" stroke="#94a3b8" stroke-width="2"/>
+  <text x="230" y="440" font-size="12.5" fill="#475569" font-weight="bold">DELTOIDES</text>
+  <text x="230" y="455" font-size="11" fill="#475569">(porción posterior,</text>
+  <text x="230" y="468" font-size="11" fill="#475569">visto desde atrás)</text>
+
+  <!-- ===================== NERVIO AXILAR (amarillo) Y ARTERIA CIRCUNFLEJA POSTERIOR (rojo punteado) ===================== -->
+
+  <!-- origen: cordón posterior del plexo braquial -->
+  <text x="150" y="400" font-size="12.5" fill="#78350f" font-weight="bold">CORDÓN POSTERIOR</text>
+  <text x="150" y="414" font-size="12.5" fill="#78350f" font-weight="bold">DEL PLEXO BRAQUIAL (C5-C6)</text>
+  <path d="M300,395 C320,370 335,340 340,320" fill="none" stroke="#a16207" stroke-width="5" marker-end="url(#arrowYellow)"/>
+
+  <!-- nervio axilar cruzando el espacio cuadrilátero -->
+  <path d="M340,320 C365,290 405,260 460,255" fill="none" stroke="#a16207" stroke-width="5"/>
+  <!-- arteria circunfleja posterior, acompaña al nervio dentro del espacio -->
+  <path d="M345,330 C368,302 405,272 458,268" fill="none" stroke="#b91c1c" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="345" y="245" font-size="11.5" fill="#78350f">n. axilar + a. circunfleja humeral</text>
+  <text x="345" y="259" font-size="11.5" fill="#78350f">posterior (acompañantes dentro del espacio)</text>
+
+  <!-- division: rama posterior (sensitiva + redondo menor + deltoides posterior) -->
+  <path d="M460,255 C440,240 410,222 380,214" fill="none" stroke="#a16207" stroke-width="4" marker-end="url(#arrowYellow)"/>
+  <text x="180" y="200" font-size="12" fill="#78350f" font-weight="bold" text-anchor="start">RAMA POSTERIOR</text>
+  <text x="180" y="214" font-size="10.8" fill="#78350f" text-anchor="start">→ redondo menor + deltoides posterior</text>
+  <text x="180" y="228" font-size="10.8" fill="#78350f" text-anchor="start">→ termina como n. cutáneo lateral</text>
+  <text x="180" y="242" font-size="10.8" fill="#78350f" text-anchor="start">superior del brazo (sensitivo)</text>
+
+  <!-- division: rama anterior, rodea el cuello quirúrgico sobre la cara profunda del deltoides -->
+  <path d="M460,258 C505,262 545,270 575,300 C600,325 610,360 612,400" fill="none" stroke="#a16207" stroke-width="5" marker-end="url(#arrowYellow)"/>
+  <text x="618" y="360" font-size="12" fill="#78350f" font-weight="bold" text-anchor="start">RAMA ANTERIOR</text>
+  <text x="618" y="374" font-size="10.8" fill="#78350f" text-anchor="start">rodea el cuello quirúrgico y cruza</text>
+  <text x="618" y="388" font-size="10.8" fill="#78350f" text-anchor="start">la cara PROFUNDA del deltoides</text>
+
+  <!-- ===================== DISTANCIA CRÍTICA 5-7 cm (color de acento) ===================== -->
+  <line x1="500" y1="180" x2="500" y2="290" stroke="#0369a1" stroke-width="2.5" marker-start="url(#arrowBlue2)" marker-end="url(#arrowBlue2)"/>
+  <rect x="640" y="180" width="230" height="88" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5" rx="6"/>
+  <text x="652" y="200" font-size="12.5" font-weight="bold" fill="#0c4a6e">5–7 cm</text>
+  <text x="652" y="216" font-size="11.5" fill="#0c4a6e">distancia del borde lateral</text>
+  <text x="652" y="230" font-size="11.5" fill="#0c4a6e">del acromion a donde la rama</text>
+  <text x="652" y="244" font-size="11.5" fill="#0c4a6e">anterior cruza la cara profunda</text>
+  <text x="652" y="258" font-size="11.5" fill="#0c4a6e">del deltoides</text>
+  <line x1="600" y1="235" x2="638" y2="222" stroke="#0369a1" stroke-width="1.3" stroke-dasharray="3 2"/>
+
+  <!-- límite del deltoid split -->
+  <line x1="470" y1="290" x2="620" y2="290" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="640" y="300" width="230" height="88" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" rx="6"/>
+  <text x="652" y="320" font-size="12.5" font-weight="bold" fill="#7f1d1d">LÍMITE DEL DELTOID SPLIT</text>
+  <text x="652" y="336" font-size="11.5" fill="#7f1d1d">no propagar la división del</text>
+  <text x="652" y="350" font-size="11.5" fill="#7f1d1d">deltoides más allá de esta línea</text>
+  <text x="652" y="364" font-size="11.5" fill="#7f1d1d">sin identificar y proteger</text>
+  <text x="652" y="378" font-size="11.5" fill="#7f1d1d">el nervio axilar</text>
+  <line x1="600" y1="290" x2="638" y2="340" stroke="#dc2626" stroke-width="1.3" stroke-dasharray="3 2"/>
+
+  <!-- ===================== PARCHE SENSITIVO DELTOIDEO ===================== -->
+  <ellipse cx="612" cy="440" rx="55" ry="45" fill="#fde68a" fill-opacity="0.6" stroke="#92400e" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="612" y="510" text-anchor="middle" font-size="12" font-weight="bold" fill="#78350f">"PARCHE" DELTOIDEO</text>
+  <text x="612" y="524" text-anchor="middle" font-size="11" fill="#78350f">(insignia militar) — territorio</text>
+  <text x="612" y="538" text-anchor="middle" font-size="11" fill="#78350f">sensitivo del n. cutáneo lateral</text>
+  <text x="612" y="552" text-anchor="middle" font-size="11" fill="#78350f">superior del brazo</text>
+
+  <!-- ===================== LEYENDA ===================== -->
+  <rect x="30" y="600" width="340" height="140" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.3" rx="6"/>
+  <text x="45" y="620" font-size="12.5" font-weight="bold" fill="#334155">LEYENDA</text>
+  <line x1="45" y1="636" x2="85" y2="636" stroke="#a16207" stroke-width="5"/>
+  <text x="93" y="640" font-size="11.5" fill="#334155">Nervio axilar (C5-C6)</text>
+  <line x1="45" y1="656" x2="85" y2="656" stroke="#b91c1c" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="93" y="660" font-size="11.5" fill="#334155">Arteria circunfleja humeral posterior</text>
+  <rect x="45" y="670" width="14" height="14" fill="#fef9c3" fill-opacity="0.55" stroke="#a16207" stroke-width="1.3" stroke-dasharray="3 2"/>
+  <text x="93" y="682" font-size="11.5" fill="#334155">Espacio cuadrilátero de Velpeau</text>
+  <line x1="45" y1="700" x2="85" y2="700" stroke="#0369a1" stroke-width="2.5"/>
+  <text x="93" y="704" font-size="11.5" fill="#334155">Distancia crítica de 5–7 cm</text>
+  <line x1="45" y1="720" x2="85" y2="720" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="93" y="724" font-size="11.5" fill="#334155">Límite seguro del deltoid split</text>
+
+  <!-- ===================== PIE ===================== -->
+  <text x="640" y="640" font-size="12" font-style="italic" fill="#334155">Muestra el trayecto del nervio</text>
+  <text x="640" y="655" font-size="12" font-style="italic" fill="#334155">axilar por el espacio cuadrilátero</text>
+  <text x="640" y="670" font-size="12" font-style="italic" fill="#334155">y la distancia de 5–7 cm que limita</text>
+  <text x="640" y="685" font-size="12" font-style="italic" fill="#334155">la extensión segura del deltoid</text>
+  <text x="640" y="700" font-size="12" font-style="italic" fill="#334155">split — la referencia se confirma</text>
+  <text x="640" y="715" font-size="12" font-style="italic" fill="#334155">siempre por palpación intraoperatoria.</text>
+
+  <text x="450" y="750" text-anchor="middle" font-size="12" font-style="italic" fill="#334155">Vista posterior esquemática del hombro derecho: límites del espacio cuadrilátero (redondo menor, redondo mayor, tríceps, cuello quirúrgico), división del nervio axilar en rama anterior y posterior, distancia de 5–7 cm al borde del acromion, y territorio sensitivo del "parche" deltoideo.</text>
+</svg>

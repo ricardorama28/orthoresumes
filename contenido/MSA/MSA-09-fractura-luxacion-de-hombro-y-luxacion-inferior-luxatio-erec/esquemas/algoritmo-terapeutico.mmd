@@ -1,0 +1,57 @@
+%% MSA-09 · Fractura-luxación de hombro y luxatio erecta
+%% Esquema 1/6 — Algoritmo terapéutico (decisión reconstrucción vs. reemplazo)
+%% Color de acento del módulo MSA: #38BDF8
+flowchart TD
+
+    Start(["FRACTURA-LUXACIÓN GLENOHUMERAL<br/>diagnóstico confirmado con serie de trauma + TC"])
+
+    Start --> Reduc{"¿Reducible por maniobra cerrada<br/>bajo sedación profunda o AG?<br/>máximo 2 intentos correctamente ejecutados"}
+
+    Reduc -->|"No — irreductible tras 2 intentos<br/>(ojal capsular · bíceps interpuesto · fragmento óseo)"| RAbierta["Reducción ABIERTA<br/>vía deltopectoral, bajo visión directa"]
+    Reduc -->|"Sí, luxación reducida<br/>(2.º intento como máximo)"| TC
+
+    RAbierta --> TC["TC con reconstrucción multiplanar/3D<br/>RECLASIFICAR Neer y medir Hertel<br/>recién ahora se decide"]
+
+    TC --> Direccion{"¿Dirección de la luxación<br/>y estado del segmento articular?"}
+
+    %% ---------- Rama posterior / McLaughlin ----------
+    Direccion -->|"POSTERIOR con impresión anteromedial<br/>(Hill-Sachs invertida / 'McLaughlin')"| McL{"% de superficie articular<br/>cefálica comprometida (TC axial)"}
+    McL -->|"menor de 25 %"| McL1["Reducción cerrada +<br/>inmovilización en RE 15–20°<br/>(defecto insuficiente para engancharse)"]
+    McL -->|"25 % – 50 %"| McL2["Rellenar o desenganchar el defecto:<br/>McLaughlin original (tendón subescapular)<br/>o modificado — Neer (troquín + tendón)"]
+    McL -->|"mayor de 50 %"| McL3["Defecto IRRECONSTRUIBLE →<br/>artroplastia (hemi/total anatómica<br/>o invertida si el manguito no acompaña)"]
+
+    %% ---------- Rama troquíter aislado ----------
+    Direccion -->|"ANTERIOR/INFERIOR, troquíter aislado<br/>desplazado tras reducir la luxación"| Troq{"Desplazamiento del troquíter"}
+    Troq -->|"mayor de 5 mm<br/>(≥ 3 mm en deportista overhead<br/>o trabajo por encima de la cabeza)"| TroqSi["ORIF del troquíter:<br/>tornillos canulados 3,5–4,0 mm (hueso bueno)<br/>o sutura transósea/doble hilera<br/>(osteoporosis o fragmento fino)"]
+    Troq -->|"menor de 5 mm<br/>(menor de 3 mm en deportista overhead)"| TroqNo["Tratamiento ORTOPÉDICO<br/>cabestrillo en rotación neutra 3–4 semanas"]
+
+    %% ---------- Rama fractura-luxación verdadera (grupo VI de Neer) ----------
+    Direccion -->|"Segmento articular FUERA de la glena<br/>= grupo VI de Neer<br/>(2, 3 o 4 partes / head-splitting)"| Hertel{"CRITERIOS DE HERTEL (2004):<br/>① extensión metafisaria posteromedial<br/>&nbsp;&nbsp;menor de 8 mm<br/>② bisagra medial rota<br/>&nbsp;&nbsp;(desplazamiento mayor de 2 mm)<br/>③ trazo de cuello anatómico"}
+
+    Hertel -->|"LOS 3 PRESENTES simultáneamente<br/>VPP combinado de isquemia ≈ 97 % [VERIFICAR]<br/>(vs. VPP aislado 0,79–0,84 [VERIFICAR] por criterio)"| Riesgo{"Edad fisiológica, calidad ósea<br/>(Tingart menor de 4 mm o<br/>índice de tuberosidad deltoidea menor de 1,4)<br/>y demanda funcional"}
+
+    Hertel -->|"0, 1 o 2 predictores presentes<br/>cabeza probablemente reconstruible"| ORIF["ORIF con PLACA BLOQUEADA<br/>+ tornillo de calcar obligatorio<br/>+ suturas de troquíteres"]
+
+    Riesgo -->|"Joven (menor de 60 años),<br/>hueso bueno, alta demanda funcional"| ORIFriesgo["Intentar reducción anatómica<br/>y fijación estable<br/>aceptando riesgo alto de ONA<br/>(isquemia intraoperatoria ≠ necrosis clínica;<br/>parte se revasculariza)"]
+
+    Riesgo -->|"Añoso (mayor de 65–70 años),<br/>osteoporosis, troquíteres conminutos<br/>o manguito deficiente/dudoso"| Invertida["ARTROPLASTIA INVERTIDA<br/>(no depende de consolidación tuberositaria)"]
+
+    Riesgo -->|"Añoso con troquíteres reconstruibles<br/>en 2 fragmentos y manguito ÍNTEGRO"| Hemi["HEMIARTROPLASTIA<br/>(depende críticamente de que<br/>los troquíteres consoliden en posición)"]
+
+    %% ---------- Pie explicativo ----------
+    Pie["Este algoritmo integra Neer (grupo VI = segmento articular fuera de la glena),<br/>los criterios de Hertel 2004 (viabilidad de la cabeza) y los umbrales de McLaughlin<br/>(defecto por impresión posterior) para decidir entre osteosíntesis con placa bloqueada,<br/>hemiartroplastia y artroplastia invertida. Las cifras de VPP de isquemia y de riesgo<br/>de ONA de la tabla de Neer están marcadas [VERIFICAR] en el documento fuente."]
+
+    classDef terminal fill:#38BDF8,stroke:#0369a1,stroke-width:2px,color:#ffffff,font-weight:bold;
+    classDef decision fill:#ffffff,stroke:#38BDF8,stroke-width:2px,color:#0c4a6e;
+    classDef proceso fill:#f0f9ff,stroke:#38BDF8,stroke-width:1.5px,color:#0c4a6e;
+    classDef riesgo fill:#fef2f2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d;
+    classDef favorable fill:#f0fdf4,stroke:#16a34a,stroke-width:1.5px,color:#14532d;
+    classDef pie fill:#f8fafc,stroke:#94a3b8,stroke-width:1px,color:#334155,font-style:italic;
+
+    class Start terminal;
+    class Reduc,Direccion,McL,Troq,Hertel,Riesgo decision;
+    class TC,RAbierta proceso;
+    class McL3,ORIFriesgo,Invertida riesgo;
+    class McL1,ORIF,Hemi,TroqSi,TroqNo favorable;
+    class McL2 proceso;
+    class Pie pie;

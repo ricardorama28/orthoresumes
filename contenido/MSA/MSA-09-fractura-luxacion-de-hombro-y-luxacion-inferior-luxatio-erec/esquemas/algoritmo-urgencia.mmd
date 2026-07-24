@@ -1,0 +1,64 @@
+%% MSA-09 · Fractura-luxación de hombro y luxatio erecta
+%% Esquema 2/6 — Algoritmo de urgencia (vía de decisión en la guardia)
+%% Color de acento del módulo MSA: #38BDF8
+flowchart TD
+
+    Start(["SOSPECHA en la guardia<br/>deformidad + impotencia funcional tras trauma<br/>(o brazo bloqueado en abducción — luxatio erecta)"])
+
+    Start --> Serie["SERIE DE TRAUMA EN 3 PLANOS ORTOGONALES<br/>AP verdadera (Grashey) + perfil en Y + AXILAR<br/>(o Velpeau/Bloom-Obata si no se puede abducir)<br/>LA AXILAR NO SE OMITE — sin ella se pasan por alto<br/>la luxación posterior y la impresión cefálica"]
+
+    Serie --> Confirma{"¿La serie confirma la lesión<br/>y define dirección y trazos?"}
+    Confirma -->|"No — imagen incompleta,<br/>dolor impide 2.ª proyección"| TCurg["TC de urgencia"]
+    TCurg --> ExamenNV
+    Confirma -->|"Sí"| ExamenNV["EXAMEN NEUROVASCULAR<br/>documentado por escrito ANTES<br/>de cualquier maniobra"]
+
+    ExamenNV -.->|"El bloqueo interescalénico anula<br/>la exploración 12–24 h:<br/>documentar SIEMPRE antes de bloquear"| NotaBloqueo["⚠ Documentar primero,<br/>bloquear después"]
+
+    ExamenNV --> ExDetalle["Motor: contracción de los 3 haces del deltoides<br/>Sensitivo: 'parche' deltoideo lateral<br/>Pulso radial + relleno capilar"]
+
+    ExDetalle --> Vascular{"¿Pulso asimétrico · hematoma axilar<br/>expansivo/pulsátil/con soplo ·<br/>déficit neurológico progresivo, o<br/>índice de presión braquial menor de 0,90?"}
+
+    Vascular -->|"SIGNOS DUROS<br/>(hemorragia activa, isquemia franca,<br/>ausencia completa de pulso)"| ExploracionVasc["EXPLORACIÓN QUIRÚRGICA DIRECTA<br/>+ cirugía vascular de inmediato"]
+
+    Vascular -->|"SIGNOS BLANDOS<br/>(IPB menor de 0,90, hematoma no expansivo)"| AngioTC["ANGIO-TC URGENTE<br/>aunque el pulso radial esté PRESENTE<br/>(la colateral escapular lo enmascara)"]
+
+    Vascular -->|"Examen normal"| Urgencias
+
+    AngioTC --> Confirma2{"¿Lesión vascular confirmada<br/>en la angio-TC?"}
+    Confirma2 -->|"Sí"| ExploracionVasc
+    Confirma2 -->|"No"| Urgencias
+
+    Urgencias{"¿URGENCIA que cambia<br/>la conducta INMEDIATA?<br/>luxación abierta · isquemia distal ·<br/>lesión vascular documentada ·<br/>compresión de plexo por hematoma expansivo ·<br/>politraumatizado inestable"}
+
+    Urgencias -->|"Sí"| QuirofanoUrg["QUIRÓFANO DE URGENCIA<br/>reducción bajo AG con equipo vascular disponible<br/>osteosíntesis definitiva puede diferirse<br/>(control del daño)"]
+
+    Urgencias -->|"No"| Reduccion["Reducción bajo sedación profunda<br/>o AG con relajación COMPLETA<br/>(nunca con el paciente contracturado;<br/>prohibida la maniobra de Kocher)"]
+
+    Reduccion --> Intento1["INTENTO 1<br/>tracción suave y sostenida en el eje<br/>+ contratracción<br/>(técnica en 2 tiempos si es luxatio erecta)"]
+
+    Intento1 --> Logra1{"¿Reducción lograda?"}
+    Logra1 -->|"Sí"| PostRx
+    Logra1 -->|"No"| Intento2["INTENTO 2<br/>último intento cerrado permitido"]
+
+    Intento2 --> Logra2{"¿Reducción lograda?"}
+    Logra2 -->|"Sí"| PostRx
+    Logra2 -->|"No — REGLA DE LOS 2 INTENTOS agotada,<br/>no hay 3.er intento cerrado"| Irreductible["IRREDUCTIBLE →<br/>reducción ABIERTA en quirófano<br/>en el mismo tiempo anestésico"]
+
+    PostRx["Rx posreducción en 2 planos<br/>(AXILAR OBLIGATORIA, no sólo AP)<br/>+ reexamen neurovascular inmediato"]
+    PostRx --> Reclasif["TC para reclasificar Neer/Hertel<br/>→ ver 'algoritmo-terapeutico.mmd'<br/>para la decisión definitiva"]
+
+    Pie["Vía de decisión en la guardia: la proyección axilar nunca se omite (se sustituye por<br/>Velpeau/Bloom-Obata si duele abducir), el examen neurovascular se documenta ANTES<br/>de reducir y ANTES de bloquear, y la regla de los dos intentos cierra la ventana del<br/>tratamiento cerrado. El índice de presión braquial &lt; 0,90 obliga a angio-TC aunque<br/>el pulso radial esté presente."]
+
+    classDef terminal fill:#38BDF8,stroke:#0369a1,stroke-width:2px,color:#ffffff,font-weight:bold;
+    classDef decision fill:#ffffff,stroke:#38BDF8,stroke-width:2px,color:#0c4a6e;
+    classDef proceso fill:#f0f9ff,stroke:#38BDF8,stroke-width:1.5px,color:#0c4a6e;
+    classDef urgente fill:#fef2f2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d;
+    classDef nota fill:#fffbeb,stroke:#d97706,stroke-width:1.5px,color:#78350f,font-style:italic;
+    classDef pie fill:#f8fafc,stroke:#94a3b8,stroke-width:1px,color:#334155,font-style:italic;
+
+    class Start terminal;
+    class Confirma,Vascular,Confirma2,Urgencias,Logra1,Logra2 decision;
+    class Serie,ExamenNV,ExDetalle,TCurg,AngioTC,PostRx,Reclasif,Reduccion,Intento1,Intento2 proceso;
+    class ExploracionVasc,QuirofanoUrg,Irreductible urgente;
+    class NotaBloqueo nota;
+    class Pie pie;
